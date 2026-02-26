@@ -1,0 +1,4843 @@
+[
+  {
+    "date": "2026-02-22",
+    "series_slug": "colossians-fullness",
+    "sermon_title": "But your hearts were hard...",
+    "sermon_text": "Matthew 19:1 - 15",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "living-hope",
+        "usage": [
+          "opening",
+          "praise"
+        ],
+        "key": "B",
+        "notes": "Start with full band, simplify transition to prayer."
+      },
+      {
+        "slug": "christ-is-enough",
+        "usage": [
+          "response"
+        ],
+        "key": "G",
+        "notes": "Drop to pad and vocal only before final chorus."
+      },
+      {
+        "slug": "it-is-well-modern",
+        "usage": [
+          "response"
+        ],
+        "key": "D",
+        "notes": "Keep tempo anchored for reflective ending."
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nInvite prayer team forward before final sending song."
+  },
+  {
+    "date": "2026-02-01",
+    "series_slug": "colossians-fullness",
+    "sermon_title": "The Millennium",
+    "sermon_text": "Revelation 20:1 - 15",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "it-is-well-modern",
+        "usage": [
+          "confession",
+          "communion"
+        ],
+        "key": "C",
+        "notes": "Leave room for guided prayer between sections."
+      },
+      {
+        "slug": "living-hope",
+        "usage": [
+          "response"
+        ],
+        "key": "B",
+        "notes": "Use stronger rhythmic lift in final third."
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nCommunion meditation follows pastoral prayer."
+  },
+  {
+    "date": "2026-01-11",
+    "series_slug": "colossians-fullness",
+    "sermon_title": "Weeping or rejoicing over Babylon's fall",
+    "sermon_text": "Revelation 18:1 - 24",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "christ-is-enough",
+        "usage": [
+          "opening",
+          "response"
+        ],
+        "key": "G",
+        "notes": "Acoustic start into full band for response."
+      },
+      {
+        "slug": "living-hope",
+        "usage": [
+          "response"
+        ],
+        "key": "A",
+        "notes": "Keep final section steady for congregational participation."
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nCommission small group leaders during sending moment."
+  },
+  {
+    "date": "2025-12-28",
+    "series_slug": "christmas-carols",
+    "sermon_title": "Jesus and Disciples in the Storm",
+    "sermon_text": "Mark 4:35-41",
+    "preacher": "James Lee",
+    "songs": [
+      {
+        "slug": "jesus-is-the-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "in-christ-alone",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "cornerstone-hillsong",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "he-leadeth-me",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-12-25",
+    "series_slug": "christmas-carols",
+    "sermon_title": "O Holy Night",
+    "sermon_text": "Romans 8:18 - 25",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "hark-the-herald-angels-sing",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "joy-to-the-world",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-ye-faithful",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "joy-has-dawned",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-holy-night",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-you-unfaithful",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-12-21",
+    "series_slug": "christmas-carols",
+    "sermon_title": "Silent Night",
+    "sermon_text": "Luke 2:1 - 14",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "the-first-noel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "angels-we-have-heard-on-high",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "it-came-upon-a-midnight-clear",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "silent-night",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-you-unfaithful",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-12-14",
+    "series_slug": "christmas-carols",
+    "sermon_title": "Joy to the World",
+    "sermon_text": "Psalm 98",
+    "preacher": "Rodney Sim",
+    "songs": [
+      {
+        "slug": "what-child-is-this",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "angels-we-have-heard-on-high",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "joy-to-the-world",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-12-07",
+    "series_slug": "christmas-carols",
+    "sermon_title": "O Come, O Come Emmanuel",
+    "sermon_text": "Isaiah 9:1 - 7",
+    "preacher": "Terence Seah",
+    "songs": [
+      {
+        "slug": "the-first-noel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-ye-faithful",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "joy-to-the-world",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-o-come-emmanuel",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-11-30",
+    "series_slug": "the-loving-kindness-of-our-god-ruth",
+    "sermon_title": "The Costly Plan of Redemption",
+    "sermon_text": "Ruth 4",
+    "preacher": "Bryan Leong",
+    "songs": [
+      {
+        "slug": "hes-able",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-will-sing-of-my-redeemer",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "jesus-shall-take-the-highest-honour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "how-deep-the-fathers-love-for-us",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-a-hope",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-11-23",
+    "series_slug": "the-loving-kindness-of-our-god-ruth",
+    "sermon_title": "Trust the Redeemer",
+    "sermon_text": "Ruth 3",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "my-god-is-all-i-need",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-praise-and-glorify",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "nothing-can-i-boast-in",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-steadfast-love-of-the-lord-never-ceases",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-will-trust-my-saviour-jesus",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-11-16",
+    "series_slug": "the-loving-kindness-of-our-god-ruth",
+    "sermon_title": "Meet the Redeemer",
+    "sermon_text": "Ruth 2",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-came-to-earth",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-a-redeemer-keith-green",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "jesus-paid-it-all",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "at-the-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-stand-amazed",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-11-09",
+    "series_slug": "the-loving-kindness-of-our-god-ruth",
+    "sermon_title": "Returning Home",
+    "sermon_text": "Ruth 1",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "calling-all-sinners",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "it-was-finished-upon-that-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "beneath-the-cross-of-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-great-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-11-02",
+    "series_slug": "membership-sunday",
+    "sermon_title": "Membership Matters",
+    "sermon_text": "Romans 12:1-13",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "gods-great-family",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "jesus-thank-you",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-declare",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "one-voice",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-10-26",
+    "series_slug": "sex-in-the-city-song-of-songs",
+    "sermon_title": "The Strength of Love",
+    "sermon_text": "Song of Songs 8:5 - 14",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "his-mercy-is-more",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "before-the-throne-of-god-above",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "he-will-hold-me-fast",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "through-it-all",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-is-mine-forevermore",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-10-19",
+    "series_slug": "sex-in-the-city-song-of-songs",
+    "sermon_title": "The Messiness of Love",
+    "sermon_text": "Song of Songs 5:2 - 6:3",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "his-banner-over-me-is-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "take-my-life-and-let-it-be",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-thou-fount",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "be-still-my-soul",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-to-jesus-i-surrender",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "turn-your-eyes",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-10-12",
+    "series_slug": "sex-in-the-city-song-of-songs",
+    "sermon_title": "A Determined Love",
+    "sermon_text": "Song of Songs 2:8 - 3:10",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "lord-i-lift-your-name-on-high",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-lord-is-my-salvation",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "im-forever-grateful",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hallelujah-what-a-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "at-the-cross",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-10-05",
+    "series_slug": "sex-in-the-city-song-of-songs",
+    "sermon_title": "A Transforming Love",
+    "sermon_text": "Song of Songs 1:5 - 2:7",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "wide-wide-as-the-ocean",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-love-of-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "my-worth-is-not-in-what-i-own",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "just-as-i-am",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "rejoice",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-09-28",
+    "series_slug": "sex-in-the-city-song-of-songs",
+    "sermon_title": "A Delightful Love",
+    "sermon_text": "Song of Songs 1:2 - 4",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-strong-and-kind",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "goodness-of-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "here-is-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-love-you-lord-and-i-lift-my-voice",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "as-the-deer",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-09-21",
+    "series_slug": "missions-month",
+    "sermon_title": "Guideposts for our journey",
+    "sermon_text": "Song of Songs 1:1",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "how-deep-the-fathers-love-for-us",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "here-i-am-to-worship",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "when-i-look-into-your-holiness",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "in-moments-like-these",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "known-and-loved",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-09-14",
+    "series_slug": "missions-month",
+    "sermon_title": "The Word's Absolute Priority",
+    "sermon_text": "Acts 6:1 - 7",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "i-am-the-way-the-truth-and-the-life",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "your-word-emu",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-the-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-mission",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servant-king",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-09-07",
+    "series_slug": "missions-month",
+    "sermon_title": "The Word's Unstoppable Advance",
+    "sermon_text": "Acts 5:17 - 42",
+    "preacher": "Terence Seah",
+    "songs": [
+      {
+        "slug": "i-will-celebrate",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "made-me-glad",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "through-it-all",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-belong-to-the-day",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "facing-a-task-unfinished",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-08-31",
+    "series_slug": "missions-month",
+    "sermon_title": "The Word's Searching Demand",
+    "sermon_text": "Acts 4:32 - 5:16",
+    "preacher": "Joshua Tay",
+    "songs": [
+      {
+        "slug": "no-other-name",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "jesus-shall-take-the-highest-honour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servants-of-the-gospel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "one-voice",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "yet-not-i",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-08-24",
+    "series_slug": "missions-month",
+    "sermon_title": "Vision & Mission, Worship & Witness",
+    "sermon_text": "Revelation 5:9-10",
+    "preacher": "Lee Khai Mun",
+    "songs": [
+      {
+        "slug": "gods-great-family",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "how-great-is-our-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "worthy-is-the-lamb",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "fill-my-eyes-o-my-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hear-the-call",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-08-17",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "The Seven Last Plagues",
+    "sermon_text": "Revelation 15:1 - 16:21",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "ancient-of-days",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-belong-to-the-day",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-great-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-our-hope-in-life-and-death",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-08-10",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "A Call to Patient Endurance",
+    "sermon_text": "Revelation 14:1 - 20",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "i-will-celebrate",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "made-us-your-own",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hallelujah-to-the-lamb",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "lord-of-lords",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-heaven",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-08-03",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "A Tale of Two Beasts",
+    "sermon_text": "Revelation 13:1 - 18",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "christ-has-risen",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-will-feast",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "king-of-kings",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "he-will-hold-me-fast",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-church-arise",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-07-27",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "Praise in the midst of pain",
+    "sermon_text": "Psalm 34",
+    "preacher": "Looi Kwok Peng",
+    "songs": [
+      {
+        "slug": "blessed-assurance",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "shout-to-the-lord",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "still-my-soul-be-still",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "it-is-well",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "let-us-exalt-his-name",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-07-20",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "The Accuser is hurled down",
+    "sermon_text": "Revelation 12:1 - 13:1",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "you-alone-can-rescue",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "before-the-throne-of-god-above",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "it-was-finished-upon-that-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "take-heart",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-07-13",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "The Breath of Life from God",
+    "sermon_text": "Revelation 11:1 - 19",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "he-is-lord",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-all-bow-down",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "blessed-be-the-lord-god-almighty",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-will-wait-for-you",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "for-the-cause",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-07-06",
+    "series_slug": "anniversary-service",
+    "sermon_title": "The Church God is growing us to be",
+    "sermon_text": "Colossians 3:12-17",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "because-you-first-loved-me",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-people-of-the-risen-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servant-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "behold-the-lamb",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "one-voice",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-06-29",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "The scroll that tasted sweet",
+    "sermon_text": "Revelation 10:1 - 11",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "his-mercy-is-more",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-love-of-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "goodness-of-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "facing-a-task-unfinished",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-06-22",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "The warnings that went unheeded",
+    "sermon_text": "Revelation 8:6 - 9:21",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "how-excellent-your-name",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "this-is-my-fathers-world",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "bless-the-lord-o-my-soul",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "when-we-all-get-to-heaven",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-great-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-06-15",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "Standing Firm In a World of Opposition",
+    "sermon_text": "1 Peter 5:6-11",
+    "preacher": "Johnny McClean",
+    "songs": [
+      {
+        "slug": "be-like-a-tree",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "everlasting-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "yet-not-i",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-church-arise",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-am-the-way-the-truth-and-the-life",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hallelujah-all-i-have-is-christ",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "my-hope-is-built-on-nothing-less",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "in-christ-alone",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "thy-word",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "living-hope",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "cornerstone",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-church-arise",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-06-08",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "Salvation belongs to our God",
+    "sermon_text": "Revelation 7:9 - 8:5",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "he-calls-me-friend",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "salvation-belongs-to-our-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-our-hope-in-life-and-death",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "he-will-hold-me-fast",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "yet-not-i",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-06-01",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "The Seals",
+    "sermon_text": "Revelation 6",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "to-him-who-sits-on-the-throne",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "psalm-150-praise-the-lord",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-lord-is-my-salvation",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-heaven",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-05-25",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "The Incredible Drama",
+    "sermon_text": "Revelation 5",
+    "preacher": "Rodney Sim",
+    "songs": [
+      {
+        "slug": "glory-to-the-lamb",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hallelujah-to-the-lamb",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "holy-forever",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-heaven",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-05-18",
+    "series_slug": "the-lamb-wins-revelation-4-16",
+    "sermon_title": "A Beautiful Setting",
+    "sermon_text": "Revelation 4",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-shall-take-the-highest-honour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "psalm-150-praise-the-lord",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "holy-holy-holy",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-stand-in-awe-of-you",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-creatures-of-our-god-and-king",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-05-11",
+    "series_slug": "i-would-like-to-believe-but-evangelistic-series",
+    "sermon_title": "It's not relevant for me",
+    "sermon_text": "John 4:4-29",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "my-god-is-all-i-need",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "just-as-i-am",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "known-and-loved",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "goodness-of-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "knowing-you-jesus",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-05-04",
+    "series_slug": "i-would-like-to-believe-but-evangelistic-series",
+    "sermon_title": "Christians are intolerant",
+    "sermon_text": "John 3:1-3, 16-18",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-the-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-one-gospel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "amazing-grace-hymn",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "thank-you-jesus-for-the-blood",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-04-27",
+    "series_slug": "i-would-like-to-believe-but-evangelistic-series",
+    "sermon_title": "There's too much suffering in the world",
+    "sermon_text": "Luke 13:1-5, 10-17",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-strong-and-kind",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "it-is-well",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-will-feast",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-a-hope",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "take-heart",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-04-20",
+    "series_slug": "i-would-like-to-believe-but-evangelistic-series",
+    "sermon_title": "Christianity is just a crutch for the weak",
+    "sermon_text": "1 John 1:1-10",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "see-what-a-morning",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "because-he-lives",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-our-hope-in-life-and-death",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "before-the-throne-of-god-above",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "living-hope",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "behold-the-lamb",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-04-13",
+    "series_slug": "dangerous-questions-for-grumblers-malachi",
+    "sermon_title": "To those who stop grumbling",
+    "sermon_text": "Malachi 3:16 - 4:6",
+    "preacher": "Ma Fan Yung",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "thank-you-jesus-for-the-blood",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "when-the-roll-is-called-up-yonder",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-will-feast",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-04-06",
+    "series_slug": "dangerous-questions-for-grumblers-malachi",
+    "sermon_title": "Why waste my time to serve God?",
+    "sermon_text": "Malachi 3:6 - 18",
+    "preacher": "Yap Poh Kheng",
+    "songs": [
+      {
+        "slug": "all-we-like-sheep",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "ancient-of-days",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-will-feast",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "my-worth-is-not-in-what-i-own",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-03-30",
+    "series_slug": "dangerous-questions-for-grumblers-malachi",
+    "sermon_title": "Where is the God of Justice?",
+    "sermon_text": "Malachi 2:17 - 3:5",
+    "preacher": "Terence Seah",
+    "songs": [
+      {
+        "slug": "purify-my-heart-refiners-fire",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "nothing-but-the-blood",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "holy-forever",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "in-our-lives-lord-be-glorified",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-will-run-to-you",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-03-23",
+    "series_slug": "dangerous-questions-for-grumblers-malachi",
+    "sermon_title": "Why does God ignore us?",
+    "sermon_text": "Malachi 2:10 - 16",
+    "preacher": "Nethanel Ng",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-are-one",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-great-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-are-one",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-03-16",
+    "series_slug": "dangerous-questions-for-grumblers-malachi",
+    "sermon_title": "Surely God is pleased with our offerings?",
+    "sermon_text": "Malachi 1:6 - 2:9",
+    "preacher": "Daniel Lee",
+    "songs": [
+      {
+        "slug": "jesus-shall-take-the-highest-honour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "only-a-holy-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "god-the-uncreated-one",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-stand-in-awe-of-you",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-03-09",
+    "series_slug": "dangerous-questions-for-grumblers-malachi",
+    "sermon_title": "How have you loved us?",
+    "sermon_text": "Malachi 1:1 - 5",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-love-of-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "great-is-the-lord-and-most-worthy-of-praise",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-battle-and-the-blessing",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-03-02",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "You are lukewarm (Combined AGM)",
+    "sermon_text": "Revelation 3:14 - 22",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-strong-and-kind",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-praise-and-glorify",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-i-have-is-christ",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-the-wonderful-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "amazing-grace-hymn",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-02-23",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "You have little strength",
+    "sermon_text": "Revelation 3:7 - 13",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "christ-has-risen",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-our-hope-in-life-and-death",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-is-mine-forevermore",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "before-the-throne-of-god-above",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "take-heart",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-02-16",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "You have compromised",
+    "sermon_text": "Revelation 2:12 to 3:6",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "i-am-the-way-the-truth-and-the-life",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-creed",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "at-the-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "amazing-grace-hymn",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-one-gospel",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-02-09",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "You are rich",
+    "sermon_text": "Revelation 2:8 - 11",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "christ-has-risen",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "living-hope",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "when-the-roll-is-called-up-yonder",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "in-christ-alone",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "because-he-lives",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-02-02",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "You tolerate false teaching",
+    "sermon_text": "Revelation 2:18 - 29",
+    "preacher": "Looi Kwok Peng",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "only-a-holy-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-one-gospel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-church-arise",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "still-my-soul-be-still",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-01-26",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "You have lost your first love",
+    "sermon_text": "Revelation 2:1 - 7",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-stand-amazed",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "my-heart-is-filled-with-thankfulness",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-thou-fount",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-01-19",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "I am the Living One",
+    "sermon_text": "Revelation 1:9 - 20",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-is-the-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "king-of-kings",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "rejoice-the-lord-is-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-the-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "turn-your-eyes",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-01-12",
+    "series_slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
+    "sermon_title": "Blessed is the one",
+    "sermon_text": "Revelation 1:1 - 8",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "blessed-be-the-lord-god-almighty",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "god-the-uncreated-one",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "rejoice",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "everlasting-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2025-01-04",
+    "series_slug": "new-year-sermon",
+    "sermon_title": "A Reflection on Intimacy with God",
+    "sermon_text": "Psalm 51",
+    "preacher": "Chua Song Khim",
+    "songs": [
+      {
+        "slug": "be-like-a-tree",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-behold-the-wondrous-mystery",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "rejoice",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "no-greater-love",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from `imports/2025.csv`."
+  },
+  {
+    "date": "2024-12-29",
+    "series_slug": "the-king-of-the-promise-psalms",
+    "sermon_title": "The Blessing that we need",
+    "sermon_text": "Psalm 72",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "give-thanks",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "it-came-upon-a-midnight-clear",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "goodness-of-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "10-000-reasons",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "my-hope-is-built-on-nothing-less",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-is-enough",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-have-decided-to-follow-jesus",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-12-25",
+    "series_slug": "the-king-of-the-promise-psalms",
+    "sermon_title": "The Shepherd that we need",
+    "sermon_text": "Psalm 23",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "joy-to-the-world-king-of-kings",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-little-town-of-bethlehem",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "what-child-is-this",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-you-unfaithful",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "goodness-of-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-ye-faithful",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-12-22",
+    "series_slug": "the-king-of-the-promise-psalms",
+    "sermon_title": "The Dawning of a Great Light",
+    "sermon_text": "Isaiah 9:6",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "joy-to-the-world-king-of-kings",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "crown-him-king-of-kings",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hark-the-herald-angels-sing",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "angels-we-have-heard-on-high",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-ye-faithful",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-12-15",
+    "series_slug": "the-king-of-the-promise-psalms",
+    "sermon_title": "The King that we need",
+    "sermon_text": "Psalm 2",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "joy-to-the-world",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-hail-the-power-of-jesus-name",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-o-come-emmanuel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-come-all-you-unfaithful",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-12-08",
+    "series_slug": "the-king-of-the-promise-psalms",
+    "sermon_title": "The Suffering King",
+    "sermon_text": "Psalm 22",
+    "preacher": "Looi Kwok Peng",
+    "songs": [
+      {
+        "slug": "jesus-came-to-earth",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-holy-night",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-the-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "man-of-sorrows",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "still-my-soul-be-still",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-12-01",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "To God be the glory",
+    "sermon_text": "Romans 16:24 - 27",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "meekness-and-majesty",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-lord-is-my-salvation",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "glory-to-the-lamb",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "my-tribute",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-11-24",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Workers & wolves",
+    "sermon_text": "Romans 16:1 - 23",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "he-calls-me-friend",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "what-a-friend-we-have-in-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "known-and-loved",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servants-of-the-gospel",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-11-17",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Worldwide ambitions",
+    "sermon_text": "Romans 15:14 - 33",
+    "preacher": "Jerry Tay",
+    "songs": [
+      {
+        "slug": "lord-i-lift-your-name-on-high",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "you-laid-aside-your-majesty",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "holy-forever",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-heavens-declare",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "for-the-cause",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-11-10",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Accept one another",
+    "sermon_text": "Romans 15:7 - 13",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "gods-great-family",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-one-gospel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "here-is-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "this-life-i-live",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-11-03",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Do not destroy",
+    "sermon_text": "Romans 14:13 - 15:6",
+    "preacher": "Rodney Sim",
+    "songs": [
+      {
+        "slug": "a-new-commandment",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-are-called",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "beneath-the-cross-of-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "holy-spirit-living-breath-of-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-10-27",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Welcome the weak",
+    "sermon_text": "Romans 14:1 - 12",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "because-you-first-loved-me",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-creed",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "at-the-foot-of-the-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "behold-the-lamb",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "beneath-the-cross-of-jesus",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-10-20",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "It's time to love!",
+    "sermon_text": "Romans 13:8 - 14",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "gods-great-family",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "how-deep-the-fathers-love-for-us",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "freely-freely",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "yet-not-i",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-10-13",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Subject to authorities",
+    "sermon_text": "Romans 13:1 - 7",
+    "preacher": "Terence Seah",
+    "songs": [
+      {
+        "slug": "im-following-the-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "ancient-of-days",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-a-higher-throne",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-perfect-wisdom-of-our-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-great-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-10-06",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Sincere Love",
+    "sermon_text": "Romans 12:9 - 21",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "how-deep-the-fathers-love-for-us",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "here-is-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "compassion-hymn",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-09-29",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "Right Thinking",
+    "sermon_text": "Romans 12:3 - 8",
+    "preacher": "Nethanel Ng",
+    "songs": [
+      {
+        "slug": "gods-great-family",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "and-can-it-be",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servant-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "speak-o-lord",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-09-22",
+    "series_slug": "a-church-shaped-by-grace-romans",
+    "sermon_title": "A Living Sacrifice",
+    "sermon_text": "Romans 12:1 - 2",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "im-following-the-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-fall-down",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "tis-so-sweet-to-trust-in-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "man-of-sorrows-what-a-name",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-the-wonderful-cross",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-09-15",
+    "series_slug": "god-technology-and-the-christian-topical",
+    "sermon_title": "A little Theology about Technology",
+    "sermon_text": "Job 28:1-28",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "he-calls-me-friend",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hallelujah-all-i-have-is-christ",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "he-is-my-everything",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "be-thou-my-vision",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-the-way-my-saviour-leads-me",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-09-08",
+    "series_slug": "god-technology-and-the-christian-topical",
+    "sermon_title": "Self-control instead of reckless indulgence",
+    "sermon_text": "Titus 2:1-15",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-praise-and-glorify",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "at-the-foot-of-the-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-thou-fount",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-great-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-09-01",
+    "series_slug": "god-technology-and-the-christian-topical",
+    "sermon_title": "Is There More to Life that I'm Missing?",
+    "sermon_text": "Luke 15:11-32",
+    "preacher": "Lim Chien Chong",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "no-greater-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-i-have-is-christ",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "amazing-grace-hymn",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "goodness-of-jesus",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-08-25",
+    "series_slug": "god-technology-and-the-christian-topical",
+    "sermon_title": "Patience instead of impatience",
+    "sermon_text": "James 5:7-11",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "he-calls-me-friend",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "here-i-am-to-worship",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "be-still-my-soul",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "all-the-way-my-saviour-leads-me",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-08-18",
+    "series_slug": "god-technology-and-the-christian-topical",
+    "sermon_title": "Love instead of self-centred despair",
+    "sermon_text": "1 John 4:7-12",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "your-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "here-is-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "known-and-loved",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "at-the-cross",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-08-11",
+    "series_slug": "missions-month",
+    "sermon_title": "The Gospel's Sovereign Purpose",
+    "sermon_text": "Acts 4:23 - 31",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-strong-and-kind",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "ancient-of-days",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "by-faith",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "trust-and-obey",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-08-04",
+    "series_slug": "missions-month",
+    "sermon_title": "Amazed by God",
+    "sermon_text": "Psalm 139",
+    "preacher": "Rodney Sim",
+    "songs": [
+      {
+        "slug": "god-the-uncreated-one",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "indescribable",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "how-great-thou-art",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "search-me-o-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-07-28",
+    "series_slug": "missions-month",
+    "sermon_title": "The Gospel's Universal Claim",
+    "sermon_text": "Acts 4:5 - 22",
+    "preacher": "Terence Seah",
+    "songs": [
+      {
+        "slug": "i-am-the-way-the-truth-and-the-life",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "great-is-the-lord-and-most-worthy-of-praise",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "no-other-name-emu",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-declare",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-07-21",
+    "series_slug": "missions-month",
+    "sermon_title": "The Gospel's Key Demand",
+    "sermon_text": "Acts 3:1 - 4:4",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "salvation-belongs-to-our-god",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "amazing-grace-hymn",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "no-other-name-emu",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "the-mission",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-07-14",
+    "series_slug": "missions-month",
+    "sermon_title": "Neighbour in Need, Mission in Deed",
+    "sermon_text": "Luke 10:25-37",
+    "preacher": "Lee Khai Mun",
+    "songs": [
+      {
+        "slug": "this-is-my-fathers-world",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "and-can-it-be",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-are-called",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "be-thou-my-vision",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-07-07",
+    "series_slug": "bcc-anniversary",
+    "sermon_title": "BCC Anniversary",
+    "sermon_text": "Galatians 6:1-10",
+    "preacher": "James Lee",
+    "songs": [
+      {
+        "slug": "gods-great-family",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-one-gospel",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "one-voice",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-30",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Forgiving sin",
+    "sermon_text": "Matthew 18:21 - 25",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "his-mercy-is-more",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "indescribable",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "no-greater-love",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "amazing-grace-hymn",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "yet-not-i",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-23",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Facing sin",
+    "sermon_text": "Matthew 18:15 - 20",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "gods-great-family",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "calling-all-sinners",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-the-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "beneath-the-cross",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-17",
+    "series_slug": "growing-with-joy-church-camp",
+    "sermon_title": "Growing Personally: Revitalising Our Hearts for Transformation",
+    "sermon_text": "Matthew 6:19-24, 1 Peter 1:1-9, Philippians 3:12-4:1",
+    "preacher": "Tim Nicholls",
+    "songs": [
+      {
+        "slug": "little-by-little",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-praise-and-glorify",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "take-my-life",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-16",
+    "series_slug": "growing-with-joy-church-camp",
+    "sermon_title": "Growing Together: Rediscovering the Joy of Gospel-Community",
+    "sermon_text": "Ephesians 2, Philippians 1:3-8, Ephesians 4, Hebrews 10:24-25",
+    "preacher": "Tim Nicholls",
+    "songs": [
+      {
+        "slug": "o-how-good-it-is",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-our-hope-in-life-and-death",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-declare",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-15",
+    "series_slug": "growing-with-joy-church-camp",
+    "sermon_title": "Growing in Service: Rediscovering the Joy of Sacrifice",
+    "sermon_text": "Philippians 2:1-11, John 13, Matthew 25:14-30",
+    "preacher": "Tim Nicholls",
+    "songs": [
+      {
+        "slug": "i-have-decided-to-follow-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servant-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servants-of-the-gospel",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-14",
+    "series_slug": "growing-with-joy-church-camp",
+    "sermon_title": "Growing with Joy: Rediscovering the Glory of the Gospel",
+    "sermon_text": "Colossians 1-4",
+    "preacher": "Tim Nicholls",
+    "songs": [
+      {
+        "slug": "walking-with-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "10-000-reasons",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "id-rather-have-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-one-gospel",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-09",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Fleeing from sin",
+    "sermon_text": "Matthew 18:1 - 14",
+    "preacher": "Yap Poh Kheng",
+    "songs": [
+      {
+        "slug": "jesus-came-to-earth",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servant-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "compassion-hymn",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-06-01",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Death and taxes",
+    "sermon_text": "Matthew 17:22 - 27",
+    "preacher": "Looi Kwok Peng",
+    "songs": [
+      {
+        "slug": "jesus-came-to-earth",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "god-the-uncreated-one",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-declare",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "what-grace-is-mine",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-05-26",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "A time to speak",
+    "sermon_text": "Matthew 17:9 - 20",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-is-the-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "christ-is-mine-forevermore",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hallelujah-what-a-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-will-trust-my-saviour-jesus",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-05-19",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Listen to Him",
+    "sermon_text": "Matthew 17:1 - 8",
+    "preacher": "Jerry Tay",
+    "songs": [
+      {
+        "slug": "jesus-shall-take-the-highest-honour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "we-will-feast",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "yet-not-i",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-05-12",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Cost and benefit",
+    "sermon_text": "Matthew 16:21 - 28",
+    "preacher": "Joshua Tay",
+    "songs": [
+      {
+        "slug": "what-grace-is-mine",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "servant-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-have-decided-to-follow-jesus",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "for-the-cause",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-05-05",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "The Son of the Living God",
+    "sermon_text": "Matthew 16:13 - 20",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "jesus-shall-take-the-highest-honour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "king-of-kings",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "worthy-is-the-lamb",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-04-28",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Sign of the times",
+    "sermon_text": "Matthew 16:1 - 12",
+    "preacher": "Daniel Lee",
+    "songs": [
+      {
+        "slug": "you-are-god-alone",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "turn-your-eyes",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "show-us-christ",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-one-gospel",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-04-21",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Bread for the nations",
+    "sermon_text": "Matthew 15:29 - 39",
+    "preacher": "Joshua Tay",
+    "songs": [
+      {
+        "slug": "jesus-is-the-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "crown-him-with-many-crowns",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-people-of-the-risen-king",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "you-alone-can-rescue",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "this-life-i-live",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-04-14",
+    "series_slug": "why-the-resurrection-matters-topical",
+    "sermon_title": "Why the Resurrection matters: The Resurrection means New Bodies",
+    "sermon_text": "1 Corinthians 15:35 - 58",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "christ-has-risen",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "hymn-of-the-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "in-christ-alone",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "there-is-a-hope",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-04-07",
+    "series_slug": "why-the-resurrection-matters-topical",
+    "sermon_title": "Why the Resurrection matters: No Resurrection, No Future",
+    "sermon_text": "1 Corinthians 15:20 - 34",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "christ-has-risen",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "come-behold-the-wondrous-mystery",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "glorious-day-casting-crowns",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "creator-god",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-03-31",
+    "series_slug": "why-the-resurrection-matters-topical",
+    "sermon_title": "Why the Resurrection Matters: No Resurrection, No Gospel",
+    "sermon_text": "1 Corinthians 15:1 - 19",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "christ-is-risen-he-is-risen-indeed",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "he-lives",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "because-he-lives",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "living-hope",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-03-29",
+    "series_slug": "why-the-resurrection-matters-topical",
+    "sermon_title": "Good Friday Talk",
+    "sermon_text": "Romans 5:6-11",
+    "preacher": "Daniel Tan",
+    "songs": [
+      {
+        "slug": "lord-i-lift-your-name-on-high",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-the-wonderful-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "lead-me-to-calvary",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "o-mighty-cross",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "this-life-i-live",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-03-24",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "An outsider's astonishing faith",
+    "sermon_text": "Matthew 15:21 - 28",
+    "preacher": "Joshua Tay",
+    "songs": [
+      {
+        "slug": "jesus-strong-and-kind",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "i-stand-amazed",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "known-and-loved",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "what-grace-is-mine",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  },
+  {
+    "date": "2024-03-17",
+    "series_slug": "the-servant-king-matthew",
+    "sermon_title": "Hands, lips, hearts, mouths, eyes",
+    "sermon_text": "Matthew 15:1 - 20",
+    "preacher": "Lincoln Mao",
+    "songs": [
+      {
+        "slug": "mighty-mighty-saviour",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "because-he-lives",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "known-and-loved",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "in-christ-alone-getty",
+        "usage": [
+          "main-set"
+        ],
+        "key": null,
+        "notes": null
+      },
+      {
+        "slug": "just-as-i-am",
+        "usage": [
+          "response"
+        ],
+        "key": null,
+        "notes": null
+      }
+    ],
+    "notes_markdown": "## Service Notes\r\n\r\nImported from imports/2024.csv."
+  }
+]

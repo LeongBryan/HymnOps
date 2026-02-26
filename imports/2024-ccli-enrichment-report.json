@@ -1,0 +1,710 @@
+{
+  "updated_files": 78,
+  "skipped_already_populated": 134,
+  "unmatched_count": 0,
+  "unmatched_files": [],
+  "matches": [
+    {
+      "file": "all-creatures-of-our-god-and-king.md",
+      "title": "All Creatures Of our god and king",
+      "matched_title": "All Creatures Of Our God And King",
+      "ccli_number": "3608102",
+      "score": 168.0,
+      "query": "All Creatures Of our god and king",
+      "source": "songselect"
+    },
+    {
+      "file": "all-to-jesus-i-surrender.md",
+      "title": "All To Jesus I Surrender",
+      "matched_title": "All To Jesus I Surrender",
+      "ccli_number": "2866361",
+      "score": 168.0,
+      "query": "All To Jesus I Surrender",
+      "source": "songselect"
+    },
+    {
+      "file": "all-we-like-sheep.md",
+      "title": "All We Like Sheep",
+      "matched_title": "All We Like Sheep",
+      "ccli_number": "10501",
+      "score": 168.0,
+      "query": "All We Like Sheep",
+      "source": "songselect"
+    },
+    {
+      "file": "as-the-deer.md",
+      "title": "As The Deer",
+      "matched_title": "As The Deer",
+      "ccli_number": "1431",
+      "score": 168.0,
+      "query": "As The Deer",
+      "source": "songselect"
+    },
+    {
+      "file": "be-like-a-tree.md",
+      "title": "Be Like A Tree",
+      "matched_title": "Be Like A Tree",
+      "ccli_number": "1602293",
+      "score": 168.0,
+      "query": "Be Like A Tree",
+      "source": "songselect"
+    },
+    {
+      "file": "before-the-throne-of-god-above.md",
+      "title": "Before The Throne Of God Above",
+      "matched_title": "Before The Throne Of God Above",
+      "ccli_number": "2306412",
+      "score": 168.0,
+      "query": "Before The Throne Of God Above",
+      "source": "songselect"
+    },
+    {
+      "file": "bless-the-lord-o-my-soul.md",
+      "title": "Bless The Lord O My Soul",
+      "matched_title": "Bless The Lord O My Soul (Psalm 103)",
+      "ccli_number": "7190360",
+      "score": 168.0,
+      "query": "Bless The Lord O My Soul",
+      "source": "songselect"
+    },
+    {
+      "file": "blessed-assurance.md",
+      "title": "Blessed Assurance",
+      "matched_title": "Blessed Assurance",
+      "ccli_number": "22324",
+      "score": 168.0,
+      "query": "Blessed Assurance",
+      "source": "songselect"
+    },
+    {
+      "file": "blessed-be-the-lord-god-almighty.md",
+      "title": "Blessed Be The Lord God Almighty",
+      "matched_title": "Blessed Be The Lord God Almighty",
+      "ccli_number": "21480",
+      "score": 168.0,
+      "query": "Blessed Be The Lord God Almighty",
+      "source": "songselect"
+    },
+    {
+      "file": "cornerstone-hillsong.md",
+      "title": "Cornerstone (Hillsong)",
+      "matched_title": "Cornerstone",
+      "ccli_number": "6158927",
+      "score": 168.0,
+      "query": "Cornerstone (Hillsong)",
+      "source": "songselect"
+    },
+    {
+      "file": "cornerstone.md",
+      "title": "Cornerstone",
+      "matched_title": "Cornerstone",
+      "ccli_number": "6158927",
+      "score": 168.0,
+      "query": "Cornerstone",
+      "source": "songselect"
+    },
+    {
+      "file": "everlasting-god.md",
+      "title": "Everlasting God",
+      "matched_title": "Everlasting God",
+      "ccli_number": "4556538",
+      "score": 168.0,
+      "query": "Everlasting God",
+      "source": "songselect"
+    },
+    {
+      "file": "facing-a-task-unfinished.md",
+      "title": "Facing a Task Unfinished",
+      "matched_title": "Facing A Task Unfinished (We Go To All The World)",
+      "ccli_number": "7002026",
+      "score": 168.0,
+      "query": "Facing a Task Unfinished",
+      "source": "songselect"
+    },
+    {
+      "file": "fill-my-eyes-o-my-god.md",
+      "title": "Fill My Eyes O My God",
+      "matched_title": "Fill My Eyes",
+      "ccli_number": "175831",
+      "score": 92.6,
+      "query": "Fill My Eyes O My God",
+      "source": "songselect"
+    },
+    {
+      "file": "hallelujah-to-the-lamb.md",
+      "title": "Hallelujah To The Lamb",
+      "matched_title": "Hallelujah To The Lamb",
+      "ccli_number": "2316323",
+      "score": 168.0,
+      "query": "Hallelujah To The Lamb",
+      "source": "songselect"
+    },
+    {
+      "file": "he-is-lord.md",
+      "title": "He Is Lord",
+      "matched_title": "He Is Lord",
+      "ccli_number": "2457749",
+      "score": 168.0,
+      "query": "He Is Lord",
+      "source": "songselect"
+    },
+    {
+      "file": "he-leadeth-me.md",
+      "title": "He Leadeth Me",
+      "matched_title": "He Leadeth Me",
+      "ccli_number": "3272301",
+      "score": 168.0,
+      "query": "He Leadeth Me",
+      "source": "songselect"
+    },
+    {
+      "file": "he-will-hold-me-fast.md",
+      "title": "He Will Hold Me Fast",
+      "matched_title": "He Will Hold Me Fast",
+      "ccli_number": "7016161",
+      "score": 168.0,
+      "query": "He Will Hold Me Fast",
+      "source": "songselect"
+    },
+    {
+      "file": "hear-the-call.md",
+      "title": "Hear The Call",
+      "matched_title": "Hear The Call",
+      "ccli_number": "7113968",
+      "score": 168.0,
+      "query": "Hear The Call",
+      "source": "songselect"
+    },
+    {
+      "file": "hes-able.md",
+      "title": "He's Able",
+      "matched_title": "He's Able",
+      "ccli_number": "1372152",
+      "score": 168.0,
+      "query": "He's Able",
+      "source": "songselect"
+    },
+    {
+      "file": "his-banner-over-me-is-love.md",
+      "title": "His Banner Over Me Is Love",
+      "matched_title": "His Banner Over Me Is Love",
+      "ccli_number": "28579",
+      "score": 168.0,
+      "query": "His Banner Over Me Is Love",
+      "source": "songselect"
+    },
+    {
+      "file": "holy-holy-holy.md",
+      "title": "Holy, Holy, Holy",
+      "matched_title": "Holy Holy Holy (Nicaea)",
+      "ccli_number": "1156",
+      "score": 168.0,
+      "query": "Holy, Holy, Holy",
+      "source": "songselect"
+    },
+    {
+      "file": "how-excellent-your-name.md",
+      "title": "How Excellent Your Name",
+      "matched_title": "How Excellent Your Name",
+      "ccli_number": "42225",
+      "score": 168.0,
+      "query": "How Excellent Your Name",
+      "source": "songselect"
+    },
+    {
+      "file": "how-great-is-our-god.md",
+      "title": "How Great Is Our God",
+      "matched_title": "How Great Is Our God",
+      "ccli_number": "4348399",
+      "score": 168.0,
+      "query": "How Great Is Our God",
+      "source": "songselect"
+    },
+    {
+      "file": "hymn-of-heaven.md",
+      "title": "Hymn of Heaven",
+      "matched_title": "Hymn Of Heaven",
+      "ccli_number": "7168994",
+      "score": 168.0,
+      "query": "Hymn of Heaven",
+      "source": "songselect"
+    },
+    {
+      "file": "i-love-you-lord-and-i-lift-my-voice.md",
+      "title": "I Love You Lord (And I Lift My Voice)",
+      "matched_title": "I Love You Lord",
+      "ccli_number": "25266",
+      "score": 168.0,
+      "query": "I Love You Lord (And I Lift My Voice)",
+      "source": "songselect"
+    },
+    {
+      "file": "i-stand-in-awe-of-you.md",
+      "title": "I Stand In Awe Of You",
+      "matched_title": "I Stand In Awe Of You",
+      "ccli_number": "514997",
+      "score": 168.0,
+      "query": "I Stand In Awe Of You",
+      "source": "songselect"
+    },
+    {
+      "file": "i-will-celebrate.md",
+      "title": "I Will Celebrate",
+      "matched_title": "I Will Celebrate",
+      "ccli_number": "7072423",
+      "score": 168.0,
+      "query": "I Will Celebrate",
+      "source": "songselect"
+    },
+    {
+      "file": "i-will-run-to-you.md",
+      "title": "I Will Run To You",
+      "matched_title": "I Will Run To You",
+      "ccli_number": "1959901",
+      "score": 168.0,
+      "query": "I Will Run To You",
+      "source": "songselect"
+    },
+    {
+      "file": "i-will-sing-of-my-redeemer.md",
+      "title": "I Will Sing Of My Redeemer",
+      "matched_title": "I Will Sing Of My Redeemer",
+      "ccli_number": "4648556",
+      "score": 168.0,
+      "query": "I Will Sing Of My Redeemer",
+      "source": "songselect"
+    },
+    {
+      "file": "i-will-wait-for-you.md",
+      "title": "I Will Wait For You",
+      "matched_title": "I Will Wait For You (Psalm 130)",
+      "ccli_number": "7118914",
+      "score": 168.0,
+      "query": "I Will Wait For You",
+      "source": "songselect"
+    },
+    {
+      "file": "im-forever-grateful.md",
+      "title": "I'm Forever Grateful",
+      "matched_title": "I'm Forever Grateful",
+      "ccli_number": "24047",
+      "score": 168.0,
+      "query": "I'm Forever Grateful",
+      "source": "songselect"
+    },
+    {
+      "file": "in-moments-like-these.md",
+      "title": "In Moments Like These",
+      "matched_title": "In Moments Like These",
+      "ccli_number": "10082",
+      "score": 168.0,
+      "query": "In Moments Like These",
+      "source": "songselect"
+    },
+    {
+      "file": "in-our-lives-lord-be-glorified.md",
+      "title": "In Our Lives Lord, Be Glorified",
+      "matched_title": "Be Glorified",
+      "ccli_number": "6454841",
+      "score": 87.2,
+      "query": "In Our Lives Lord, Be Glorified",
+      "source": "songselect"
+    },
+    {
+      "file": "it-is-well.md",
+      "title": "It Is Well",
+      "matched_title": "It Is Well",
+      "ccli_number": "7021972",
+      "score": 168.0,
+      "query": "It Is Well",
+      "source": "songselect"
+    },
+    {
+      "file": "it-was-finished-upon-that-cross.md",
+      "title": "It Was Finished Upon That Cross",
+      "matched_title": "It Was Finished Upon That Cross",
+      "ccli_number": "7171907",
+      "score": 168.0,
+      "query": "It Was Finished Upon That Cross",
+      "source": "songselect"
+    },
+    {
+      "file": "jesus-paid-it-all.md",
+      "title": "Jesus Paid It All",
+      "matched_title": "Jesus Paid It All",
+      "ccli_number": "4689508",
+      "score": 168.0,
+      "query": "Jesus Paid It All",
+      "source": "songselect"
+    },
+    {
+      "file": "jesus-thank-you.md",
+      "title": "Jesus, Thank You",
+      "matched_title": "Jesus Thank You",
+      "ccli_number": "4475341",
+      "score": 168.0,
+      "query": "Jesus, Thank You",
+      "source": "songselect"
+    },
+    {
+      "file": "joy-has-dawned.md",
+      "title": "Joy Has Dawned",
+      "matched_title": "Joy Has Dawned",
+      "ccli_number": "4408246",
+      "score": 168.0,
+      "query": "Joy Has Dawned",
+      "source": "songselect"
+    },
+    {
+      "file": "knowing-you-jesus.md",
+      "title": "Knowing you, Jesus",
+      "matched_title": "Knowing You",
+      "ccli_number": "1045238",
+      "score": 94.4,
+      "query": "Knowing you, Jesus",
+      "source": "songselect"
+    },
+    {
+      "file": "let-us-exalt-his-name.md",
+      "title": "Let Us Exalt His Name",
+      "matched_title": "Exalt His Name",
+      "ccli_number": "4287",
+      "score": 93.8,
+      "query": "Let Us Exalt His Name",
+      "source": "songselect"
+    },
+    {
+      "file": "lord-of-lords.md",
+      "title": "Lord Of Lords",
+      "matched_title": "Lord Of Lords",
+      "ccli_number": "6194008",
+      "score": 168.0,
+      "query": "Lord Of Lords",
+      "source": "songselect"
+    },
+    {
+      "file": "made-me-glad.md",
+      "title": "Made Me Glad",
+      "matched_title": "Made Me Glad",
+      "ccli_number": "3290709",
+      "score": 168.0,
+      "query": "Made Me Glad",
+      "source": "songselect"
+    },
+    {
+      "file": "made-us-your-own.md",
+      "title": "Made Us Your Own",
+      "matched_title": "You Made Us Your Own",
+      "ccli_number": "5605079",
+      "score": 95.6,
+      "query": "Made Us Your Own",
+      "source": "songselect"
+    },
+    {
+      "file": "my-god-is-all-i-need.md",
+      "title": "My God Is All I Need",
+      "matched_title": "My God Is All I Need (My God Is So Big)",
+      "ccli_number": "7218753",
+      "score": 168.0,
+      "query": "My God Is All I Need",
+      "source": "songselect"
+    },
+    {
+      "file": "my-heart-is-filled-with-thankfulness.md",
+      "title": "My Heart Is Filled With Thankfulness",
+      "matched_title": "My Heart Is Filled",
+      "ccli_number": "4108704",
+      "score": 87.2,
+      "query": "My Heart Is Filled With Thankfulness",
+      "source": "songselect"
+    },
+    {
+      "file": "my-worth-is-not-in-what-i-own.md",
+      "title": "My Worth Is Not in What I Own",
+      "matched_title": "My Worth Is Not In What I Own (At The Cross)",
+      "ccli_number": "7024758",
+      "score": 168.0,
+      "query": "My Worth Is Not in What I Own",
+      "source": "songselect"
+    },
+    {
+      "file": "no-other-name.md",
+      "title": "No Other Name",
+      "matched_title": "No Other Name",
+      "ccli_number": "7019979",
+      "score": 168.0,
+      "query": "No Other Name",
+      "source": "songselect"
+    },
+    {
+      "file": "nothing-but-the-blood.md",
+      "title": "Nothing But The Blood",
+      "matched_title": "Nothing But The Blood (Plainfield)",
+      "ccli_number": "21332",
+      "score": 168.0,
+      "query": "Nothing But The Blood",
+      "source": "songselect"
+    },
+    {
+      "file": "nothing-can-i-boast-in.md",
+      "title": "Nothing Can I Boast In",
+      "matched_title": "Nothing Can I Boast In",
+      "ccli_number": "5398867",
+      "score": 168.0,
+      "query": "Nothing Can I Boast In",
+      "source": "songselect"
+    },
+    {
+      "file": "o-church-arise.md",
+      "title": "O Church Arise",
+      "matched_title": "O Church Arise",
+      "ccli_number": "4611992",
+      "score": 168.0,
+      "query": "O Church Arise",
+      "source": "songselect"
+    },
+    {
+      "file": "only-a-holy-god.md",
+      "title": "Only A Holy God",
+      "matched_title": "Only A Holy God",
+      "ccli_number": "7073332",
+      "score": 168.0,
+      "query": "Only A Holy God",
+      "source": "songselect"
+    },
+    {
+      "file": "psalm-150-praise-the-lord.md",
+      "title": "Psalm 150 (Praise The Lord)",
+      "matched_title": "Psalm 150 (Praise The Lord)",
+      "ccli_number": "7161130",
+      "score": 168.0,
+      "query": "Psalm 150 (Praise The Lord)",
+      "source": "songselect"
+    },
+    {
+      "file": "purify-my-heart-refiners-fire.md",
+      "title": "Purify My Heart (refiner's fire)",
+      "matched_title": "Purify",
+      "ccli_number": "7012396",
+      "score": 92.6,
+      "query": "Purify My Heart (refiner's fire)",
+      "source": "songselect"
+    },
+    {
+      "file": "rejoice-the-lord-is-king.md",
+      "title": "Rejoice The Lord Is King",
+      "matched_title": "Rejoice The Lord Is King (Darwall's 148th)",
+      "ccli_number": "36592",
+      "score": 168.0,
+      "query": "Rejoice The Lord Is King",
+      "source": "songselect"
+    },
+    {
+      "file": "rejoice.md",
+      "title": "Rejoice",
+      "matched_title": "Rejoice",
+      "ccli_number": "2129819",
+      "score": 168.0,
+      "query": "Rejoice",
+      "source": "songselect"
+    },
+    {
+      "file": "see-what-a-morning.md",
+      "title": "See What a Morning",
+      "matched_title": "What A Morning",
+      "ccli_number": "367522",
+      "score": 95.6,
+      "query": "See What a Morning",
+      "source": "songselect"
+    },
+    {
+      "file": "shout-to-the-lord.md",
+      "title": "Shout To The Lord",
+      "matched_title": "Shout To The Lord",
+      "ccli_number": "1406918",
+      "score": 168.0,
+      "query": "Shout To The Lord",
+      "source": "songselect"
+    },
+    {
+      "file": "silent-night.md",
+      "title": "Silent Night",
+      "matched_title": "Silent Night (Stille Nacht)",
+      "ccli_number": "27862",
+      "score": 168.0,
+      "query": "Silent Night",
+      "source": "songselect"
+    },
+    {
+      "file": "take-heart.md",
+      "title": "Take Heart",
+      "matched_title": "Take Heart",
+      "ccli_number": "7229636",
+      "score": 168.0,
+      "query": "Take Heart",
+      "source": "songselect"
+    },
+    {
+      "file": "take-my-life-and-let-it-be.md",
+      "title": "Take My Life And Let It Be",
+      "matched_title": "Take My Life And Let It Be (Hendon)",
+      "ccli_number": "1390",
+      "score": 168.0,
+      "query": "Take My Life And Let It Be",
+      "source": "songselect"
+    },
+    {
+      "file": "thank-you-jesus-for-the-blood.md",
+      "title": "Thank You Jesus For The Blood",
+      "matched_title": "Thank You Jesus For The Blood",
+      "ccli_number": "7172456",
+      "score": 168.0,
+      "query": "Thank You Jesus For The Blood",
+      "source": "songselect"
+    },
+    {
+      "file": "the-battle-and-the-blessing.md",
+      "title": "The Battle and the Blessing",
+      "matched_title": "The Battle And The Blessing",
+      "ccli_number": "7244008",
+      "score": 168.0,
+      "query": "The Battle and the Blessing",
+      "source": "songselect"
+    },
+    {
+      "file": "the-first-noel.md",
+      "title": "The First Noel",
+      "matched_title": "The First Noel",
+      "ccli_number": "31047",
+      "score": 168.0,
+      "query": "The First Noel",
+      "source": "songselect"
+    },
+    {
+      "file": "the-love-of-god.md",
+      "title": "The Love Of God",
+      "matched_title": "The Love Of God",
+      "ccli_number": "18448",
+      "score": 168.0,
+      "query": "The Love Of God",
+      "source": "songselect"
+    },
+    {
+      "file": "the-steadfast-love-of-the-lord-never-ceases.md",
+      "title": "The Steadfast Love Of The Lord Never Ceases",
+      "matched_title": "The Steadfast Love Of The Lord",
+      "ccli_number": "7142834",
+      "score": 90.2,
+      "query": "The Steadfast Love Of The Lord Never Ceases",
+      "source": "songselect"
+    },
+    {
+      "file": "there-is-a-redeemer-keith-green.md",
+      "title": "There Is A Redeemer (Keith Green)",
+      "matched_title": "There Is A Redeemer",
+      "ccli_number": "11483",
+      "score": 168.0,
+      "query": "There Is A Redeemer (Keith Green)",
+      "source": "songselect"
+    },
+    {
+      "file": "through-it-all.md",
+      "title": "Through It All",
+      "matched_title": "Through It All",
+      "ccli_number": "3452774",
+      "score": 168.0,
+      "query": "Through It All",
+      "source": "songselect"
+    },
+    {
+      "file": "thy-word.md",
+      "title": "Thy Word",
+      "matched_title": "Thy Word",
+      "ccli_number": "14301",
+      "score": 168.0,
+      "query": "Thy Word",
+      "source": "songselect"
+    },
+    {
+      "file": "to-him-who-sits-on-the-throne.md",
+      "title": "To Him Who Sits on The Throne",
+      "matched_title": "To Him Who Sits On The Throne",
+      "ccli_number": "7247135",
+      "score": 168.0,
+      "query": "To Him Who Sits on The Throne",
+      "source": "songselect"
+    },
+    {
+      "file": "we-all-bow-down.md",
+      "title": "We All Bow Down",
+      "matched_title": "We All Bow Down",
+      "ccli_number": "3537761",
+      "score": 168.0,
+      "query": "We All Bow Down",
+      "source": "songselect"
+    },
+    {
+      "file": "we-are-one.md",
+      "title": "We Are One",
+      "matched_title": "We Are One",
+      "ccli_number": "4854618",
+      "score": 168.0,
+      "query": "We Are One",
+      "source": "songselect"
+    },
+    {
+      "file": "we-belong-to-the-day.md",
+      "title": "We Belong To The Day",
+      "matched_title": "We Belong To The Day",
+      "ccli_number": "4778282",
+      "score": 168.0,
+      "query": "We Belong To The Day",
+      "source": "songselect"
+    },
+    {
+      "file": "when-i-look-into-your-holiness.md",
+      "title": "When I Look Into Your Holiness",
+      "matched_title": "When I Look Into Your Holiness",
+      "ccli_number": "16347",
+      "score": 168.0,
+      "query": "When I Look Into Your Holiness",
+      "source": "songselect"
+    },
+    {
+      "file": "when-the-roll-is-called-up-yonder.md",
+      "title": "When The Roll Is Called Up Yonder",
+      "matched_title": "When The Roll Is Called Up Yonder",
+      "ccli_number": "5152395",
+      "score": 168.0,
+      "query": "When The Roll Is Called Up Yonder",
+      "source": "songselect"
+    },
+    {
+      "file": "when-we-all-get-to-heaven.md",
+      "title": "When We All Get To Heaven",
+      "matched_title": "When We All Get To Heaven",
+      "ccli_number": "7177932",
+      "score": 168.0,
+      "query": "When We All Get To Heaven",
+      "source": "songselect"
+    },
+    {
+      "file": "wide-wide-as-the-ocean.md",
+      "title": "Wide, Wide as the Ocean",
+      "matched_title": "Wide Wide As The Ocean (Wide As The Ocean)",
+      "ccli_number": "1400206",
+      "score": 168.0,
+      "query": "Wide, Wide as the Ocean",
+      "source": "songselect"
+    },
+    {
+      "file": "your-word-emu.md",
+      "title": "Your Word (Emu)",
+      "matched_title": "Your Word",
+      "ccli_number": "7091582",
+      "score": 168.0,
+      "query": "Your Word (Emu)",
+      "source": "songselect"
+    }
+  ]
+}

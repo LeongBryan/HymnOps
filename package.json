@@ -1,0 +1,26 @@
+{
+  "name": "hymnops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build:index && vite",
+    "validate": "tsx scripts/validate-data.ts",
+    "build:index": "tsx scripts/build-index.ts",
+    "build": "npm run validate && npm run build:index && vite build",
+    "preview": "vite preview",
+    "build:embeddings:local": "tsx scripts/build-embeddings.local.ts"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "fuse.js": "^7.0.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

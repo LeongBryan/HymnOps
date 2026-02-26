@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.local/
+lyrics_vault/
+*.log
+.DS_Store
+Thumbs.db
+imports/
