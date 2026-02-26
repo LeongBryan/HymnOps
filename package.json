@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "npm run build:index && vite",
+    "validate-no-lyrics": "tsx scripts/validate-no-lyrics.ts",
     "validate": "tsx scripts/validate-data.ts",
     "build:index": "tsx scripts/build-index.ts",
-    "build": "npm run validate && npm run build:index && vite build",
+    "build": "npm run validate-no-lyrics && npm run validate && npm run build:index && vite build",
     "preview": "vite preview",
     "build:embeddings:local": "tsx scripts/build-embeddings.local.ts"
   },

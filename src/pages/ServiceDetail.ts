@@ -1,4 +1,5 @@
 import type { PageContext, ServiceSongRef } from "../types";
+import { toAppHref } from "../router";
 import { createElement, formatDate } from "../utils";
 
 function songToYaml(item: ServiceSongRef): string {
@@ -62,7 +63,7 @@ export function ServiceDetailPage(ctx: PageContext, date: string): HTMLElement {
     const row = createElement("tr");
     const songCell = createElement("td");
     const link = createElement("a") as HTMLAnchorElement;
-    link.href = `#/songs/${item.slug}`;
+    link.href = toAppHref(`/songs/${item.slug}`);
     const song = ctx.data.songs.find((candidate) => candidate.slug === item.slug);
     link.textContent = song?.title ?? item.slug;
     songCell.appendChild(link);

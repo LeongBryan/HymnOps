@@ -1,4 +1,5 @@
 import type { PageContext } from "../types";
+import { toAppHref } from "../router";
 import { createElement, formatDate } from "../utils";
 
 export function ServicesPage(ctx: PageContext): HTMLElement {
@@ -14,7 +15,7 @@ export function ServicesPage(ctx: PageContext): HTMLElement {
   for (const service of ctx.data.services) {
     const item = createElement("li", "service-list-item");
     const link = createElement("a") as HTMLAnchorElement;
-    link.href = `#/services/${service.date}`;
+    link.href = toAppHref(`/services/${service.date}`);
     link.textContent = formatDate(service.date);
     const meta = createElement(
       "p",

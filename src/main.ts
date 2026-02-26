@@ -1,6 +1,6 @@
 import MarkdownIt from "markdown-it";
 import { loadAppData } from "./data";
-import { Router } from "./router";
+import { Router, currentRoutePath, toAppHref } from "./router";
 import { AnalyticsPage } from "./pages/Analytics";
 import { HomePage } from "./pages/Home";
 import { PlannerPage } from "./pages/Planner";
@@ -14,29 +14,22 @@ import type { AppData, PageContext, PlannerState } from "./types";
 import { createElement } from "./utils";
 import "./styles/main.css";
 
-function currentPathFromHash(): string {
-  const hash = window.location.hash.startsWith("#") ? window.location.hash.slice(1) : window.location.hash;
-  const [path] = hash.split("?");
-  if (!path || path.length === 0) return "/";
-  return path.startsWith("/") ? path : `/${path}`;
-}
-
 function makeNav(path: string): HTMLElement {
-  const links: Array<{ label: string; href: string }> = [
-    { label: "Home", href: "#/" },
-    { label: "Songs", href: "#/songs" },
-    { label: "Services", href: "#/services" },
-    { label: "Series", href: "#/series" },
-    { label: "Planner", href: "#/planner" },
-    { label: "Analytics", href: "#/analytics" }
+  const links: Array<{ label: string; path: string }> = [
+    { label: "Home", path: "/" },
+    { label: "Songs", path: "/songs" },
+    { label: "Services", path: "/services" },
+    { label: "Series", path: "/series" },
+    { label: "Planner", path: "/planner" },
+    { label: "Analytics", path: "/analytics" }
   ];
 
   const nav = createElement("nav", "app-nav");
   for (const item of links) {
     const anchor = createElement("a", "nav-link") as HTMLAnchorElement;
-    anchor.href = item.href;
+    anchor.href = toAppHref(item.path);
     anchor.textContent = item.label;
-    const activePath = item.href.slice(1);
+    const activePath = item.path;
     if ((activePath === "/" && path === "/") || (activePath !== "/" && path.startsWith(activePath))) {
       anchor.classList.add("is-active");
     }
@@ -46,7 +39,7 @@ function makeNav(path: string): HTMLElement {
 }
 
 function mountPage(app: HTMLElement, title: string, pageEl: HTMLElement): void {
-  const path = currentPathFromHash();
+  const path = currentRoutePath();
   const shell = createElement("div", "app-shell");
   const header = createElement("header", "app-header");
   header.appendChild(createElement("h1", "app-title", "HymnOps"));
@@ -68,7 +61,8 @@ function makeContext(
   markdown: MarkdownIt,
   planner: PlannerState,
   setPlanner: (next: PlannerState) => void,
-  navigate: (hashPath: string) => void
+  navigate: (pathWithQuery: string) => void,
+  rerender: () => void
 ): PageContext {
   const context: PageContext = {
     data,
@@ -79,9 +73,7 @@ function makeContext(
       context.planner = next;
     },
     navigate,
-    rerender: () => {
-      window.dispatchEvent(new HashChangeEvent("hashchange"));
-    }
+    rerender
   };
   return context;
 }
@@ -117,7 +109,14 @@ async function bootstrap(): Promise<void> {
 
     const renderWith = (title: string, renderPage: (ctx: PageContext, query: URLSearchParams, params: Record<string, string>) => HTMLElement) => {
       return (params: Record<string, string>, query: URLSearchParams) => {
-        const ctx = makeContext(data, markdown, state.planner, setPlanner, (path) => router.navigate(path));
+        const ctx = makeContext(
+          data,
+          markdown,
+          state.planner,
+          setPlanner,
+          (path) => router.navigate(path),
+          () => router.refresh()
+        );
         const pageEl = renderPage(ctx, query, params);
         mountPage(app, title, pageEl);
       };

@@ -5,14 +5,61 @@ interface Route {
   handler: RouteHandler;
 }
 
-function normalizeHashPath(rawHash: string): { path: string; query: URLSearchParams } {
-  const hash = rawHash.startsWith("#") ? rawHash.slice(1) : rawHash;
-  const [pathPart, queryPart] = hash.split("?");
-  const path = pathPart && pathPart.length > 0 ? pathPart : "/";
+function normalizePath(rawPath: string): string {
+  if (!rawPath || rawPath.length === 0) {
+    return "/";
+  }
+  return rawPath.startsWith("/") ? rawPath : `/${rawPath}`;
+}
+
+function normalizeBasePath(rawBase: string): string {
+  const trimmed = rawBase.trim();
+  if (!trimmed || trimmed === "/") {
+    return "/";
+  }
+  let base = trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
+  if (!base.endsWith("/")) {
+    base = `${base}/`;
+  }
+  return base.replace(/\/{2,}/g, "/");
+}
+
+const basePath = normalizeBasePath(import.meta.env.BASE_URL ?? "/");
+const basePrefix = basePath === "/" ? "" : basePath.slice(0, -1);
+
+function stripBasePath(pathname: string): string {
+  const normalized = normalizePath(pathname);
+  if (!basePrefix) {
+    return normalized;
+  }
+  if (normalized === basePrefix) {
+    return "/";
+  }
+  if (normalized.startsWith(`${basePrefix}/`)) {
+    return normalized.slice(basePrefix.length) || "/";
+  }
+  return normalized;
+}
+
+function currentRoute(): { path: string; query: URLSearchParams } {
   return {
-    path: path.startsWith("/") ? path : `/${path}`,
-    query: new URLSearchParams(queryPart ?? "")
+    path: stripBasePath(window.location.pathname),
+    query: new URLSearchParams(window.location.search)
   };
+}
+
+export function toAppHref(pathWithQuery: string): string {
+  const [pathPart, queryPart] = pathWithQuery.split("?");
+  const normalizedPath = normalizePath(pathPart || "/");
+  const prefixedPath = basePrefix ? `${basePrefix}${normalizedPath}` : normalizedPath;
+  if (!queryPart || queryPart.length === 0) {
+    return prefixedPath;
+  }
+  return `${prefixedPath}?${queryPart}`;
+}
+
+export function currentRoutePath(): string {
+  return currentRoute().path;
 }
 
 function matchRoute(pattern: string, actualPath: string): Record<string, string> | null {
@@ -41,6 +88,7 @@ function matchRoute(pattern: string, actualPath: string): Record<string, string>
 export class Router {
   private routes: Route[] = [];
   private fallbackHandler: RouteHandler | null = null;
+  private renderCurrent: (() => void) | null = null;
 
   register(pattern: string, handler: RouteHandler): void {
     this.routes.push({ pattern, handler });
@@ -50,13 +98,22 @@ export class Router {
     this.fallbackHandler = handler;
   }
 
-  navigate(path: string): void {
-    window.location.hash = path;
+  navigate(pathWithQuery: string): void {
+    const targetHref = toAppHref(pathWithQuery);
+    const currentHref = `${window.location.pathname}${window.location.search}`;
+    if (targetHref !== currentHref) {
+      window.history.pushState({}, "", targetHref);
+    }
+    this.renderCurrent?.();
+  }
+
+  refresh(): void {
+    this.renderCurrent?.();
   }
 
   start(): void {
     const renderCurrent = () => {
-      const { path, query } = normalizeHashPath(window.location.hash);
+      const { path, query } = currentRoute();
       for (const route of this.routes) {
         const match = matchRoute(route.pattern, path);
         if (match) {
@@ -69,7 +126,8 @@ export class Router {
       }
     };
 
-    window.addEventListener("hashchange", renderCurrent);
+    this.renderCurrent = renderCurrent;
+    window.addEventListener("popstate", renderCurrent);
     renderCurrent();
   }
 }

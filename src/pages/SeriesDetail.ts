@@ -1,4 +1,5 @@
 import type { PageContext } from "../types";
+import { toAppHref } from "../router";
 import { createElement, formatDate } from "../utils";
 
 export function SeriesDetailPage(ctx: PageContext, slug: string): HTMLElement {
@@ -24,7 +25,7 @@ export function SeriesDetailPage(ctx: PageContext, slug: string): HTMLElement {
     const song = ctx.data.songs.find((item) => item.slug === songSlug);
     const li = createElement("li");
     const link = createElement("a") as HTMLAnchorElement;
-    link.href = `#/songs/${songSlug}`;
+    link.href = toAppHref(`/songs/${songSlug}`);
     link.textContent = song?.title ?? songSlug;
     li.appendChild(link);
     list.appendChild(li);

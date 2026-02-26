@@ -1,4 +1,5 @@
 import type { PageContext } from "../types";
+import { toAppHref } from "../router";
 import { createElement, formatDate } from "../utils";
 
 export function SeriesListPage(ctx: PageContext): HTMLElement {
@@ -14,7 +15,7 @@ export function SeriesListPage(ctx: PageContext): HTMLElement {
   for (const item of ctx.data.series) {
     const li = createElement("li", "service-list-item");
     const link = createElement("a") as HTMLAnchorElement;
-    link.href = `#/series/${item.slug}`;
+    link.href = toAppHref(`/series/${item.slug}`);
     link.textContent = item.title;
     const [start, end] = item.date_range;
     const dateText = start || end ? `${formatDate(start)} to ${formatDate(end)}` : "Open date range";

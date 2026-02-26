@@ -1,4 +1,5 @@
 import type { PageContext } from "../types";
+import { toAppHref } from "../router";
 import { createElement, formatDate } from "../utils";
 
 function quickLink(label: string, href: string, description: string): HTMLElement {
@@ -22,11 +23,11 @@ export function HomePage(ctx: PageContext): HTMLElement {
 
   const quickActions = createElement("section", "quick-actions");
   quickActions.append(
-    quickLink("Songs", "#/songs", "Search and filter by theme, doctrine, scripture, writer, and usage history."),
-    quickLink("Services", "#/services", "Review past services and setlists."),
-    quickLink("Series", "#/series", "Organize recommended songs by preaching series."),
-    quickLink("Planner", "#/planner", "Draft a service setlist and export markdown."),
-    quickLink("Analytics", "#/analytics", "View rotation, coverage, and usage concentration.")
+    quickLink("Songs", toAppHref("/songs"), "Search and filter by theme, doctrine, scripture, writer, and usage history."),
+    quickLink("Services", toAppHref("/services"), "Review past services and setlists."),
+    quickLink("Series", toAppHref("/series"), "Organize recommended songs by preaching series."),
+    quickLink("Planner", toAppHref("/planner"), "Draft a service setlist and export markdown."),
+    quickLink("Analytics", toAppHref("/analytics"), "View rotation, coverage, and usage concentration.")
   );
   page.appendChild(quickActions);
 
@@ -43,7 +44,7 @@ export function HomePage(ctx: PageContext): HTMLElement {
     for (const item of list.slice(0, 10)) {
       const li = createElement("li");
       const anchor = createElement("a") as HTMLAnchorElement;
-      anchor.href = `#/songs/${item.slug}`;
+      anchor.href = toAppHref(`/songs/${item.slug}`);
       anchor.textContent = `${item.title}${item.weeks_since_last_sung !== null ? ` (${item.weeks_since_last_sung}w)` : " (never)"}`;
       li.appendChild(anchor);
       ul.appendChild(li);

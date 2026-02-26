@@ -122,6 +122,6 @@ export interface PageContext {
   markdown: MarkdownIt;
   planner: PlannerState;
   setPlanner: (next: PlannerState) => void;
-  navigate: (hashPath: string) => void;
+  navigate: (pathWithQuery: string) => void;
   rerender: () => void;
 }
