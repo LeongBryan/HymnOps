@@ -456,6 +456,24 @@ a:focus-visible {
   padding: 0;
 }
 
+.year-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.year-filter-btn.is-active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary-strong);
+}
+
+.analytics-scope-label {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .copy-status {
   color: var(--muted);
 }
