@@ -42,7 +42,7 @@ As a maintainer, I want a clear domain cutover procedure so `https://hymnops.xyz
 ## File List (Planned Implementation Targets)
 - Edit: `README.md` (domain and DNS setup section)
 - Create/Edit: `public/CNAME` (if file-managed custom domain is selected)
-- Optional: `openspec/changes/custom-domain-hymnops-xyz/go-live-checklist.md`
+- Optional: `openspec/archive/custom-domain-hymnops-xyz/go-live-checklist.md`
 
 ## Implementation Steps
 1. Configure GitHub Pages source to Actions-deployed artifact.

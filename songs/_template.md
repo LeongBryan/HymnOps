@@ -2,9 +2,9 @@
 title: "New Song Title"
 slug: "new-song-title"
 aka: []
-ccli_number: null
-songselect_url: null
-lyrics_source: "Unknown"
+ccli_number: "1234567"
+songselect_url: "https://songselect.ccli.com/songs/1234567"
+lyrics_source: "SongSelect"
 lyrics_hint: ""
 original_artist: null
 writers: []

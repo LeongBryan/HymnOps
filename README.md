@@ -157,8 +157,6 @@ Use `npm run build:embeddings:local` only on local machines if you maintain priv
 ## TODO
 
 - Go over songs to ensure correct song version chosen.
-- Song-select filters need a way to un-select.
-- Add search bar for `services` and `series`.
 
 See:
 

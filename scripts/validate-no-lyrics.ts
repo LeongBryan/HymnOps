@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { execFileSync } from "node:child_process";
+import matter from "gray-matter";
 
 const REQUIRED_GITIGNORE_ENTRIES = ["dist/", "node_modules/", "lyrics_vault/"] as const;
 const CONTENT_DIRS = ["songs", "services", "series"] as const;
@@ -83,8 +84,9 @@ async function run(): Promise<void> {
     const absDir = path.join(process.cwd(), dir);
     const files = await listMarkdownFiles(absDir);
     for (const filePath of files) {
-      const content = await fs.readFile(filePath, "utf8");
-      const reasons = detectLyricLikeContent(content);
+      const raw = await fs.readFile(filePath, "utf8");
+      const parsed = matter(raw);
+      const reasons = detectLyricLikeContent(parsed.content);
       for (const reason of reasons) {
         errors.push(`${path.relative(process.cwd(), filePath)}: lyric-like content flagged: ${reason}`);
       }

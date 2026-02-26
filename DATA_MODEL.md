@@ -55,7 +55,7 @@ Frontmatter required:
 - `preacher: string | null`
 - `songs:`
   - `slug: string`
-  - `usage: string[]`
+  - `usage: string[]` (exactly one of `"kid-friendly" | "main" | "response"`)
   - `key: string | null`
   - `notes: string | null`
 

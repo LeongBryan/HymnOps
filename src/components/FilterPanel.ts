@@ -41,16 +41,62 @@ export function defaultSongFilters(): SongFilters {
   };
 }
 
+function sameStringArray(left: string[], right: string[]): boolean {
+  return left.length === right.length && left.every((value, index) => value === right[index]);
+}
+
+function sameNumberArray(left: number[], right: number[]): boolean {
+  return left.length === right.length && left.every((value, index) => value === right[index]);
+}
+
+function isDefaultFilterState(value: SongFilters): boolean {
+  const defaults = defaultSongFilters();
+  return (
+    sameStringArray(value.themes, defaults.themes) &&
+    sameStringArray(value.doctrines, defaults.doctrines) &&
+    sameStringArray(value.tones, defaults.tones) &&
+    sameNumberArray(value.serviceYears, defaults.serviceYears) &&
+    value.serviceYearMode === defaults.serviceYearMode &&
+    value.scriptureText === defaults.scriptureText &&
+    value.keyText === defaults.keyText &&
+    value.fitMin === defaults.fitMin &&
+    value.tempoMin === defaults.tempoMin &&
+    value.tempoMax === defaults.tempoMax &&
+    value.status === defaults.status &&
+    value.notSungWeeks === defaults.notSungWeeks
+  );
+}
+
 function selectedValues(select: HTMLSelectElement): string[] {
   return [...select.selectedOptions].map((option) => option.value);
 }
 
-function createMultiSelect(label: string, options: string[], selected: string[], onInput: (values: string[]) => void): HTMLElement {
-  const wrapper = createElement("label", "filter-field");
-  const text = createElement("span", "filter-label", label);
+interface FilterFieldOptions {
+  label: string;
+  control: HTMLElement;
+  canClear: boolean;
+  onClear: () => void;
+}
+
+function createFilterField(options: FilterFieldOptions): HTMLElement {
+  const wrapper = createElement("div", "filter-field");
+  const header = createElement("div", "filter-field-header");
+  const label = createElement("span", "filter-label", options.label);
+  const clear = createElement("button", "button-link filter-clear", "Clear") as HTMLButtonElement;
+  clear.type = "button";
+  clear.disabled = !options.canClear;
+  clear.setAttribute("aria-label", `Clear ${options.label} filter`);
+  clear.addEventListener("click", () => options.onClear());
+  header.append(label, clear);
+  wrapper.append(header, options.control);
+  return wrapper;
+}
+
+function createMultiSelect(label: string, options: string[], selected: string[], onInput: (values: string[]) => void, onClear: () => void): HTMLElement {
   const select = createElement("select", "filter-multi") as HTMLSelectElement;
   select.multiple = true;
   select.size = 5;
+  select.setAttribute("aria-label", label);
   for (const optionValue of options) {
     const option = createElement("option") as HTMLOptionElement;
     option.value = optionValue;
@@ -59,32 +105,62 @@ function createMultiSelect(label: string, options: string[], selected: string[],
     select.appendChild(option);
   }
   select.addEventListener("change", () => onInput(selectedValues(select)));
-  wrapper.append(text, select);
-  return wrapper;
+  return createFilterField({
+    label,
+    control: select,
+    canClear: selected.length > 0,
+    onClear
+  });
 }
 
 export function FilterPanel(options: FilterPanelOptions): HTMLElement {
   const panel = createElement("section", "filter-panel");
+  const panelHeader = createElement("div", "filter-panel-header");
   const title = createElement("h3", "filter-title", "Filters");
-  panel.appendChild(title);
+  const clearAll = createElement("button", "button-secondary filter-clear-all", "Clear all") as HTMLButtonElement;
+  clearAll.type = "button";
+  clearAll.disabled = isDefaultFilterState(options.value);
+  clearAll.addEventListener("click", () => {
+    options.onChange(defaultSongFilters());
+  });
+  panelHeader.append(title, clearAll);
+  panel.appendChild(panelHeader);
 
   const state = options.value;
   const emit = (patch: Partial<SongFilters>) => options.onChange({ ...state, ...patch });
 
   panel.appendChild(
-    createMultiSelect("Themes", options.themes, state.themes, (values) => {
-      emit({ themes: values });
-    })
+    createMultiSelect(
+      "Themes",
+      options.themes,
+      state.themes,
+      (values) => {
+        emit({ themes: values });
+      },
+      () => emit({ themes: [] })
+    )
   );
   panel.appendChild(
-    createMultiSelect("Doctrine", options.doctrines, state.doctrines, (values) => {
-      emit({ doctrines: values });
-    })
+    createMultiSelect(
+      "Doctrine",
+      options.doctrines,
+      state.doctrines,
+      (values) => {
+        emit({ doctrines: values });
+      },
+      () => emit({ doctrines: [] })
+    )
   );
   panel.appendChild(
-    createMultiSelect("Tone", options.tones, state.tones, (values) => {
-      emit({ tones: values });
-    })
+    createMultiSelect(
+      "Tone",
+      options.tones,
+      state.tones,
+      (values) => {
+        emit({ tones: values });
+      },
+      () => emit({ tones: [] })
+    )
   );
   panel.appendChild(
     createMultiSelect(
@@ -97,13 +173,13 @@ export function FilterPanel(options: FilterPanelOptions): HTMLElement {
             .map((value) => Number.parseInt(value, 10))
             .filter((year) => Number.isFinite(year))
         });
-      }
+      },
+      () => emit({ serviceYears: [] })
     )
   );
 
-  const yearModeField = createElement("label", "filter-field");
-  const yearModeLabel = createElement("span", "filter-label", "Year match");
   const yearModeSelect = createElement("select", "filter-input") as HTMLSelectElement;
+  yearModeSelect.setAttribute("aria-label", "Year match");
   const yearModes: Array<SongFilters["serviceYearMode"]> = ["any", "all"];
   for (const yearMode of yearModes) {
     const option = createElement("option") as HTMLOptionElement;
@@ -116,70 +192,100 @@ export function FilterPanel(options: FilterPanelOptions): HTMLElement {
     const next = yearModeSelect.value as SongFilters["serviceYearMode"];
     emit({ serviceYearMode: next });
   });
-  yearModeField.append(yearModeLabel, yearModeSelect);
-  panel.appendChild(yearModeField);
+  panel.appendChild(
+    createFilterField({
+      label: "Year match",
+      control: yearModeSelect,
+      canClear: state.serviceYearMode !== "any",
+      onClear: () => emit({ serviceYearMode: "any" })
+    })
+  );
 
-  const scripture = createElement("label", "filter-field");
-  const scriptureLabel = createElement("span", "filter-label", "Scripture contains");
   const scriptureInput = createElement("input", "filter-input") as HTMLInputElement;
   scriptureInput.type = "text";
+  scriptureInput.setAttribute("aria-label", "Scripture contains");
   scriptureInput.value = state.scriptureText;
   scriptureInput.placeholder = "e.g. Colossians";
   scriptureInput.addEventListener("input", () => emit({ scriptureText: scriptureInput.value }));
-  scripture.append(scriptureLabel, scriptureInput);
-  panel.appendChild(scripture);
+  panel.appendChild(
+    createFilterField({
+      label: "Scripture contains",
+      control: scriptureInput,
+      canClear: state.scriptureText.trim().length > 0,
+      onClear: () => emit({ scriptureText: "" })
+    })
+  );
 
-  const keyField = createElement("label", "filter-field");
-  const keyLabel = createElement("span", "filter-label", "Key contains");
   const keyInput = createElement("input", "filter-input") as HTMLInputElement;
   keyInput.type = "text";
+  keyInput.setAttribute("aria-label", "Key contains");
   keyInput.value = state.keyText;
   keyInput.placeholder = "e.g. G, D, Bb";
   keyInput.addEventListener("input", () => emit({ keyText: keyInput.value }));
-  keyField.append(keyLabel, keyInput);
-  panel.appendChild(keyField);
+  panel.appendChild(
+    createFilterField({
+      label: "Key contains",
+      control: keyInput,
+      canClear: state.keyText.trim().length > 0,
+      onClear: () => emit({ keyText: "" })
+    })
+  );
 
-  const fit = createElement("label", "filter-field");
-  const fitLabel = createElement("span", "filter-label", "Minimum congregational fit");
   const fitInput = createElement("input", "filter-input") as HTMLInputElement;
   fitInput.type = "number";
   fitInput.min = "0";
   fitInput.max = "5";
+  fitInput.setAttribute("aria-label", "Minimum congregational fit");
   fitInput.value = state.fitMin.toString();
   fitInput.addEventListener("input", () => {
     const parsed = Number(fitInput.value);
     emit({ fitMin: Number.isFinite(parsed) ? parsed : 0 });
   });
-  fit.append(fitLabel, fitInput);
-  panel.appendChild(fit);
+  panel.appendChild(
+    createFilterField({
+      label: "Minimum congregational fit",
+      control: fitInput,
+      canClear: state.fitMin !== 0,
+      onClear: () => emit({ fitMin: 0 })
+    })
+  );
 
-  const tempoMinField = createElement("label", "filter-field");
-  const tempoMinLabel = createElement("span", "filter-label", "Tempo min");
   const tempoMinInput = createElement("input", "filter-input") as HTMLInputElement;
   tempoMinInput.type = "number";
+  tempoMinInput.setAttribute("aria-label", "Tempo min");
   tempoMinInput.value = state.tempoMin === null ? "" : state.tempoMin.toString();
   tempoMinInput.addEventListener("input", () => {
     const parsed = Number(tempoMinInput.value);
     emit({ tempoMin: Number.isFinite(parsed) ? parsed : null });
   });
-  tempoMinField.append(tempoMinLabel, tempoMinInput);
-  panel.appendChild(tempoMinField);
+  panel.appendChild(
+    createFilterField({
+      label: "Tempo min",
+      control: tempoMinInput,
+      canClear: state.tempoMin !== null,
+      onClear: () => emit({ tempoMin: null })
+    })
+  );
 
-  const tempoMaxField = createElement("label", "filter-field");
-  const tempoMaxLabel = createElement("span", "filter-label", "Tempo max");
   const tempoMaxInput = createElement("input", "filter-input") as HTMLInputElement;
   tempoMaxInput.type = "number";
+  tempoMaxInput.setAttribute("aria-label", "Tempo max");
   tempoMaxInput.value = state.tempoMax === null ? "" : state.tempoMax.toString();
   tempoMaxInput.addEventListener("input", () => {
     const parsed = Number(tempoMaxInput.value);
     emit({ tempoMax: Number.isFinite(parsed) ? parsed : null });
   });
-  tempoMaxField.append(tempoMaxLabel, tempoMaxInput);
-  panel.appendChild(tempoMaxField);
+  panel.appendChild(
+    createFilterField({
+      label: "Tempo max",
+      control: tempoMaxInput,
+      canClear: state.tempoMax !== null,
+      onClear: () => emit({ tempoMax: null })
+    })
+  );
 
-  const statusField = createElement("label", "filter-field");
-  const statusLabel = createElement("span", "filter-label", "Status");
   const statusSelect = createElement("select", "filter-input") as HTMLSelectElement;
+  statusSelect.setAttribute("aria-label", "Status");
   const statusOptions: Array<SongFilters["status"]> = ["active", "archive", "all"];
   for (const status of statusOptions) {
     const option = createElement("option") as HTMLOptionElement;
@@ -192,12 +298,17 @@ export function FilterPanel(options: FilterPanelOptions): HTMLElement {
     const next = statusSelect.value as SongFilters["status"];
     emit({ status: next });
   });
-  statusField.append(statusLabel, statusSelect);
-  panel.appendChild(statusField);
+  panel.appendChild(
+    createFilterField({
+      label: "Status",
+      control: statusSelect,
+      canClear: state.status !== "active",
+      onClear: () => emit({ status: "active" })
+    })
+  );
 
-  const notSungField = createElement("label", "filter-field");
-  const notSungLabel = createElement("span", "filter-label", "Not sung in X weeks");
   const notSungSelect = createElement("select", "filter-input") as HTMLSelectElement;
+  notSungSelect.setAttribute("aria-label", "Not sung in X weeks");
   const weekOptions: SongFilters["notSungWeeks"][] = [0, 4, 8, 12, 24];
   for (const week of weekOptions) {
     const option = createElement("option") as HTMLOptionElement;
@@ -212,8 +323,14 @@ export function FilterPanel(options: FilterPanelOptions): HTMLElement {
       emit({ notSungWeeks: parsed as SongFilters["notSungWeeks"] });
     }
   });
-  notSungField.append(notSungLabel, notSungSelect);
-  panel.appendChild(notSungField);
+  panel.appendChild(
+    createFilterField({
+      label: "Not sung in X weeks",
+      control: notSungSelect,
+      canClear: state.notSungWeeks !== 0,
+      onClear: () => emit({ notSungWeeks: 0 })
+    })
+  );
 
   return panel;
 }

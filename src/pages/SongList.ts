@@ -111,6 +111,9 @@ export function SongListPage(ctx: PageContext): HTMLElement {
   }
 
   let searchText = "";
+  let refocusSearch = false;
+  let searchSelectionStart: number | null = null;
+  let searchSelectionEnd: number | null = null;
   let filters = defaultSongFilters();
   let sortMode: SortMode = "alpha";
 
@@ -137,8 +140,11 @@ export function SongListPage(ctx: PageContext): HTMLElement {
       SearchBar({
         placeholder: "title, aka, CCLI, writer, artist, theme, scripture...",
         value: searchText,
-        onChange: (next) => {
+        onChange: (next, selectionStart, selectionEnd) => {
           searchText = next;
+          refocusSearch = true;
+          searchSelectionStart = selectionStart;
+          searchSelectionEnd = selectionEnd;
           render();
         }
       })
@@ -167,6 +173,17 @@ export function SongListPage(ctx: PageContext): HTMLElement {
     sortField.appendChild(sortSelect);
     topBar.appendChild(sortField);
     controls.appendChild(topBar);
+
+    if (refocusSearch) {
+      const input = topBar.querySelector<HTMLInputElement>(".search-input");
+      if (input) {
+        input.focus();
+        if (searchSelectionStart !== null && searchSelectionEnd !== null) {
+          input.setSelectionRange(searchSelectionStart, searchSelectionEnd);
+        }
+      }
+      refocusSearch = false;
+    }
 
     controls.appendChild(
       FilterPanel({

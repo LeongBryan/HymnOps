@@ -61,6 +61,8 @@ const SERIES_REQUIRED_KEYS = [
   "recommended"
 ] as const;
 
+const ALLOWED_SERVICE_USAGE = new Set(["kid-friendly", "main", "response"]);
+
 function isString(value: unknown): value is string {
   return typeof value === "string";
 }
@@ -171,8 +173,19 @@ function validateSong(file: ParsedMarkdown, errors: string[]): string | null {
     errors.push(`${file.filePath}: "slug" must match filename "${file.fileName}"`);
   }
   if (!isStringArray(fm.aka)) errors.push(`${file.filePath}: "aka" must be a string array`);
-  if (!isStringOrNull(fm.ccli_number)) errors.push(`${file.filePath}: "ccli_number" must be string or null`);
-  if (!isStringOrNull(fm.songselect_url)) errors.push(`${file.filePath}: "songselect_url" must be string or null`);
+  if (!isString(fm.ccli_number) || !/^\d+$/.test(fm.ccli_number)) {
+    errors.push(`${file.filePath}: "ccli_number" must be a numeric string`);
+  }
+  if (!isString(fm.songselect_url)) {
+    errors.push(`${file.filePath}: "songselect_url" must be a string`);
+  } else {
+    const match = fm.songselect_url.match(/^https:\/\/songselect\.ccli\.com\/songs\/(\d+)(\/[^\s?#]+)?\/?$/);
+    if (!match) {
+      errors.push(`${file.filePath}: "songselect_url" must be an official SongSelect song URL`);
+    } else if (typeof fm.ccli_number === "string" && match[1] !== fm.ccli_number) {
+      errors.push(`${file.filePath}: "songselect_url" song id must match "ccli_number"`);
+    }
+  }
   if (!isString(fm.lyrics_source) || !["SongSelect", "Other", "Unknown"].includes(fm.lyrics_source)) {
     errors.push(`${file.filePath}: "lyrics_source" must be one of SongSelect | Other | Unknown`);
   }
@@ -265,6 +278,16 @@ function validateService(file: ParsedMarkdown, errors: string[]): { date: string
       }
       if (!isStringArray(song.usage)) {
         errors.push(`${file.filePath}: songs[${index}].usage must be a string array`);
+      } else {
+        if (song.usage.length !== 1) {
+          errors.push(`${file.filePath}: songs[${index}].usage must contain exactly one category`);
+        }
+        const invalidUsage = song.usage.filter((entry) => !ALLOWED_SERVICE_USAGE.has(entry));
+        if (invalidUsage.length > 0) {
+          errors.push(
+            `${file.filePath}: songs[${index}].usage contains invalid category values: ${invalidUsage.join(", ")}`
+          );
+        }
       }
       if (!isStringOrNull(song.key)) {
         errors.push(`${file.filePath}: songs[${index}].key must be string or null`);

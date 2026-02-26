@@ -224,8 +224,15 @@ a:focus-visible {
   gap: 12px;
 }
 
-.filter-title {
+.filter-panel-header {
   grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.filter-title {
   margin: 0;
 }
 
@@ -235,10 +242,32 @@ a:focus-visible {
   gap: 6px;
 }
 
+.filter-field-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 .filter-label,
 .search-bar-label {
   font-size: 0.87rem;
   color: var(--muted);
+}
+
+.filter-clear {
+  font-size: 0.8rem;
+}
+
+.filter-clear:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.filter-clear-all:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .filter-multi {
@@ -271,6 +300,38 @@ a:focus-visible {
   margin: 0 0 8px;
   font-size: 0.9rem;
   color: var(--muted);
+}
+
+.entity-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.entity-card {
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(165deg, #fffef8, #f8f1e4);
+  box-shadow: var(--shadow);
+}
+
+.entity-title {
+  margin: 0 0 6px;
+}
+
+.entity-meta,
+.entity-subline,
+.entity-preview,
+.entity-body {
+  margin: 0;
+  color: var(--muted);
+}
+
+.entity-subline,
+.entity-preview,
+.entity-body {
+  margin-top: 6px;
 }
 
 .chip-row {

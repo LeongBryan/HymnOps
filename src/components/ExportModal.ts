@@ -3,6 +3,8 @@ import { createElement } from "../utils";
 interface ExportModalOptions {
   title: string;
   markdown: string;
+  copyLabel?: string;
+  autoCopy?: boolean;
   onClose: () => void;
 }
 
@@ -22,15 +24,18 @@ export function ExportModal(options: ExportModalOptions): HTMLElement {
   textarea.readOnly = true;
 
   const actions = createElement("div", "modal-actions");
-  const copyButton = createElement("button", "button-primary", "Copy Markdown") as HTMLButtonElement;
+  const copyButton = createElement("button", "button-primary", options.copyLabel ?? "Copy Markdown") as HTMLButtonElement;
   const status = createElement("span", "copy-status", "");
-  copyButton.addEventListener("click", async () => {
+  const copyContent = async () => {
     try {
       await navigator.clipboard.writeText(options.markdown);
       status.textContent = "Copied.";
     } catch {
       status.textContent = "Clipboard unavailable.";
     }
+  };
+  copyButton.addEventListener("click", () => {
+    void copyContent();
   });
   actions.append(copyButton, status);
 
@@ -42,6 +47,10 @@ export function ExportModal(options: ExportModalOptions): HTMLElement {
       options.onClose();
     }
   });
+
+  if (options.autoCopy) {
+    void copyContent();
+  }
 
   return overlay;
 }

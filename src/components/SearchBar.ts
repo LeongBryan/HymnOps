@@ -3,7 +3,7 @@ import { createElement } from "../utils";
 interface SearchBarOptions {
   placeholder: string;
   value: string;
-  onChange: (value: string) => void;
+  onChange: (value: string, selectionStart: number | null, selectionEnd: number | null) => void;
 }
 
 export function SearchBar(options: SearchBarOptions): HTMLElement {
@@ -14,7 +14,7 @@ export function SearchBar(options: SearchBarOptions): HTMLElement {
   input.placeholder = options.placeholder;
   input.value = options.value;
   input.addEventListener("input", () => {
-    options.onChange(input.value);
+    options.onChange(input.value, input.selectionStart, input.selectionEnd);
   });
 
   wrapper.append(span, input);

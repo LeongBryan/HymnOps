@@ -12,6 +12,16 @@ Last updated: 2026-02-26
 - Updated all service files so the last song usage is `["response"]`.
 - Added series entry: `series/return-of-the-king.md`.
 - Added/maintained README TODO backlog.
+- Implemented and committed deployment-readiness changes:
+  - `github-pages-cicd`
+  - `vite-base-and-pages-pathing`
+  - `spa-routing-pages-refresh`
+  - `repo-hygiene-deploy-safety`
+  - `custom-domain-hymnops-xyz`
+- Implemented `services-series-search` with search bars and list filtering for Services and Series pages.
+- Implemented `services-series-layout-refresh` with responsive card/tile layouts for Services and Series pages.
+- Implemented `clearable-songselect-filters` with per-filter clear actions and a global clear-all control.
+- Implemented `create-setlist-planner-bcc-context` with WhatsApp-friendly planner export and BCC usage-category normalization.
 
 ## Backlog (Tracked as OpenSpec Changes)
 
@@ -19,11 +29,3 @@ Last updated: 2026-02-26
 - `google-sheets-service-import`
 - `series-renaming-cleanup`
 - `collapse-annual-series`
-- `clearable-songselect-filters`
-- `services-series-search`
-- `github-pages-cicd`
-- `vite-base-and-pages-pathing`
-- `spa-routing-pages-refresh`
-- `repo-hygiene-deploy-safety`
-- `custom-domain-hymnops-xyz`
-- `services-series-layout-refresh`

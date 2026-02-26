@@ -2,18 +2,15 @@ import { ExportModal } from "../components/ExportModal";
 import type { PageContext, PlannerSongItem, Song } from "../types";
 import { createElement } from "../utils";
 
-const USAGE_OPTIONS = [
-  "opening",
-  "praise",
-  "response",
-  "confession",
-  "assurance",
-  "communion",
-  "reflection",
-  "offering",
-  "sending",
-  "closing"
-];
+type UsageCategory = "kid-friendly" | "main" | "response";
+
+const USAGE_OPTIONS: UsageCategory[] = ["kid-friendly", "main", "response"];
+
+const USAGE_LABEL: Record<UsageCategory, string> = {
+  "kid-friendly": "Kid-friendly",
+  main: "Main",
+  response: "Response"
+};
 
 function ymdToday(): string {
   const now = new Date();
@@ -43,13 +40,21 @@ function findSongsByText(songs: Song[], input: string): Song[] {
 }
 
 function songItemToYaml(item: PlannerSongItem): string {
-  const usage = item.usage.map((entry) => `"${entry}"`).join(", ");
+  const usage = normalizeUsage(item.usage);
   return [
     `  - slug: "${item.slug}"`,
-    `    usage: [${usage}]`,
+    `    usage: ["${usage}"]`,
     `    key: ${item.key ? `"${item.key}"` : "null"}`,
     `    notes: ${item.notes ? `"${item.notes.replaceAll('"', '\\"')}"` : "null"}`
   ].join("\n");
+}
+
+function normalizeUsage(usage: string[]): UsageCategory {
+  const first = usage[0]?.toLowerCase();
+  if (first === "main-set") return "main";
+  if (first === "kids-friendly") return "kid-friendly";
+  if (first === "kid-friendly" || first === "main" || first === "response") return first;
+  return "main";
 }
 
 function exportMarkdown(ctx: PageContext): string {
@@ -70,6 +75,35 @@ Add transitions, prayer cues, and team reminders.
 `;
 }
 
+function exportWhatsapp(ctx: PageContext): string {
+  const planner = ctx.planner;
+  const groups: Record<UsageCategory, string[]> = {
+    "kid-friendly": [],
+    main: [],
+    response: []
+  };
+  const songBySlug = new Map(ctx.data.songs.map((song) => [song.slug, song]));
+
+  for (const item of planner.songs) {
+    const usage = normalizeUsage(item.usage);
+    const title = songBySlug.get(item.slug)?.title ?? item.slug;
+    groups[usage].push(title);
+  }
+
+  const seriesTitle = planner.series_slug
+    ? ctx.data.series.find((series) => series.slug === planner.series_slug)?.title ?? planner.series_slug
+    : null;
+  const headerBits = [planner.date, seriesTitle].filter((value): value is string => Boolean(value));
+  const lines = [`*BCC Setlist${headerBits.length > 0 ? ` - ${headerBits.join(" | ")}` : ""}*`];
+
+  for (const usage of USAGE_OPTIONS) {
+    if (groups[usage].length === 0) continue;
+    lines.push(`${USAGE_LABEL[usage]}: ${groups[usage].join(", ")}`);
+  }
+
+  return lines.join("\n");
+}
+
 export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLElement {
   let planner = ctx.planner;
   if (!planner.date) {
@@ -85,7 +119,9 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
 
   const page = createElement("div", "page planner-page");
   page.appendChild(createElement("h1", undefined, "Planner"));
-  page.appendChild(createElement("p", "page-intro", "Draft a service setlist and export markdown for `services/YYYY-MM-DD.md`."));
+  page.appendChild(
+    createElement("p", "page-intro", "Draft a service setlist and export for markdown files or WhatsApp sharing.")
+  );
 
   const form = createElement("section", "planner-meta");
 
@@ -156,8 +192,9 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
 
   const actionSection = createElement("section", "planner-actions");
   const exportButton = createElement("button", "button-primary", "Export Service Markdown") as HTMLButtonElement;
+  const exportWhatsappButton = createElement("button", "button-secondary", "Export for WhatsApp") as HTMLButtonElement;
   const clearButton = createElement("button", "button-secondary", "Clear Plan") as HTMLButtonElement;
-  actionSection.append(exportButton, clearButton);
+  actionSection.append(exportButton, exportWhatsappButton, clearButton);
   page.appendChild(actionSection);
 
   let modalEl: HTMLElement | null = null;
@@ -211,22 +248,21 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
       topLine.appendChild(removeBtn);
       li.appendChild(topLine);
 
+      const selectedUsage = normalizeUsage(item.usage);
       const usageField = createElement("label", "filter-field");
-      usageField.appendChild(createElement("span", "filter-label", "Usage tags"));
-      const usageSelect = createElement("select", "filter-multi") as HTMLSelectElement;
-      usageSelect.multiple = true;
-      usageSelect.size = 4;
+      usageField.appendChild(createElement("span", "filter-label", "Usage"));
+      const usageSelect = createElement("select", "filter-input") as HTMLSelectElement;
       for (const usage of USAGE_OPTIONS) {
         const option = createElement("option") as HTMLOptionElement;
         option.value = usage;
-        option.textContent = usage;
-        option.selected = item.usage.includes(usage);
+        option.textContent = USAGE_LABEL[usage];
+        option.selected = usage === selectedUsage;
         usageSelect.appendChild(option);
       }
       usageSelect.addEventListener("change", () => {
-        const usage = [...usageSelect.selectedOptions].map((opt) => opt.value);
+        const usage = normalizeUsage([usageSelect.value]);
         const nextSongs = [...ctx.planner.songs];
-        nextSongs[index] = { ...nextSongs[index], usage };
+        nextSongs[index] = { ...nextSongs[index], usage: [usage] };
         ctx.setPlanner({ ...ctx.planner, songs: nextSongs });
       });
       usageField.appendChild(usageSelect);
@@ -278,7 +314,7 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
         if (ctx.planner.songs.some((item) => item.slug === match.slug)) {
           return;
         }
-        const nextSongs = [...ctx.planner.songs, { slug: match.slug, usage: ["response"], key: null, notes: null }];
+        const nextSongs = [...ctx.planner.songs, { slug: match.slug, usage: ["main"], key: null, notes: null }];
         ctx.setPlanner({ ...ctx.planner, songs: nextSongs });
         search.value = "";
         rerenderSearch();
@@ -300,6 +336,18 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
     modalEl = ExportModal({
       title: "Service Markdown",
       markdown: exportMarkdown(ctx),
+      onClose: closeModal
+    });
+    document.body.appendChild(modalEl);
+  });
+
+  exportWhatsappButton.addEventListener("click", () => {
+    closeModal();
+    modalEl = ExportModal({
+      title: "WhatsApp Setlist",
+      markdown: exportWhatsapp(ctx),
+      copyLabel: "Copy Message",
+      autoCopy: true,
       onClose: closeModal
     });
     document.body.appendChild(modalEl);

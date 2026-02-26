@@ -417,7 +417,7 @@ foreach ($group in $serviceGroups) {
   foreach ($item in $items) {
     $songSlug = $songKeyToSlug[$item.SongKey]
     $lines.Add("  - slug: $(Quote-Yaml $songSlug)")
-    $lines.Add('    usage: ["main-set"]')
+    $lines.Add('    usage: ["main"]')
     $lines.Add("    key: null")
     $lines.Add("    notes: null")
   }

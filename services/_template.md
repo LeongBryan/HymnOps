@@ -6,7 +6,7 @@ sermon_text: null
 preacher: null
 songs:
   - slug: "new-song-title"
-    usage: ["opening"]
+    usage: ["main"]
     key: null
     notes: null
 ---
