@@ -69,12 +69,12 @@ In repository settings, set Pages source to **GitHub Actions**.
 
 ### Base path configuration
 
-Vite base path is controlled by `VITE_BASE` (fallback: `PUBLIC_BASE`, default: `/`).
+Vite base path is controlled by `VITE_BASE` (default: `/`).
 
-- GitHub Pages project URL (`https://<user>.github.io/<repo>/`):
-  - CI defaults to `VITE_BASE=/<repo>/` when `VITE_BASE` is not set.
 - Custom domain root (`https://hymnops.xyz/`):
-  - Set repository variable `VITE_BASE=/` in GitHub Actions settings.
+  - CI defaults to `VITE_BASE=/` when `VITE_BASE` is not set.
+- GitHub Pages project URL (`https://<user>.github.io/<repo>/`):
+  - Set repository variable `VITE_BASE=/<repo>/` when you need project-path assets.
 
 Local checks:
 
@@ -85,6 +85,22 @@ VITE_BASE=/hymnops/ npm run build
 # Custom-domain root build
 VITE_BASE=/ npm run build
 ```
+
+### Custom domain blank page / 404 assets
+
+Symptom:
+
+- Browser requests `/HymnOps/assets/index-*.js` or `/HymnOps/assets/index-*.css` on `https://hymnops.xyz/`, causing a blank page.
+
+Fix:
+
+- Build with Vite base `/` (default behavior, or set `VITE_BASE=/`).
+- Redeploy via GitHub Actions so `dist/index.html` points to `/assets/...`.
+
+If you still see old HTML:
+
+- Hard refresh (`Ctrl+F5` / `Cmd+Shift+R`).
+- Purge Cloudflare cache (optional, if proxy caching is enabled).
 
 ### SPA routing on GitHub Pages
 

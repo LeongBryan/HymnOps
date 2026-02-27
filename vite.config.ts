@@ -14,7 +14,7 @@ function normalizeBase(rawBase: string): string {
   return normalized.replace(/\/{2,}/g, "/");
 }
 
-const configuredBase = process.env.VITE_BASE ?? process.env.PUBLIC_BASE ?? "/";
+const configuredBase = process.env.VITE_BASE ?? "/";
 
 export default defineConfig({
   base: normalizeBase(configuredBase),

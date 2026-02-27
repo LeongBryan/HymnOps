@@ -43,7 +43,7 @@ jobs:
       - name: Build app
         run: |
           if [ -z "$VITE_BASE" ]; then
-            VITE_BASE="/${GITHUB_REPOSITORY#*/}/"
+            VITE_BASE="/"
           fi
           echo "Building with VITE_BASE=$VITE_BASE"
           VITE_BASE="$VITE_BASE" npm run build
