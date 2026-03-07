@@ -17,44 +17,48 @@
     "notes_markdown": "## Notes\n\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
+    "title": "All-age service",
+    "slug": "all-age-service",
+    "date_range": [
+      "2024-12-22",
+      "2024-12-22"
+    ],
+    "description": null,
+    "recommended": [
+      "angels-we-have-heard-on-high",
+      "crown-him-king-of-kings",
+      "hark-the-herald-angels-sing",
+      "joy-to-the-world-king-of-kings",
+      "o-come-all-ye-faithful"
+    ],
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/Sermon Info (2024-2025).csv`."
+  },
+  {
     "title": "Anniversary Service",
     "slug": "anniversary-service",
     "date_range": [
-      "2025-07-06",
+      "2024-07-07",
       "2025-07-06"
     ],
     "description": null,
     "recommended": [
+      "o-how-good-it-is",
+      "one-voice",
       "because-you-first-loved-me",
       "behold-the-lamb",
       "come-people-of-the-risen-king",
-      "o-how-good-it-is",
-      "one-voice"
-    ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
-  },
-  {
-    "title": "BCC Anniversary",
-    "slug": "bcc-anniversary",
-    "date_range": [
-      "2024-07-07",
-      "2024-07-07"
-    ],
-    "description": null,
-    "recommended": [
       "gods-great-family",
-      "o-how-good-it-is",
-      "one-voice",
+      "servant-king",
       "there-is-one-gospel"
     ],
-    "notes_markdown": "## Notes\n\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
     "title": "Christmas Carols",
     "slug": "christmas-carols",
     "date_range": [
       "2025-12-07",
-      "2025-12-28"
+      "2025-12-25"
     ],
     "description": null,
     "recommended": [
@@ -62,24 +66,17 @@
       "angels-we-have-heard-on-high",
       "o-come-all-ye-faithful",
       "o-come-all-you-unfaithful",
-      "the-first-noel"
+      "the-first-noel",
+      "it-came-upon-a-midnight-clear",
+      "hark-the-herald-angels-sing",
+      "joy-has-dawned",
+      "silent-night",
+      "o-come-o-come-emmanuel",
+      "o-holy-night",
+      "what-child-is-this",
+      "o-little-town-of-bethlehem"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
-  },
-  {
-    "title": "Colossians: Fullness in Christ",
-    "slug": "colossians-fullness",
-    "date_range": [
-      "2026-01-04",
-      "2026-02-22"
-    ],
-    "description": "A teaching series emphasizing the supremacy and sufficiency of Christ, gospel identity, and resilient discipleship.",
-    "recommended": [
-      "christ-is-enough",
-      "living-hope",
-      "it-is-well-modern"
-    ],
-    "notes_markdown": "## Notes\n\nPrioritize songs that reinforce union with Christ, assurance in the gospel, and faithful endurance."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
     "title": "Dangerous Questions for Grumblers (Malachi)",
@@ -99,7 +96,7 @@
     "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "End of year service",
+    "title": "End of Year Service",
     "slug": "end-of-year-service",
     "date_range": [
       "2025-12-28",
@@ -109,10 +106,21 @@
     "recommended": [
       "he-leadeth-me"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "God, Technology, and the Christian (Topical)",
+    "title": "God has you covered (Leviticus)",
+    "slug": "god-has-you-covered-leviticus",
+    "date_range": [
+      "2024-01-14",
+      "2024-02-25"
+    ],
+    "description": null,
+    "recommended": [],
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/Sermon Info (2024-2025).csv`."
+  },
+  {
+    "title": "God, Technology & the Christian",
     "slug": "god-technology-and-the-christian-topical",
     "date_range": [
       "2024-08-18",
@@ -126,7 +134,24 @@
       "all-i-have-is-christ",
       "amazing-grace-hymn"
     ],
-    "notes_markdown": "## Notes\n\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
+  },
+  {
+    "title": "Good Friday",
+    "slug": "good-friday",
+    "date_range": [
+      "2024-03-29",
+      "2025-04-18"
+    ],
+    "description": null,
+    "recommended": [
+      "lead-me-to-calvary",
+      "lord-i-lift-your-name-on-high",
+      "o-mighty-cross",
+      "o-the-wonderful-cross",
+      "this-life-i-live"
+    ],
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/Sermon Info (2024-2025).csv`."
   },
   {
     "title": "Growing with Joy (Church Camp)",
@@ -146,7 +171,7 @@
     "notes_markdown": "## Notes\n\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "I Would Like To Believe, but... (Evangelistic Series)",
+    "title": "I would like to believe, but...",
     "slug": "i-would-like-to-believe-but-evangelistic-series",
     "date_range": [
       "2025-04-20",
@@ -160,7 +185,7 @@
       "behold-the-lamb",
       "christ-our-hope-in-life-and-death"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
     "title": "Membership Sunday",
@@ -183,8 +208,8 @@
     "title": "Missions Month",
     "slug": "missions-month",
     "date_range": [
-      "2025-08-24",
-      "2025-09-21"
+      "2024-07-14",
+      "2025-09-14"
     ],
     "description": null,
     "recommended": [
@@ -192,16 +217,27 @@
       "fill-my-eyes-o-my-god",
       "gods-great-family",
       "hear-the-call",
+      "the-mission",
+      "servants-of-the-gospel",
+      "we-are-called",
+      "one-voice",
+      "servant-king",
+      "by-faith",
+      "yet-not-i",
+      "no-other-name",
+      "no-other-name-emu",
+      "i-am-the-way-the-truth-and-the-life",
+      "hymn-of-the-saviour",
       "here-i-am-to-worship"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "New year Sermon",
+    "title": "New Year",
     "slug": "new-year-sermon",
     "date_range": [
-      "2025-01-04",
-      "2025-01-04"
+      "2024-01-07",
+      "2025-01-05"
     ],
     "description": null,
     "recommended": [
@@ -210,13 +246,56 @@
       "no-greater-love",
       "rejoice"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+  },
+  {
+    "title": "Open Ministry",
+    "slug": "open-ministry",
+    "date_range": [
+      "2024-08-04",
+      "2025-07-27"
+    ],
+    "description": null,
+    "recommended": [
+      "all-i-have-is-christ",
+      "amazing-grace-hymn",
+      "blessed-assurance",
+      "god-the-uncreated-one",
+      "goodness-of-jesus",
+      "how-great-thou-art",
+      "indescribable",
+      "it-is-well",
+      "let-us-exalt-his-name",
+      "no-greater-love",
+      "search-me-o-god",
+      "shout-to-the-lord",
+      "still-my-soul-be-still",
+      "your-love"
+    ],
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/Sermon Info (2024-2025).csv`."
+  },
+  {
+    "title": "Ruth",
+    "slug": "the-loving-kindness-of-our-god-ruth",
+    "date_range": [
+      "2025-11-09",
+      "2025-11-30"
+    ],
+    "description": null,
+    "recommended": [
+      "at-the-cross",
+      "beneath-the-cross-of-jesus",
+      "calling-all-sinners",
+      "come-praise-and-glorify",
+      "hes-able"
+    ],
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
     "title": "Sex in the City (Song of Songs)",
     "slug": "sex-in-the-city-song-of-songs",
     "date_range": [
-      "2025-09-28",
+      "2025-09-21",
       "2025-10-26"
     ],
     "description": null,
@@ -227,7 +306,30 @@
       "be-still-my-soul",
       "before-the-throne-of-god-above"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+  },
+  {
+    "title": "Standing Firm In Our World (Church Camp)",
+    "slug": "standing-firm-in-our-world-church-camp",
+    "date_range": [
+      "2025-06-12",
+      "2025-06-15"
+    ],
+    "description": null,
+    "recommended": [
+      "o-church-arise",
+      "be-like-a-tree",
+      "cornerstone",
+      "everlasting-god",
+      "hallelujah-all-i-have-is-christ",
+      "i-am-the-way-the-truth-and-the-life",
+      "in-christ-alone",
+      "living-hope",
+      "my-hope-is-built-on-nothing-less",
+      "thy-word",
+      "yet-not-i"
+    ],
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/Sermon Info (2024-2025).csv`."
   },
   {
     "title": "The King of the Promise (Psalms)",
@@ -247,7 +349,7 @@
     "notes_markdown": "## Notes\n\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "The Lamb Wins (Revelation 4-16)",
+    "title": "The Lamb wins! (Revelation 4-16)",
     "slug": "the-lamb-wins-revelation-4-16",
     "date_range": [
       "2025-05-18",
@@ -261,41 +363,43 @@
       "hallelujah-to-the-lamb",
       "he-will-hold-me-fast"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "The Loving Kindness of Our God (Ruth)",
-    "slug": "the-loving-kindness-of-our-god-ruth",
+    "title": "The Return of the King (Revelation 17-22)",
+    "slug": "return-of-the-king",
     "date_range": [
-      "2025-11-09",
-      "2025-11-30"
+      "2026-01-04",
+      "2026-02-15"
     ],
     "description": null,
     "recommended": [
-      "at-the-cross",
-      "beneath-the-cross-of-jesus",
-      "calling-all-sinners",
-      "come-praise-and-glorify",
-      "hes-able"
+      "living-hope",
+      "christ-is-enough",
+      "it-is-well-modern"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/Sermon Info (2024-2025).csv`."
   },
   {
-    "title": "The Road To The Cross (Matthew 19-21)",
+    "title": "The Road to the Cross (Matthew)",
     "slug": "the-road-to-the-cross",
     "date_range": [
-      null,
-      null
+      "2026-02-22",
+      "2026-03-29"
     ],
     "description": "A Matthew series (chapters 19-21) highlighting the contrast between hardened opposition and humble faith in response to Jesus the King.",
-    "recommended": [],
-    "notes_markdown": "## Notes\n\n1. On one hand, there's increasing opposition to Jesus - which demonstrates a hardness of heart - one which refuses to recognise Jesus as Messiah and King.\n2. On the another hand, there are the weak, poor and lowly - the children and the blind who recognise Jesus and call Jesus 'Son of David'.\n3. The powerful and rich can't enter the kingdom of heaven - but the little children and the blind can.\n4. In the middle, there are the disciples - who are often confused and more interested in position than what Jesus is interested in.\n5. Unlike the disciples, Jesus is interested in serving the lowly, broken and weak. He welcomes the"
+    "recommended": [
+      "christ-is-enough",
+      "it-is-well-modern",
+      "living-hope"
+    ],
+    "notes_markdown": "## Notes\r\n\r\n1. On one hand, there's increasing opposition to Jesus - which demonstrates a hardness of heart - one which refuses to recognise Jesus as Messiah and King.\r\n2. On the another hand, there are the weak, poor and lowly - the children and the blind who recognise Jesus and call Jesus 'Son of David'.\r\n3. The powerful and rich can't enter the kingdom of heaven - but the little children and the blind can.\r\n4. In the middle, there are the disciples - who are often confused and more interested in position than what Jesus is interested in.\r\n5. Unlike the disciples, Jesus is interested in serving the lowly, broken and weak. He welcomes the"
   },
   {
     "title": "The Servant King (Matthew)",
     "slug": "the-servant-king-matthew",
     "date_range": [
-      "2024-03-17",
+      "2024-03-03",
       "2024-06-30"
     ],
     "description": null,
@@ -306,10 +410,10 @@
       "jesus-shall-take-the-highest-honour",
       "known-and-loved"
     ],
-    "notes_markdown": "## Notes\n\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "What does Jesus Have to Say To His Church? (Revelation 1-3)",
+    "title": "What does Jesus have to say to His church? (Revelation 1-3)",
     "slug": "what-does-jesus-have-to-say-to-his-church-revelation-1-3",
     "date_range": [
       "2025-01-12",
@@ -323,13 +427,13 @@
       "all-i-have-is-christ",
       "at-the-cross"
     ],
-    "notes_markdown": "## Notes\n\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from `imports/2025.csv`. Add planning notes, liturgical emphasis, and playlist ideas."
   },
   {
-    "title": "Why The Resurrection matters (topical)",
+    "title": "Why the Resurrection Matters",
     "slug": "why-the-resurrection-matters-topical",
     "date_range": [
-      "2024-03-29",
+      "2024-03-31",
       "2024-04-14"
     ],
     "description": null,
@@ -340,6 +444,6 @@
       "come-behold-the-wondrous-mystery",
       "creator-god"
     ],
-    "notes_markdown": "## Notes\n\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
+    "notes_markdown": "## Notes\r\n\r\nImported from imports/2024.csv. Add planning notes, liturgical emphasis, and playlist ideas."
   }
 ]

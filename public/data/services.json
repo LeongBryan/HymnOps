@@ -1,94 +1,5 @@
 [
   {
-    "date": "2026-02-22",
-    "series_slug": "colossians-fullness",
-    "sermon_title": "But your hearts were hard...",
-    "sermon_text": "Matthew 19:1 - 15",
-    "preacher": "Lincoln Mao",
-    "songs": [
-      {
-        "slug": "living-hope",
-        "usage": [
-          "opening",
-          "praise"
-        ],
-        "key": "B",
-        "notes": "Start with full band, simplify transition to prayer."
-      },
-      {
-        "slug": "christ-is-enough",
-        "usage": [
-          "response"
-        ],
-        "key": "G",
-        "notes": "Drop to pad and vocal only before final chorus."
-      },
-      {
-        "slug": "it-is-well-modern",
-        "usage": [
-          "response"
-        ],
-        "key": "D",
-        "notes": "Keep tempo anchored for reflective ending."
-      }
-    ],
-    "notes_markdown": "## Service Notes\r\n\r\nInvite prayer team forward before final sending song."
-  },
-  {
-    "date": "2026-02-01",
-    "series_slug": "colossians-fullness",
-    "sermon_title": "The Millennium",
-    "sermon_text": "Revelation 20:1 - 15",
-    "preacher": "Lincoln Mao",
-    "songs": [
-      {
-        "slug": "it-is-well-modern",
-        "usage": [
-          "confession",
-          "communion"
-        ],
-        "key": "C",
-        "notes": "Leave room for guided prayer between sections."
-      },
-      {
-        "slug": "living-hope",
-        "usage": [
-          "response"
-        ],
-        "key": "B",
-        "notes": "Use stronger rhythmic lift in final third."
-      }
-    ],
-    "notes_markdown": "## Service Notes\r\n\r\nCommunion meditation follows pastoral prayer."
-  },
-  {
-    "date": "2026-01-11",
-    "series_slug": "colossians-fullness",
-    "sermon_title": "Weeping or rejoicing over Babylon's fall",
-    "sermon_text": "Revelation 18:1 - 24",
-    "preacher": "Lincoln Mao",
-    "songs": [
-      {
-        "slug": "christ-is-enough",
-        "usage": [
-          "opening",
-          "response"
-        ],
-        "key": "G",
-        "notes": "Acoustic start into full band for response."
-      },
-      {
-        "slug": "living-hope",
-        "usage": [
-          "response"
-        ],
-        "key": "A",
-        "notes": "Keep final section steady for congregational participation."
-      }
-    ],
-    "notes_markdown": "## Service Notes\r\n\r\nCommission small group leaders during sending moment."
-  },
-  {
     "date": "2025-12-28",
     "series_slug": "christmas-carols",
     "sermon_title": "Jesus and Disciples in the Storm",
@@ -98,7 +9,7 @@
       {
         "slug": "jesus-is-the-king",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -106,7 +17,7 @@
       {
         "slug": "in-christ-alone",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -114,7 +25,7 @@
       {
         "slug": "cornerstone-hillsong",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -140,7 +51,7 @@
       {
         "slug": "hark-the-herald-angels-sing",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -148,7 +59,7 @@
       {
         "slug": "joy-to-the-world",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -156,7 +67,7 @@
       {
         "slug": "o-come-all-ye-faithful",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -164,7 +75,7 @@
       {
         "slug": "joy-has-dawned",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -172,7 +83,7 @@
       {
         "slug": "o-holy-night",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -198,7 +109,7 @@
       {
         "slug": "the-first-noel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -206,7 +117,7 @@
       {
         "slug": "angels-we-have-heard-on-high",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -214,7 +125,7 @@
       {
         "slug": "it-came-upon-a-midnight-clear",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -222,7 +133,7 @@
       {
         "slug": "silent-night",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -248,7 +159,7 @@
       {
         "slug": "what-child-is-this",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -256,7 +167,7 @@
       {
         "slug": "angels-we-have-heard-on-high",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -282,7 +193,7 @@
       {
         "slug": "the-first-noel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -290,7 +201,7 @@
       {
         "slug": "o-come-all-ye-faithful",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -298,7 +209,7 @@
       {
         "slug": "joy-to-the-world",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -324,7 +235,7 @@
       {
         "slug": "hes-able",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -332,7 +243,7 @@
       {
         "slug": "i-will-sing-of-my-redeemer",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -340,7 +251,7 @@
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -348,7 +259,7 @@
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -374,7 +285,7 @@
       {
         "slug": "my-god-is-all-i-need",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -382,7 +293,7 @@
       {
         "slug": "come-praise-and-glorify",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -390,7 +301,7 @@
       {
         "slug": "nothing-can-i-boast-in",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -398,7 +309,7 @@
       {
         "slug": "the-steadfast-love-of-the-lord-never-ceases",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -424,7 +335,7 @@
       {
         "slug": "jesus-came-to-earth",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -432,7 +343,7 @@
       {
         "slug": "there-is-a-redeemer-keith-green",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -440,7 +351,7 @@
       {
         "slug": "jesus-paid-it-all",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -448,7 +359,7 @@
       {
         "slug": "at-the-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -474,7 +385,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -482,7 +393,7 @@
       {
         "slug": "calling-all-sinners",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -490,7 +401,7 @@
       {
         "slug": "it-was-finished-upon-that-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -498,7 +409,7 @@
       {
         "slug": "beneath-the-cross-of-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -524,7 +435,7 @@
       {
         "slug": "gods-great-family",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -532,7 +443,7 @@
       {
         "slug": "jesus-thank-you",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -540,7 +451,7 @@
       {
         "slug": "we-declare",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -548,7 +459,7 @@
       {
         "slug": "o-how-good-it-is",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -574,7 +485,7 @@
       {
         "slug": "his-mercy-is-more",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -582,7 +493,7 @@
       {
         "slug": "before-the-throne-of-god-above",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -590,7 +501,7 @@
       {
         "slug": "he-will-hold-me-fast",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -598,7 +509,7 @@
       {
         "slug": "through-it-all",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -624,7 +535,7 @@
       {
         "slug": "his-banner-over-me-is-love",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -632,7 +543,7 @@
       {
         "slug": "take-my-life-and-let-it-be",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -640,7 +551,7 @@
       {
         "slug": "come-thou-fount",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -648,7 +559,7 @@
       {
         "slug": "be-still-my-soul",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -656,7 +567,7 @@
       {
         "slug": "all-to-jesus-i-surrender",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -682,7 +593,7 @@
       {
         "slug": "lord-i-lift-your-name-on-high",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -690,7 +601,7 @@
       {
         "slug": "the-lord-is-my-salvation",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -698,7 +609,7 @@
       {
         "slug": "im-forever-grateful",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -706,7 +617,7 @@
       {
         "slug": "hallelujah-what-a-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -732,7 +643,7 @@
       {
         "slug": "wide-wide-as-the-ocean",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -740,7 +651,7 @@
       {
         "slug": "the-love-of-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -748,7 +659,7 @@
       {
         "slug": "my-worth-is-not-in-what-i-own",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -756,7 +667,7 @@
       {
         "slug": "just-as-i-am",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -782,7 +693,7 @@
       {
         "slug": "jesus-strong-and-kind",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -790,7 +701,7 @@
       {
         "slug": "goodness-of-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -798,7 +709,7 @@
       {
         "slug": "here-is-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -806,7 +717,7 @@
       {
         "slug": "i-love-you-lord-and-i-lift-my-voice",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -832,7 +743,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -840,7 +751,7 @@
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -848,7 +759,7 @@
       {
         "slug": "here-i-am-to-worship",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -856,7 +767,7 @@
       {
         "slug": "when-i-look-into-your-holiness",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -864,7 +775,7 @@
       {
         "slug": "in-moments-like-these",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -890,7 +801,7 @@
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -898,7 +809,7 @@
       {
         "slug": "your-word-emu",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -906,7 +817,7 @@
       {
         "slug": "hymn-of-the-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -914,7 +825,7 @@
       {
         "slug": "the-mission",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -940,7 +851,7 @@
       {
         "slug": "i-will-celebrate",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -948,7 +859,7 @@
       {
         "slug": "made-me-glad",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -956,7 +867,7 @@
       {
         "slug": "through-it-all",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -964,7 +875,7 @@
       {
         "slug": "we-belong-to-the-day",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -990,7 +901,7 @@
       {
         "slug": "no-other-name",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -998,7 +909,7 @@
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1006,7 +917,7 @@
       {
         "slug": "servants-of-the-gospel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1014,7 +925,7 @@
       {
         "slug": "one-voice",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1040,7 +951,7 @@
       {
         "slug": "gods-great-family",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -1048,7 +959,7 @@
       {
         "slug": "how-great-is-our-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1056,7 +967,7 @@
       {
         "slug": "worthy-is-the-lamb",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1064,7 +975,7 @@
       {
         "slug": "fill-my-eyes-o-my-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1090,7 +1001,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1098,7 +1009,7 @@
       {
         "slug": "ancient-of-days",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1106,7 +1017,7 @@
       {
         "slug": "we-belong-to-the-day",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1114,7 +1025,7 @@
       {
         "slug": "o-great-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1140,7 +1051,7 @@
       {
         "slug": "i-will-celebrate",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1148,7 +1059,7 @@
       {
         "slug": "made-us-your-own",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1156,7 +1067,7 @@
       {
         "slug": "hallelujah-to-the-lamb",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1164,7 +1075,7 @@
       {
         "slug": "lord-of-lords",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1190,7 +1101,7 @@
       {
         "slug": "christ-has-risen",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1198,7 +1109,7 @@
       {
         "slug": "we-will-feast",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1206,7 +1117,7 @@
       {
         "slug": "king-of-kings",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1214,7 +1125,7 @@
       {
         "slug": "he-will-hold-me-fast",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1240,7 +1151,7 @@
       {
         "slug": "blessed-assurance",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1248,7 +1159,7 @@
       {
         "slug": "shout-to-the-lord",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1256,7 +1167,7 @@
       {
         "slug": "still-my-soul-be-still",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1264,7 +1175,7 @@
       {
         "slug": "it-is-well",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1290,7 +1201,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -1298,7 +1209,7 @@
       {
         "slug": "you-alone-can-rescue",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1306,7 +1217,7 @@
       {
         "slug": "before-the-throne-of-god-above",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1314,7 +1225,7 @@
       {
         "slug": "it-was-finished-upon-that-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1340,7 +1251,7 @@
       {
         "slug": "he-is-lord",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1348,7 +1259,7 @@
       {
         "slug": "we-all-bow-down",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1356,7 +1267,7 @@
       {
         "slug": "blessed-be-the-lord-god-almighty",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1364,7 +1275,7 @@
       {
         "slug": "i-will-wait-for-you",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1390,7 +1301,7 @@
       {
         "slug": "because-you-first-loved-me",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -1398,7 +1309,7 @@
       {
         "slug": "come-people-of-the-risen-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1406,7 +1317,7 @@
       {
         "slug": "servant-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1414,7 +1325,7 @@
       {
         "slug": "behold-the-lamb",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1422,7 +1333,7 @@
       {
         "slug": "o-how-good-it-is",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1448,7 +1359,7 @@
       {
         "slug": "his-mercy-is-more",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1456,7 +1367,7 @@
       {
         "slug": "the-love-of-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1464,7 +1375,7 @@
       {
         "slug": "goodness-of-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1490,7 +1401,7 @@
       {
         "slug": "how-excellent-your-name",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1498,7 +1409,7 @@
       {
         "slug": "this-is-my-fathers-world",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1506,7 +1417,7 @@
       {
         "slug": "bless-the-lord-o-my-soul",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1514,7 +1425,7 @@
       {
         "slug": "when-we-all-get-to-heaven",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1540,7 +1451,7 @@
       {
         "slug": "be-like-a-tree",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -1548,7 +1459,7 @@
       {
         "slug": "everlasting-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1556,7 +1467,7 @@
       {
         "slug": "yet-not-i",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1564,7 +1475,7 @@
       {
         "slug": "o-church-arise",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1572,7 +1483,7 @@
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1580,7 +1491,7 @@
       {
         "slug": "hallelujah-all-i-have-is-christ",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1588,7 +1499,7 @@
       {
         "slug": "my-hope-is-built-on-nothing-less",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1596,7 +1507,7 @@
       {
         "slug": "in-christ-alone",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1604,7 +1515,7 @@
       {
         "slug": "thy-word",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1612,7 +1523,7 @@
       {
         "slug": "living-hope",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1620,7 +1531,7 @@
       {
         "slug": "cornerstone",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1646,7 +1557,7 @@
       {
         "slug": "he-calls-me-friend",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -1654,7 +1565,7 @@
       {
         "slug": "salvation-belongs-to-our-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1662,7 +1573,7 @@
       {
         "slug": "christ-our-hope-in-life-and-death",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1670,7 +1581,7 @@
       {
         "slug": "he-will-hold-me-fast",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1696,7 +1607,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -1704,7 +1615,7 @@
       {
         "slug": "to-him-who-sits-on-the-throne",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1712,7 +1623,7 @@
       {
         "slug": "psalm-150-praise-the-lord",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1720,7 +1631,7 @@
       {
         "slug": "the-lord-is-my-salvation",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1746,7 +1657,7 @@
       {
         "slug": "glory-to-the-lamb",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1754,7 +1665,7 @@
       {
         "slug": "hallelujah-to-the-lamb",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1762,7 +1673,7 @@
       {
         "slug": "holy-forever",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1788,7 +1699,7 @@
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1796,7 +1707,7 @@
       {
         "slug": "psalm-150-praise-the-lord",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1804,7 +1715,7 @@
       {
         "slug": "holy-holy-holy",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1812,7 +1723,7 @@
       {
         "slug": "i-stand-in-awe-of-you",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1838,7 +1749,7 @@
       {
         "slug": "my-god-is-all-i-need",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1846,7 +1757,7 @@
       {
         "slug": "just-as-i-am",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1854,7 +1765,7 @@
       {
         "slug": "known-and-loved",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1862,7 +1773,7 @@
       {
         "slug": "goodness-of-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1888,7 +1799,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -1896,7 +1807,7 @@
       {
         "slug": "hymn-of-the-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1904,7 +1815,7 @@
       {
         "slug": "there-is-one-gospel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1912,7 +1823,7 @@
       {
         "slug": "amazing-grace-hymn",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1938,7 +1849,7 @@
       {
         "slug": "jesus-strong-and-kind",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1946,7 +1857,7 @@
       {
         "slug": "it-is-well",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1954,7 +1865,7 @@
       {
         "slug": "we-will-feast",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1962,7 +1873,7 @@
       {
         "slug": "there-is-a-hope",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1988,7 +1899,7 @@
       {
         "slug": "see-what-a-morning",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -1996,7 +1907,7 @@
       {
         "slug": "because-he-lives",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2004,7 +1915,7 @@
       {
         "slug": "christ-our-hope-in-life-and-death",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2012,7 +1923,7 @@
       {
         "slug": "before-the-throne-of-god-above",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2020,7 +1931,7 @@
       {
         "slug": "living-hope",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2046,7 +1957,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -2054,7 +1965,7 @@
       {
         "slug": "thank-you-jesus-for-the-blood",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2062,7 +1973,7 @@
       {
         "slug": "when-the-roll-is-called-up-yonder",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2088,7 +1999,7 @@
       {
         "slug": "all-we-like-sheep",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2096,7 +2007,7 @@
       {
         "slug": "ancient-of-days",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2104,7 +2015,7 @@
       {
         "slug": "we-will-feast",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2130,7 +2041,7 @@
       {
         "slug": "purify-my-heart-refiners-fire",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2138,7 +2049,7 @@
       {
         "slug": "nothing-but-the-blood",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2146,7 +2057,7 @@
       {
         "slug": "holy-forever",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2154,7 +2065,7 @@
       {
         "slug": "in-our-lives-lord-be-glorified",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2180,7 +2091,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2188,7 +2099,7 @@
       {
         "slug": "o-how-good-it-is",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2196,7 +2107,7 @@
       {
         "slug": "we-are-one",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2204,7 +2115,7 @@
       {
         "slug": "o-great-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2230,7 +2141,7 @@
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2238,7 +2149,7 @@
       {
         "slug": "only-a-holy-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2246,7 +2157,7 @@
       {
         "slug": "god-the-uncreated-one",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2272,7 +2183,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2280,7 +2191,7 @@
       {
         "slug": "the-love-of-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2288,7 +2199,7 @@
       {
         "slug": "great-is-the-lord-and-most-worthy-of-praise",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2314,7 +2225,7 @@
       {
         "slug": "jesus-strong-and-kind",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2322,7 +2233,7 @@
       {
         "slug": "come-praise-and-glorify",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2330,7 +2241,7 @@
       {
         "slug": "all-i-have-is-christ",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2338,7 +2249,7 @@
       {
         "slug": "o-the-wonderful-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2364,7 +2275,7 @@
       {
         "slug": "christ-has-risen",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2372,7 +2283,7 @@
       {
         "slug": "christ-our-hope-in-life-and-death",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2380,7 +2291,7 @@
       {
         "slug": "christ-is-mine-forevermore",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2388,7 +2299,7 @@
       {
         "slug": "before-the-throne-of-god-above",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2414,7 +2325,7 @@
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -2422,7 +2333,7 @@
       {
         "slug": "the-creed",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2430,7 +2341,7 @@
       {
         "slug": "at-the-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2438,7 +2349,7 @@
       {
         "slug": "amazing-grace-hymn",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2464,7 +2375,7 @@
       {
         "slug": "christ-has-risen",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2472,7 +2383,7 @@
       {
         "slug": "living-hope",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2480,7 +2391,7 @@
       {
         "slug": "when-the-roll-is-called-up-yonder",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2488,7 +2399,7 @@
       {
         "slug": "in-christ-alone",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2514,7 +2425,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -2522,7 +2433,7 @@
       {
         "slug": "only-a-holy-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2530,7 +2441,7 @@
       {
         "slug": "there-is-one-gospel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2538,7 +2449,7 @@
       {
         "slug": "o-church-arise",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2564,7 +2475,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2572,7 +2483,7 @@
       {
         "slug": "i-stand-amazed",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2580,7 +2491,7 @@
       {
         "slug": "my-heart-is-filled-with-thankfulness",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2606,7 +2517,7 @@
       {
         "slug": "jesus-is-the-king",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -2614,7 +2525,7 @@
       {
         "slug": "king-of-kings",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2622,7 +2533,7 @@
       {
         "slug": "rejoice-the-lord-is-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2630,7 +2541,7 @@
       {
         "slug": "hymn-of-the-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2656,7 +2567,7 @@
       {
         "slug": "blessed-be-the-lord-god-almighty",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2664,7 +2575,7 @@
       {
         "slug": "god-the-uncreated-one",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2672,7 +2583,7 @@
       {
         "slug": "rejoice",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2698,7 +2609,7 @@
       {
         "slug": "be-like-a-tree",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -2706,7 +2617,7 @@
       {
         "slug": "come-behold-the-wondrous-mystery",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2714,7 +2625,7 @@
       {
         "slug": "rejoice",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2740,7 +2651,7 @@
       {
         "slug": "give-thanks",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2748,7 +2659,7 @@
       {
         "slug": "it-came-upon-a-midnight-clear",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2756,7 +2667,7 @@
       {
         "slug": "goodness-of-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2764,7 +2675,7 @@
       {
         "slug": "10-000-reasons",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2772,7 +2683,7 @@
       {
         "slug": "my-hope-is-built-on-nothing-less",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2780,7 +2691,7 @@
       {
         "slug": "christ-is-enough",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2806,7 +2717,7 @@
       {
         "slug": "joy-to-the-world-king-of-kings",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2814,7 +2725,7 @@
       {
         "slug": "o-little-town-of-bethlehem",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2822,7 +2733,7 @@
       {
         "slug": "what-child-is-this",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2830,7 +2741,7 @@
       {
         "slug": "o-come-all-you-unfaithful",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2838,7 +2749,7 @@
       {
         "slug": "goodness-of-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2864,7 +2775,7 @@
       {
         "slug": "joy-to-the-world-king-of-kings",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2872,7 +2783,7 @@
       {
         "slug": "crown-him-king-of-kings",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2880,7 +2791,7 @@
       {
         "slug": "hark-the-herald-angels-sing",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2888,7 +2799,7 @@
       {
         "slug": "angels-we-have-heard-on-high",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2914,7 +2825,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -2922,7 +2833,7 @@
       {
         "slug": "joy-to-the-world",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2930,7 +2841,7 @@
       {
         "slug": "all-hail-the-power-of-jesus-name",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2938,7 +2849,7 @@
       {
         "slug": "o-come-o-come-emmanuel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2964,7 +2875,7 @@
       {
         "slug": "jesus-came-to-earth",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -2972,7 +2883,7 @@
       {
         "slug": "o-holy-night",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2980,7 +2891,7 @@
       {
         "slug": "hymn-of-the-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -2988,7 +2899,7 @@
       {
         "slug": "man-of-sorrows",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3014,7 +2925,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3022,7 +2933,7 @@
       {
         "slug": "meekness-and-majesty",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3030,7 +2941,7 @@
       {
         "slug": "the-lord-is-my-salvation",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3038,7 +2949,7 @@
       {
         "slug": "glory-to-the-lamb",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3064,7 +2975,7 @@
       {
         "slug": "he-calls-me-friend",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3072,7 +2983,7 @@
       {
         "slug": "what-a-friend-we-have-in-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3080,7 +2991,7 @@
       {
         "slug": "known-and-loved",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3106,7 +3017,7 @@
       {
         "slug": "lord-i-lift-your-name-on-high",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3114,7 +3025,7 @@
       {
         "slug": "you-laid-aside-your-majesty",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3122,7 +3033,7 @@
       {
         "slug": "holy-forever",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3130,7 +3041,7 @@
       {
         "slug": "all-heavens-declare",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3156,7 +3067,7 @@
       {
         "slug": "gods-great-family",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3164,7 +3075,7 @@
       {
         "slug": "there-is-one-gospel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3172,7 +3083,7 @@
       {
         "slug": "here-is-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3180,7 +3091,7 @@
       {
         "slug": "o-how-good-it-is",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3206,7 +3117,7 @@
       {
         "slug": "a-new-commandment",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3214,7 +3125,7 @@
       {
         "slug": "we-are-called",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3222,7 +3133,7 @@
       {
         "slug": "beneath-the-cross-of-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3248,7 +3159,7 @@
       {
         "slug": "because-you-first-loved-me",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3256,7 +3167,7 @@
       {
         "slug": "the-creed",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3264,7 +3175,7 @@
       {
         "slug": "at-the-foot-of-the-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3272,7 +3183,7 @@
       {
         "slug": "behold-the-lamb",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3298,7 +3209,7 @@
       {
         "slug": "gods-great-family",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3306,7 +3217,7 @@
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3314,7 +3225,7 @@
       {
         "slug": "freely-freely",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3322,7 +3233,7 @@
       {
         "slug": "o-how-good-it-is",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3348,7 +3259,7 @@
       {
         "slug": "im-following-the-king",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3356,7 +3267,7 @@
       {
         "slug": "ancient-of-days",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3364,7 +3275,7 @@
       {
         "slug": "there-is-a-higher-throne",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3372,7 +3283,7 @@
       {
         "slug": "the-perfect-wisdom-of-our-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3398,7 +3309,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3406,7 +3317,7 @@
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3414,7 +3325,7 @@
       {
         "slug": "here-is-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3440,7 +3351,7 @@
       {
         "slug": "gods-great-family",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3448,7 +3359,7 @@
       {
         "slug": "and-can-it-be",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3456,7 +3367,7 @@
       {
         "slug": "servant-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3464,7 +3375,7 @@
       {
         "slug": "speak-o-lord",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3490,7 +3401,7 @@
       {
         "slug": "im-following-the-king",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3498,7 +3409,7 @@
       {
         "slug": "we-fall-down",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3506,7 +3417,7 @@
       {
         "slug": "tis-so-sweet-to-trust-in-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3514,7 +3425,7 @@
       {
         "slug": "man-of-sorrows-what-a-name",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3540,7 +3451,7 @@
       {
         "slug": "he-calls-me-friend",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3548,7 +3459,7 @@
       {
         "slug": "hallelujah-all-i-have-is-christ",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3556,7 +3467,7 @@
       {
         "slug": "he-is-my-everything",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3564,7 +3475,7 @@
       {
         "slug": "be-thou-my-vision",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3590,7 +3501,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3598,7 +3509,7 @@
       {
         "slug": "come-praise-and-glorify",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3606,7 +3517,7 @@
       {
         "slug": "at-the-foot-of-the-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3614,7 +3525,7 @@
       {
         "slug": "come-thou-fount",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3640,7 +3551,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3648,7 +3559,7 @@
       {
         "slug": "no-greater-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3656,7 +3567,7 @@
       {
         "slug": "all-i-have-is-christ",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3664,7 +3575,7 @@
       {
         "slug": "amazing-grace-hymn",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3690,7 +3601,7 @@
       {
         "slug": "he-calls-me-friend",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3698,7 +3609,7 @@
       {
         "slug": "here-i-am-to-worship",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3706,7 +3617,7 @@
       {
         "slug": "be-still-my-soul",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3732,7 +3643,7 @@
       {
         "slug": "your-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3740,7 +3651,7 @@
       {
         "slug": "here-is-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3748,7 +3659,7 @@
       {
         "slug": "known-and-loved",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3774,7 +3685,7 @@
       {
         "slug": "jesus-strong-and-kind",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3782,7 +3693,7 @@
       {
         "slug": "ancient-of-days",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3790,7 +3701,7 @@
       {
         "slug": "by-faith",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3816,7 +3727,7 @@
       {
         "slug": "god-the-uncreated-one",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3824,7 +3735,7 @@
       {
         "slug": "indescribable",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3832,7 +3743,7 @@
       {
         "slug": "how-great-thou-art",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3858,7 +3769,7 @@
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3866,7 +3777,7 @@
       {
         "slug": "great-is-the-lord-and-most-worthy-of-praise",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3874,7 +3785,7 @@
       {
         "slug": "no-other-name-emu",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3900,7 +3811,7 @@
       {
         "slug": "salvation-belongs-to-our-god",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3908,7 +3819,7 @@
       {
         "slug": "amazing-grace-hymn",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3916,7 +3827,7 @@
       {
         "slug": "no-other-name-emu",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3942,7 +3853,7 @@
       {
         "slug": "this-is-my-fathers-world",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3950,7 +3861,7 @@
       {
         "slug": "and-can-it-be",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3958,7 +3869,7 @@
       {
         "slug": "we-are-called",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -3976,7 +3887,7 @@
   },
   {
     "date": "2024-07-07",
-    "series_slug": "bcc-anniversary",
+    "series_slug": "anniversary-service",
     "sermon_title": "BCC Anniversary",
     "sermon_text": "Galatians 6:1-10",
     "preacher": "James Lee",
@@ -3984,7 +3895,7 @@
       {
         "slug": "gods-great-family",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -3992,7 +3903,7 @@
       {
         "slug": "o-how-good-it-is",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4000,7 +3911,7 @@
       {
         "slug": "there-is-one-gospel",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4026,7 +3937,7 @@
       {
         "slug": "his-mercy-is-more",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4034,7 +3945,7 @@
       {
         "slug": "indescribable",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4042,7 +3953,7 @@
       {
         "slug": "no-greater-love",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4050,7 +3961,7 @@
       {
         "slug": "amazing-grace-hymn",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4076,7 +3987,7 @@
       {
         "slug": "gods-great-family",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4084,7 +3995,7 @@
       {
         "slug": "calling-all-sinners",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4092,7 +4003,7 @@
       {
         "slug": "hymn-of-the-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4118,7 +4029,7 @@
       {
         "slug": "little-by-little",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4126,7 +4037,7 @@
       {
         "slug": "come-praise-and-glorify",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4152,7 +4063,7 @@
       {
         "slug": "o-how-good-it-is",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4160,7 +4071,7 @@
       {
         "slug": "christ-our-hope-in-life-and-death",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4186,7 +4097,7 @@
       {
         "slug": "i-have-decided-to-follow-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4194,7 +4105,7 @@
       {
         "slug": "servant-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4220,7 +4131,7 @@
       {
         "slug": "walking-with-jesus",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4228,7 +4139,7 @@
       {
         "slug": "10-000-reasons",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4236,7 +4147,7 @@
       {
         "slug": "id-rather-have-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4262,7 +4173,7 @@
       {
         "slug": "jesus-came-to-earth",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4270,7 +4181,7 @@
       {
         "slug": "servant-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4296,7 +4207,7 @@
       {
         "slug": "jesus-came-to-earth",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4304,7 +4215,7 @@
       {
         "slug": "god-the-uncreated-one",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4312,7 +4223,7 @@
       {
         "slug": "we-declare",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4338,7 +4249,7 @@
       {
         "slug": "jesus-is-the-king",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4346,7 +4257,7 @@
       {
         "slug": "christ-is-mine-forevermore",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4354,7 +4265,7 @@
       {
         "slug": "hallelujah-what-a-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4380,7 +4291,7 @@
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4388,7 +4299,7 @@
       {
         "slug": "we-will-feast",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4414,7 +4325,7 @@
       {
         "slug": "what-grace-is-mine",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4422,7 +4333,7 @@
       {
         "slug": "servant-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4430,7 +4341,7 @@
       {
         "slug": "i-have-decided-to-follow-jesus",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4456,7 +4367,7 @@
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4464,7 +4375,7 @@
       {
         "slug": "king-of-kings",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4490,7 +4401,7 @@
       {
         "slug": "you-are-god-alone",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4498,7 +4409,7 @@
       {
         "slug": "turn-your-eyes",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4506,7 +4417,7 @@
       {
         "slug": "show-us-christ",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4532,7 +4443,7 @@
       {
         "slug": "jesus-is-the-king",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4540,7 +4451,7 @@
       {
         "slug": "crown-him-with-many-crowns",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4548,7 +4459,7 @@
       {
         "slug": "come-people-of-the-risen-king",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4556,7 +4467,7 @@
       {
         "slug": "you-alone-can-rescue",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4582,7 +4493,7 @@
       {
         "slug": "christ-has-risen",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4590,7 +4501,7 @@
       {
         "slug": "hymn-of-the-saviour",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4598,7 +4509,7 @@
       {
         "slug": "in-christ-alone",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4624,7 +4535,7 @@
       {
         "slug": "christ-has-risen",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4632,7 +4543,7 @@
       {
         "slug": "come-behold-the-wondrous-mystery",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4640,7 +4551,7 @@
       {
         "slug": "glorious-day-casting-crowns",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4666,7 +4577,7 @@
       {
         "slug": "christ-is-risen-he-is-risen-indeed",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4674,7 +4585,7 @@
       {
         "slug": "he-lives",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4682,7 +4593,7 @@
       {
         "slug": "because-he-lives",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4708,7 +4619,7 @@
       {
         "slug": "lord-i-lift-your-name-on-high",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4716,7 +4627,7 @@
       {
         "slug": "o-the-wonderful-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4724,7 +4635,7 @@
       {
         "slug": "lead-me-to-calvary",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4732,7 +4643,7 @@
       {
         "slug": "o-mighty-cross",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4758,7 +4669,7 @@
       {
         "slug": "jesus-strong-and-kind",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4766,7 +4677,7 @@
       {
         "slug": "i-stand-amazed",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4774,7 +4685,7 @@
       {
         "slug": "known-and-loved",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4800,7 +4711,7 @@
       {
         "slug": "mighty-mighty-saviour",
         "usage": [
-          "main-set"
+          "kid-friendly"
         ],
         "key": null,
         "notes": null
@@ -4808,7 +4719,7 @@
       {
         "slug": "because-he-lives",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4816,7 +4727,7 @@
       {
         "slug": "known-and-loved",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null
@@ -4824,7 +4735,7 @@
       {
         "slug": "in-christ-alone-getty",
         "usage": [
-          "main-set"
+          "main"
         ],
         "key": null,
         "notes": null

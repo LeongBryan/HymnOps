@@ -276,6 +276,9 @@ async function run(): Promise<void> {
       const lastFromHistory = history[0]?.date ?? null;
       const lastOverride = isString(fm.last_sung_override) ? fm.last_sung_override : null;
       const lastSungComputed = lastOverride ?? lastFromHistory;
+      const historyCount = historyBySong.get(slug)?.length ?? 0;
+      // Keep `times_sung` internally consistent with a manual `last_sung_override`.
+      const timesSung = historyCount > 0 || !lastOverride ? historyCount : 1;
       const writers = isStringArray(fm.writers) ? fm.writers : [];
       const originalArtist = isString(fm.original_artist) ? fm.original_artist : null;
 
@@ -312,7 +315,7 @@ async function run(): Promise<void> {
         notes_markdown: sections.notes_markdown,
         pastoral_use_markdown: sections.pastoral_use_markdown,
         lyric_warning_reasons: lyricWarnings,
-        times_sung: historyBySong.get(slug)?.length ?? 0,
+        times_sung: timesSung,
         last_sung_computed: lastSungComputed,
         history,
         writers_normalized: writers.map(normalizeName),
