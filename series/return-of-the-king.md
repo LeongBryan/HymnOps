@@ -6,7 +6,7 @@ description: null
 recommended:
   - "living-hope"
   - "christ-is-enough"
-  - "it-is-well-modern"
+  - "it-is-well"
 ---
 
 ## Notes

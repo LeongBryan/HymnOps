@@ -1,7 +1,8 @@
 ---
 title: "Beneath The Cross"
 slug: "beneath-the-cross"
-aka: []
+aka:
+  - "Beneath The Cross Of Jesus"
 ccli_number: "5443152"
 songselect_url: "https://songselect.ccli.com/songs/5443152/beneath-the-cross"
 lyrics_source: "SongSelect"
@@ -34,7 +35,7 @@ arrangement_notes: null
 slides_path: null
 tags:
   - "import-2024"
-last_sung_override: "2024-06-23"
+last_sung_override: "2025-11-09"
 status: "active"
 licensing_notes: null
 language: "en"

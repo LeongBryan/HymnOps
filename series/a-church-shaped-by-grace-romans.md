@@ -6,7 +6,7 @@ description: null
 recommended:
   - "gods-great-family"
   - "o-how-good-it-is"
-  - "beneath-the-cross-of-jesus"
+  - "beneath-the-cross"
   - "here-is-love"
   - "how-deep-the-fathers-love-for-us"
 ---

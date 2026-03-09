@@ -1,48 +1,63 @@
 ---
 title: "It Is Well"
 slug: "it-is-well"
-aka: []
+aka:
+  - "It Is Well (Modern Hymn)"
+  - "When Peace Like a River"
+  - "It Is Well with My Soul (Modern)"
 ccli_number: "7021972"
 songselect_url: "https://songselect.ccli.com/songs/7021972/it-is-well"
 lyrics_source: "SongSelect"
 lyrics_hint: ""
-original_artist: "Bethel Music"
+original_artist: "Kristene DiMarco"
 writers:
-  - "Horatio Gates Spafford"
+  - "Horatio G. Spafford"
+  - "Philip P. Bliss"
+  - "Ed Cash"
+  - "Matt Redman"
   - "Kristene DiMarco"
-  - "Philip Paul Bliss"
-publisher: null
-year: null
-tempo_bpm: 65
-key: "G"
+publisher: "Capitol CMG"
+year: 2014
+tempo_bpm: 68
+key: "D"
 time_signature: "4/4"
-congregational_fit: null
-vocal_range: null
+congregational_fit: 4
+vocal_range: "A3-D5"
 dominant_themes:
+  - "Lament"
   - "Peace"
   - "Hope"
 doctrinal_categories:
-  - "Worship"
-  - "Eschatology"
-emotional_tone: []
-scriptural_anchors: []
-theological_summary: "Imported from imports/2025.csv; update with a non-lyrical theological summary."
-arrangement_notes: null
+  - "Lament"
+  - "Sanctification"
+  - "Providence"
+emotional_tone:
+  - "Tender"
+  - "Solemn"
+  - "Hopeful"
+scriptural_anchors:
+  - "Psalm 46:1-3"
+  - "John 16:33"
+  - "Philippians 4:6-7"
+theological_summary: "This modern hymn adaptation gives voice to sorrow while anchoring confidence in God's steady care. It teaches the congregation to hold grief and trust together under Christ's lordship. It serves well in services shaped by prayer for suffering, intercession, or pastoral lament."
+arrangement_notes: "Keep instrumentation sparse through first half, then build gently; avoid dramatic tempo shifts."
 slides_path: null
 tags:
   - "import-2025"
-last_sung_override: "2025-07-27"
+  - "lament"
+  - "pastoral-care"
+last_sung_override: "2025-11-02"
 status: "active"
 licensing_notes: null
 language: "en"
-meter: null
+meter: "11.8.11.9 with refrain"
 ---
 
 ## Notes
 
-Imported from `imports/2025.csv`. Add arrangement and preparation notes only (no lyrics).
+Because of its reflective posture, leave space between sections for guided prayer or scripture reading.
 
 ## Pastoral Use
 
-Add practical worship-flow and ministry guidance only (no lyrics).
+Helpful after confession, during communion reflection, or in services acknowledging communal grief and personal hardship.
 

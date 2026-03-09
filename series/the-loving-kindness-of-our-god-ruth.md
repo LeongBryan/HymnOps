@@ -5,7 +5,7 @@ date_range: ["2025-11-09", "2025-11-30"]
 description: null
 recommended:
   - "at-the-cross"
-  - "beneath-the-cross-of-jesus"
+  - "beneath-the-cross"
   - "calling-all-sinners"
   - "come-praise-and-glorify"
   - "hes-able"

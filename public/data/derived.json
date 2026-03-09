@@ -1,4076 +1,4041 @@
 {
-  "generated_at": "2026-03-07T05:21:13.830Z",
+  "generated_at": "2026-03-09T16:03:01.716Z",
   "rotation_health": {
     "not_sung_4_weeks": [
       {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "just-as-i-am",
         "title": "Just as I Am",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "i-stand-amazed",
         "title": "I Stand Amazed",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "lead-me-to-calvary",
         "title": "Lead Me To Calvary",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "o-mighty-cross",
         "title": "O Mighty Cross",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "because-he-lives",
         "title": "Because He Lives",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "christ-is-risen-he-is-risen-indeed",
         "title": "Christ Is Risen, He Is Risen Indeed",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "he-lives",
         "title": "He Lives!",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "come-behold-the-wondrous-mystery",
         "title": "Come Behold The Wondrous Mystery",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "creator-god",
         "title": "Creator God",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "glorious-day-casting-crowns",
         "title": "Glorious Day (Casting Crowns)",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "christ-has-risen",
         "title": "Christ Has Risen",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "in-christ-alone",
         "title": "In Christ Alone",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "there-is-a-hope",
         "title": "There Is A Hope",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "come-people-of-the-risen-king",
         "title": "Come People Of The Risen King",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "crown-him-with-many-crowns",
         "title": "Crown Him With Many Crowns",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "you-alone-can-rescue",
         "title": "You Alone Can Rescue",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "show-us-christ",
         "title": "Show Us Christ",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "turn-your-eyes",
         "title": "Turn Your Eyes",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "you-are-god-alone",
         "title": "You Are God Alone",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "king-of-kings",
         "title": "King Of Kings",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "worthy-is-the-lamb",
         "title": "Worthy Is The Lamb",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "title": "Jesus Shall Take The Highest Honour",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "we-will-feast",
         "title": "We Will Feast",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "christ-is-mine-forevermore",
         "title": "Christ Is Mine Forevermore",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "hallelujah-what-a-saviour",
         "title": "Hallelujah, What A Saviour",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "i-will-trust-my-saviour-jesus",
         "title": "I Will Trust My Saviour Jesus",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "jesus-is-the-king",
         "title": "Jesus Is The King",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "what-grace-is-mine",
         "title": "What Grace Is Mine",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "id-rather-have-jesus",
         "title": "I'd Rather Have Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "walking-with-jesus",
         "title": "Walking With Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "christ-our-hope-in-life-and-death",
         "title": "Christ Our Hope In Life And Death",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "little-by-little",
         "title": "Little By Little",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "take-my-life",
         "title": "Take My Life",
-        "weeks_since_last_sung": 89
-      },
-      {
-        "slug": "beneath-the-cross",
-        "title": "Beneath The Cross",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "calling-all-sinners",
         "title": "Calling All Sinners",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 89
       },
       {
         "slug": "his-mercy-is-more",
         "title": "His Mercy Is More",
-        "weeks_since_last_sung": 87
+        "weeks_since_last_sung": 88
       },
       {
         "slug": "one-voice",
         "title": "One Voice",
-        "weeks_since_last_sung": 86
+        "weeks_since_last_sung": 87
       },
       {
         "slug": "this-is-my-fathers-world",
         "title": "This Is My Father's World",
-        "weeks_since_last_sung": 85
+        "weeks_since_last_sung": 86
       },
       {
         "slug": "salvation-belongs-to-our-god",
         "title": "Salvation Belongs To Our God",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "the-mission",
         "title": "The Mission",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "great-is-the-lord-and-most-worthy-of-praise",
         "title": "Great Is The Lord (And Most Worthy Of Praise)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "title": "I Am The Way, The Truth And The Life",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "no-other-name-emu",
         "title": "No Other Name (Emu)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "we-declare",
         "title": "We Declare",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "god-the-uncreated-one",
         "title": "God The Uncreated One",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "how-great-thou-art",
         "title": "How Great Thou Art",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "indescribable",
         "title": "Indescribable",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "search-me-o-god",
         "title": "Search Me O God",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "by-faith",
         "title": "By Faith",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "jesus-strong-and-kind",
         "title": "Jesus Strong and Kind",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "trust-and-obey",
         "title": "Trust And Obey",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "at-the-cross",
         "title": "At The Cross",
-        "weeks_since_last_sung": 80
+        "weeks_since_last_sung": 81
       },
       {
         "slug": "be-still-my-soul",
         "title": "Be Still My Soul",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "here-i-am-to-worship",
         "title": "Here I Am To Worship",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "all-i-have-is-christ",
         "title": "All I Have Is Christ",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "amazing-grace-hymn",
         "title": "Amazing Grace (Hymn)",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "no-greater-love",
         "title": "No Greater Love",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "come-praise-and-glorify",
         "title": "Come Praise And Glorify",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "come-thou-fount",
         "title": "Come Thou Fount",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "all-the-way-my-saviour-leads-me",
         "title": "All The Way My Saviour Leads Me",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "be-thou-my-vision",
         "title": "Be Thou My Vision",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "hallelujah-all-i-have-is-christ",
         "title": "Hallelujah, All I Have Is Christ",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "he-is-my-everything",
         "title": "He Is My Everything",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "tis-so-sweet-to-trust-in-jesus",
         "title": "'Tis So Sweet To Trust In Jesus",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "man-of-sorrows-what-a-name",
         "title": "Man Of Sorrows, What A Name",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "o-the-wonderful-cross",
         "title": "O The Wonderful Cross",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "we-fall-down",
         "title": "We Fall Down",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "and-can-it-be",
         "title": "And Can It Be",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "servant-king",
         "title": "Servant King",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "speak-o-lord",
         "title": "Speak O Lord",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "compassion-hymn",
         "title": "Compassion Hymn",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "your-love",
         "title": "Your Love",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "ancient-of-days",
         "title": "Ancient Of Days",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "im-following-the-king",
         "title": "I'm Following The King",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "o-great-god",
         "title": "O Great God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "the-perfect-wisdom-of-our-god",
         "title": "The Perfect Wisdom Of Our God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "there-is-a-higher-throne",
         "title": "There Is A Higher Throne",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "freely-freely",
         "title": "Freely Freely",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "title": "How Deep The Father's Love For Us",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "yet-not-i",
         "title": "Yet Not I",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "at-the-foot-of-the-cross",
         "title": "At The Foot Of The Cross",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "because-you-first-loved-me",
         "title": "Because You First Loved Me",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "behold-the-lamb",
         "title": "Behold The Lamb",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "the-creed",
         "title": "The Creed",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "a-new-commandment",
         "title": "A New Commandment",
-        "weeks_since_last_sung": 69
-      },
-      {
-        "slug": "beneath-the-cross-of-jesus",
-        "title": "Beneath The Cross Of Jesus",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "holy-spirit-living-breath-of-god",
         "title": "Holy Spirit, Living Breath Of God",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "we-are-called",
         "title": "We Are Called",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "gods-great-family",
         "title": "God's Great Family",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "here-is-love",
         "title": "Here Is Love",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "o-how-good-it-is",
         "title": "O How Good It Is",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "there-is-one-gospel",
         "title": "There Is One Gospel",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "this-life-i-live",
         "title": "This Life I Live",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "all-heavens-declare",
         "title": "All Heavens Declare",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "for-the-cause",
         "title": "For The Cause",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "holy-forever",
         "title": "Holy Forever",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "lord-i-lift-your-name-on-high",
         "title": "Lord I Lift Your Name On High",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "you-laid-aside-your-majesty",
         "title": "You Laid Aside Your Majesty",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "he-calls-me-friend",
         "title": "He Calls Me Friend",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "known-and-loved",
         "title": "Known and Loved",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "servants-of-the-gospel",
         "title": "Servants Of The Gospel",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "what-a-friend-we-have-in-jesus",
         "title": "What A Friend We Have In Jesus",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "glory-to-the-lamb",
         "title": "Glory To The Lamb",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "meekness-and-majesty",
         "title": "Meekness And Majesty",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "my-tribute",
         "title": "My Tribute",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "the-lord-is-my-salvation",
         "title": "The Lord Is My Salvation",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "hymn-of-the-saviour",
         "title": "Hymn Of The Saviour",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "jesus-came-to-earth",
         "title": "Jesus Came To Earth",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "man-of-sorrows",
         "title": "Man Of Sorrows",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "o-holy-night",
         "title": "O Holy Night",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "still-my-soul-be-still",
         "title": "Still My Soul Be Still",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "all-hail-the-power-of-jesus-name",
         "title": "All Hail The Power Of Jesus' Name",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "joy-to-the-world",
         "title": "Joy To The World",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "mighty-mighty-saviour",
         "title": "Mighty Mighty Saviour",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "o-come-o-come-emmanuel",
         "title": "O Come, O Come Emmanuel",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "angels-we-have-heard-on-high",
         "title": "Angels We Have Heard On High",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "crown-him-king-of-kings",
         "title": "Crown Him King Of Kings",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "goodness-of-jesus",
         "title": "Goodness Of Jesus",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "hark-the-herald-angels-sing",
         "title": "Hark The Herald Angels Sing",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "joy-to-the-world-king-of-kings",
         "title": "Joy To The World (King Of Kings)",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-ye-faithful",
         "title": "O Come All Ye Faithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-you-unfaithful",
         "title": "O Come All you Unfaithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-little-town-of-bethlehem",
         "title": "O Little Town Of Bethlehem",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "what-child-is-this",
         "title": "What Child Is This",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "10-000-reasons",
         "title": "10,000 Reasons",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "christ-is-enough",
         "title": "Christ Is Enough",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "give-thanks",
         "title": "Give Thanks",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "goodness-of-god",
         "title": "Goodness Of God",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "i-have-decided-to-follow-jesus",
         "title": "I Have Decided To Follow Jesus",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "it-came-upon-a-midnight-clear",
         "title": "It Came Upon A Midnight Clear",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "my-hope-is-built-on-nothing-less",
         "title": "My Hope Is Built On Nothing Less",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "rejoice-the-lord-is-king",
         "title": "Rejoice The Lord Is King",
-        "weeks_since_last_sung": 58
+        "weeks_since_last_sung": 59
       },
       {
         "slug": "my-heart-is-filled-with-thankfulness",
         "title": "My Heart Is Filled With Thankfulness",
-        "weeks_since_last_sung": 57
+        "weeks_since_last_sung": 58
       },
       {
         "slug": "the-battle-and-the-blessing",
         "title": "The Battle and the Blessing",
-        "weeks_since_last_sung": 51
+        "weeks_since_last_sung": 52
       },
       {
         "slug": "only-a-holy-god",
         "title": "Only A Holy God",
-        "weeks_since_last_sung": 50
+        "weeks_since_last_sung": 51
       },
       {
         "slug": "we-are-one",
         "title": "We Are One",
-        "weeks_since_last_sung": 49
+        "weeks_since_last_sung": 50
       },
       {
         "slug": "i-will-run-to-you",
         "title": "I Will Run To You",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "in-our-lives-lord-be-glorified",
         "title": "In Our Lives Lord, Be Glorified",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "nothing-but-the-blood",
         "title": "Nothing But The Blood",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "purify-my-heart-refiners-fire",
         "title": "Purify My Heart (refiner's fire)",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "all-we-like-sheep",
         "title": "All We Like Sheep",
-        "weeks_since_last_sung": 47
+        "weeks_since_last_sung": 48
       },
       {
         "slug": "when-the-roll-is-called-up-yonder",
         "title": "When The Roll Is Called Up Yonder",
-        "weeks_since_last_sung": 46
+        "weeks_since_last_sung": 47
       },
       {
         "slug": "see-what-a-morning",
         "title": "See What a Morning",
-        "weeks_since_last_sung": 45
+        "weeks_since_last_sung": 46
       },
       {
         "slug": "thank-you-jesus-for-the-blood",
         "title": "Thank You Jesus For The Blood",
-        "weeks_since_last_sung": 43
+        "weeks_since_last_sung": 44
       },
       {
         "slug": "knowing-you-jesus",
         "title": "Knowing you, Jesus",
-        "weeks_since_last_sung": 42
+        "weeks_since_last_sung": 43
       },
       {
         "slug": "all-creatures-of-our-god-and-king",
         "title": "All Creatures Of our god and king",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "holy-holy-holy",
         "title": "Holy, Holy, Holy",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "i-stand-in-awe-of-you",
         "title": "I Stand In Awe Of You",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "psalm-150-praise-the-lord",
         "title": "Psalm 150 (Praise The Lord)",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "to-him-who-sits-on-the-throne",
         "title": "To Him Who Sits on The Throne",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "be-like-a-tree",
         "title": "Be Like A Tree",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "cornerstone",
         "title": "Cornerstone",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "everlasting-god",
         "title": "Everlasting God",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "living-hope",
         "title": "Living Hope",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "thy-word",
         "title": "Thy Word",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "bless-the-lord-o-my-soul",
         "title": "Bless The Lord O My Soul",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "how-excellent-your-name",
         "title": "How Excellent Your Name",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "when-we-all-get-to-heaven",
         "title": "When We All Get To Heaven",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "blessed-be-the-lord-god-almighty",
         "title": "Blessed Be The Lord God Almighty",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "he-is-lord",
         "title": "He Is Lord",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "i-will-wait-for-you",
         "title": "I Will Wait For You",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "we-all-bow-down",
         "title": "We All Bow Down",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "take-heart",
         "title": "Take Heart",
-        "weeks_since_last_sung": 32
+        "weeks_since_last_sung": 33
       },
       {
         "slug": "blessed-assurance",
         "title": "Blessed Assurance",
-        "weeks_since_last_sung": 31
-      },
-      {
-        "slug": "it-is-well",
-        "title": "It Is Well",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "let-us-exalt-his-name",
         "title": "Let Us Exalt His Name",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "shout-to-the-lord",
         "title": "Shout To The Lord",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "o-church-arise",
         "title": "O Church Arise",
-        "weeks_since_last_sung": 30
+        "weeks_since_last_sung": 31
       },
       {
         "slug": "hallelujah-to-the-lamb",
         "title": "Hallelujah To The Lamb",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "hymn-of-heaven",
         "title": "Hymn of Heaven",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "lord-of-lords",
         "title": "Lord Of Lords",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "made-us-your-own",
         "title": "Made Us Your Own",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "fill-my-eyes-o-my-god",
         "title": "Fill My Eyes O My God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "hear-the-call",
         "title": "Hear The Call",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "how-great-is-our-god",
         "title": "How Great Is Our God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "no-other-name",
         "title": "No Other Name",
-        "weeks_since_last_sung": 26
+        "weeks_since_last_sung": 27
       },
       {
         "slug": "facing-a-task-unfinished",
         "title": "Facing a Task Unfinished",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "i-will-celebrate",
         "title": "I Will Celebrate",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "made-me-glad",
         "title": "Made Me Glad",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "we-belong-to-the-day",
         "title": "We Belong To The Day",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "your-word-emu",
         "title": "Your Word (Emu)",
-        "weeks_since_last_sung": 24
+        "weeks_since_last_sung": 25
       },
       {
         "slug": "in-moments-like-these",
         "title": "In Moments Like These",
-        "weeks_since_last_sung": 23
+        "weeks_since_last_sung": 24
       },
       {
         "slug": "when-i-look-into-your-holiness",
         "title": "When I Look Into Your Holiness",
-        "weeks_since_last_sung": 23
+        "weeks_since_last_sung": 24
       },
       {
         "slug": "as-the-deer",
         "title": "As The Deer",
-        "weeks_since_last_sung": 22
+        "weeks_since_last_sung": 23
       },
       {
         "slug": "i-love-you-lord-and-i-lift-my-voice",
         "title": "I Love You Lord (And I Lift My Voice)",
-        "weeks_since_last_sung": 22
+        "weeks_since_last_sung": 23
       },
       {
         "slug": "my-worth-is-not-in-what-i-own",
         "title": "My Worth Is Not in What I Own",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "rejoice",
         "title": "Rejoice",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "the-love-of-god",
         "title": "The Love Of God",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "wide-wide-as-the-ocean",
         "title": "Wide, Wide as the Ocean",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "im-forever-grateful",
         "title": "I'm Forever Grateful",
-        "weeks_since_last_sung": 20
+        "weeks_since_last_sung": 21
       },
       {
         "slug": "all-to-jesus-i-surrender",
         "title": "All To Jesus I Surrender",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "his-banner-over-me-is-love",
         "title": "His Banner Over Me Is Love",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "take-my-life-and-let-it-be",
         "title": "Take My Life And Let It Be",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "before-the-throne-of-god-above",
         "title": "Before The Throne Of God Above",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
         "slug": "he-will-hold-me-fast",
         "title": "He Will Hold Me Fast",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
         "slug": "through-it-all",
         "title": "Through It All",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
-        "slug": "it-is-well-modern",
-        "title": "It Is Well (Modern Hymn)",
-        "weeks_since_last_sung": 17
+        "slug": "it-is-well",
+        "title": "It Is Well",
+        "weeks_since_last_sung": 18
       },
       {
         "slug": "jesus-thank-you",
         "title": "Jesus, Thank You",
+        "weeks_since_last_sung": 18
+      },
+      {
+        "slug": "beneath-the-cross",
+        "title": "Beneath The Cross",
         "weeks_since_last_sung": 17
       },
       {
         "slug": "it-was-finished-upon-that-cross",
         "title": "It Was Finished Upon That Cross",
-        "weeks_since_last_sung": 16
+        "weeks_since_last_sung": 17
       },
       {
         "slug": "jesus-paid-it-all",
         "title": "Jesus Paid It All",
-        "weeks_since_last_sung": 15
+        "weeks_since_last_sung": 16
       },
       {
         "slug": "there-is-a-redeemer-keith-green",
         "title": "There Is A Redeemer (Keith Green)",
-        "weeks_since_last_sung": 15
+        "weeks_since_last_sung": 16
       },
       {
         "slug": "my-god-is-all-i-need",
         "title": "My God Is All I Need",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "nothing-can-i-boast-in",
         "title": "Nothing Can I Boast In",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "the-steadfast-love-of-the-lord-never-ceases",
         "title": "The Steadfast Love Of The Lord Never Ceases",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "hes-able",
         "title": "He's Able",
-        "weeks_since_last_sung": 13
+        "weeks_since_last_sung": 14
       },
       {
         "slug": "i-will-sing-of-my-redeemer",
         "title": "I Will Sing Of My Redeemer",
-        "weeks_since_last_sung": 13
+        "weeks_since_last_sung": 14
       },
       {
         "slug": "joy-has-dawned",
         "title": "Joy Has Dawned",
-        "weeks_since_last_sung": 10
+        "weeks_since_last_sung": 11
       },
       {
         "slug": "silent-night",
         "title": "Silent Night",
-        "weeks_since_last_sung": 10
+        "weeks_since_last_sung": 11
       },
       {
         "slug": "the-first-noel",
         "title": "The First Noel",
-        "weeks_since_last_sung": 10
+        "weeks_since_last_sung": 11
       },
       {
         "slug": "cornerstone-hillsong",
         "title": "Cornerstone (Hillsong)",
-        "weeks_since_last_sung": 9
+        "weeks_since_last_sung": 10
       },
       {
         "slug": "he-leadeth-me",
         "title": "He Leadeth Me",
-        "weeks_since_last_sung": 9
+        "weeks_since_last_sung": 10
       }
     ],
     "not_sung_8_weeks": [
       {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "just-as-i-am",
         "title": "Just as I Am",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "i-stand-amazed",
         "title": "I Stand Amazed",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "lead-me-to-calvary",
         "title": "Lead Me To Calvary",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "o-mighty-cross",
         "title": "O Mighty Cross",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "because-he-lives",
         "title": "Because He Lives",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "christ-is-risen-he-is-risen-indeed",
         "title": "Christ Is Risen, He Is Risen Indeed",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "he-lives",
         "title": "He Lives!",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "come-behold-the-wondrous-mystery",
         "title": "Come Behold The Wondrous Mystery",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "creator-god",
         "title": "Creator God",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "glorious-day-casting-crowns",
         "title": "Glorious Day (Casting Crowns)",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "christ-has-risen",
         "title": "Christ Has Risen",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "in-christ-alone",
         "title": "In Christ Alone",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "there-is-a-hope",
         "title": "There Is A Hope",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "come-people-of-the-risen-king",
         "title": "Come People Of The Risen King",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "crown-him-with-many-crowns",
         "title": "Crown Him With Many Crowns",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "you-alone-can-rescue",
         "title": "You Alone Can Rescue",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "show-us-christ",
         "title": "Show Us Christ",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "turn-your-eyes",
         "title": "Turn Your Eyes",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "you-are-god-alone",
         "title": "You Are God Alone",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "king-of-kings",
         "title": "King Of Kings",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "worthy-is-the-lamb",
         "title": "Worthy Is The Lamb",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "title": "Jesus Shall Take The Highest Honour",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "we-will-feast",
         "title": "We Will Feast",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "christ-is-mine-forevermore",
         "title": "Christ Is Mine Forevermore",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "hallelujah-what-a-saviour",
         "title": "Hallelujah, What A Saviour",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "i-will-trust-my-saviour-jesus",
         "title": "I Will Trust My Saviour Jesus",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "jesus-is-the-king",
         "title": "Jesus Is The King",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "what-grace-is-mine",
         "title": "What Grace Is Mine",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "id-rather-have-jesus",
         "title": "I'd Rather Have Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "walking-with-jesus",
         "title": "Walking With Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "christ-our-hope-in-life-and-death",
         "title": "Christ Our Hope In Life And Death",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "little-by-little",
         "title": "Little By Little",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "take-my-life",
         "title": "Take My Life",
-        "weeks_since_last_sung": 89
-      },
-      {
-        "slug": "beneath-the-cross",
-        "title": "Beneath The Cross",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "calling-all-sinners",
         "title": "Calling All Sinners",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 89
       },
       {
         "slug": "his-mercy-is-more",
         "title": "His Mercy Is More",
-        "weeks_since_last_sung": 87
+        "weeks_since_last_sung": 88
       },
       {
         "slug": "one-voice",
         "title": "One Voice",
-        "weeks_since_last_sung": 86
+        "weeks_since_last_sung": 87
       },
       {
         "slug": "this-is-my-fathers-world",
         "title": "This Is My Father's World",
-        "weeks_since_last_sung": 85
+        "weeks_since_last_sung": 86
       },
       {
         "slug": "salvation-belongs-to-our-god",
         "title": "Salvation Belongs To Our God",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "the-mission",
         "title": "The Mission",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "great-is-the-lord-and-most-worthy-of-praise",
         "title": "Great Is The Lord (And Most Worthy Of Praise)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "title": "I Am The Way, The Truth And The Life",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "no-other-name-emu",
         "title": "No Other Name (Emu)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "we-declare",
         "title": "We Declare",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "god-the-uncreated-one",
         "title": "God The Uncreated One",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "how-great-thou-art",
         "title": "How Great Thou Art",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "indescribable",
         "title": "Indescribable",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "search-me-o-god",
         "title": "Search Me O God",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "by-faith",
         "title": "By Faith",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "jesus-strong-and-kind",
         "title": "Jesus Strong and Kind",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "trust-and-obey",
         "title": "Trust And Obey",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "at-the-cross",
         "title": "At The Cross",
-        "weeks_since_last_sung": 80
+        "weeks_since_last_sung": 81
       },
       {
         "slug": "be-still-my-soul",
         "title": "Be Still My Soul",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "here-i-am-to-worship",
         "title": "Here I Am To Worship",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "all-i-have-is-christ",
         "title": "All I Have Is Christ",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "amazing-grace-hymn",
         "title": "Amazing Grace (Hymn)",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "no-greater-love",
         "title": "No Greater Love",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "come-praise-and-glorify",
         "title": "Come Praise And Glorify",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "come-thou-fount",
         "title": "Come Thou Fount",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "all-the-way-my-saviour-leads-me",
         "title": "All The Way My Saviour Leads Me",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "be-thou-my-vision",
         "title": "Be Thou My Vision",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "hallelujah-all-i-have-is-christ",
         "title": "Hallelujah, All I Have Is Christ",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "he-is-my-everything",
         "title": "He Is My Everything",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "tis-so-sweet-to-trust-in-jesus",
         "title": "'Tis So Sweet To Trust In Jesus",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "man-of-sorrows-what-a-name",
         "title": "Man Of Sorrows, What A Name",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "o-the-wonderful-cross",
         "title": "O The Wonderful Cross",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "we-fall-down",
         "title": "We Fall Down",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "and-can-it-be",
         "title": "And Can It Be",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "servant-king",
         "title": "Servant King",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "speak-o-lord",
         "title": "Speak O Lord",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "compassion-hymn",
         "title": "Compassion Hymn",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "your-love",
         "title": "Your Love",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "ancient-of-days",
         "title": "Ancient Of Days",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "im-following-the-king",
         "title": "I'm Following The King",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "o-great-god",
         "title": "O Great God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "the-perfect-wisdom-of-our-god",
         "title": "The Perfect Wisdom Of Our God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "there-is-a-higher-throne",
         "title": "There Is A Higher Throne",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "freely-freely",
         "title": "Freely Freely",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "title": "How Deep The Father's Love For Us",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "yet-not-i",
         "title": "Yet Not I",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "at-the-foot-of-the-cross",
         "title": "At The Foot Of The Cross",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "because-you-first-loved-me",
         "title": "Because You First Loved Me",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "behold-the-lamb",
         "title": "Behold The Lamb",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "the-creed",
         "title": "The Creed",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "a-new-commandment",
         "title": "A New Commandment",
-        "weeks_since_last_sung": 69
-      },
-      {
-        "slug": "beneath-the-cross-of-jesus",
-        "title": "Beneath The Cross Of Jesus",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "holy-spirit-living-breath-of-god",
         "title": "Holy Spirit, Living Breath Of God",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "we-are-called",
         "title": "We Are Called",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "gods-great-family",
         "title": "God's Great Family",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "here-is-love",
         "title": "Here Is Love",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "o-how-good-it-is",
         "title": "O How Good It Is",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "there-is-one-gospel",
         "title": "There Is One Gospel",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "this-life-i-live",
         "title": "This Life I Live",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "all-heavens-declare",
         "title": "All Heavens Declare",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "for-the-cause",
         "title": "For The Cause",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "holy-forever",
         "title": "Holy Forever",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "lord-i-lift-your-name-on-high",
         "title": "Lord I Lift Your Name On High",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "you-laid-aside-your-majesty",
         "title": "You Laid Aside Your Majesty",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "he-calls-me-friend",
         "title": "He Calls Me Friend",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "known-and-loved",
         "title": "Known and Loved",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "servants-of-the-gospel",
         "title": "Servants Of The Gospel",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "what-a-friend-we-have-in-jesus",
         "title": "What A Friend We Have In Jesus",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "glory-to-the-lamb",
         "title": "Glory To The Lamb",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "meekness-and-majesty",
         "title": "Meekness And Majesty",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "my-tribute",
         "title": "My Tribute",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "the-lord-is-my-salvation",
         "title": "The Lord Is My Salvation",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "hymn-of-the-saviour",
         "title": "Hymn Of The Saviour",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "jesus-came-to-earth",
         "title": "Jesus Came To Earth",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "man-of-sorrows",
         "title": "Man Of Sorrows",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "o-holy-night",
         "title": "O Holy Night",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "still-my-soul-be-still",
         "title": "Still My Soul Be Still",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "all-hail-the-power-of-jesus-name",
         "title": "All Hail The Power Of Jesus' Name",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "joy-to-the-world",
         "title": "Joy To The World",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "mighty-mighty-saviour",
         "title": "Mighty Mighty Saviour",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "o-come-o-come-emmanuel",
         "title": "O Come, O Come Emmanuel",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "angels-we-have-heard-on-high",
         "title": "Angels We Have Heard On High",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "crown-him-king-of-kings",
         "title": "Crown Him King Of Kings",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "goodness-of-jesus",
         "title": "Goodness Of Jesus",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "hark-the-herald-angels-sing",
         "title": "Hark The Herald Angels Sing",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "joy-to-the-world-king-of-kings",
         "title": "Joy To The World (King Of Kings)",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-ye-faithful",
         "title": "O Come All Ye Faithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-you-unfaithful",
         "title": "O Come All you Unfaithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-little-town-of-bethlehem",
         "title": "O Little Town Of Bethlehem",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "what-child-is-this",
         "title": "What Child Is This",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "10-000-reasons",
         "title": "10,000 Reasons",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "christ-is-enough",
         "title": "Christ Is Enough",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "give-thanks",
         "title": "Give Thanks",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "goodness-of-god",
         "title": "Goodness Of God",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "i-have-decided-to-follow-jesus",
         "title": "I Have Decided To Follow Jesus",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "it-came-upon-a-midnight-clear",
         "title": "It Came Upon A Midnight Clear",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "my-hope-is-built-on-nothing-less",
         "title": "My Hope Is Built On Nothing Less",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "rejoice-the-lord-is-king",
         "title": "Rejoice The Lord Is King",
-        "weeks_since_last_sung": 58
+        "weeks_since_last_sung": 59
       },
       {
         "slug": "my-heart-is-filled-with-thankfulness",
         "title": "My Heart Is Filled With Thankfulness",
-        "weeks_since_last_sung": 57
+        "weeks_since_last_sung": 58
       },
       {
         "slug": "the-battle-and-the-blessing",
         "title": "The Battle and the Blessing",
-        "weeks_since_last_sung": 51
+        "weeks_since_last_sung": 52
       },
       {
         "slug": "only-a-holy-god",
         "title": "Only A Holy God",
-        "weeks_since_last_sung": 50
+        "weeks_since_last_sung": 51
       },
       {
         "slug": "we-are-one",
         "title": "We Are One",
-        "weeks_since_last_sung": 49
+        "weeks_since_last_sung": 50
       },
       {
         "slug": "i-will-run-to-you",
         "title": "I Will Run To You",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "in-our-lives-lord-be-glorified",
         "title": "In Our Lives Lord, Be Glorified",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "nothing-but-the-blood",
         "title": "Nothing But The Blood",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "purify-my-heart-refiners-fire",
         "title": "Purify My Heart (refiner's fire)",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "all-we-like-sheep",
         "title": "All We Like Sheep",
-        "weeks_since_last_sung": 47
+        "weeks_since_last_sung": 48
       },
       {
         "slug": "when-the-roll-is-called-up-yonder",
         "title": "When The Roll Is Called Up Yonder",
-        "weeks_since_last_sung": 46
+        "weeks_since_last_sung": 47
       },
       {
         "slug": "see-what-a-morning",
         "title": "See What a Morning",
-        "weeks_since_last_sung": 45
+        "weeks_since_last_sung": 46
       },
       {
         "slug": "thank-you-jesus-for-the-blood",
         "title": "Thank You Jesus For The Blood",
-        "weeks_since_last_sung": 43
+        "weeks_since_last_sung": 44
       },
       {
         "slug": "knowing-you-jesus",
         "title": "Knowing you, Jesus",
-        "weeks_since_last_sung": 42
+        "weeks_since_last_sung": 43
       },
       {
         "slug": "all-creatures-of-our-god-and-king",
         "title": "All Creatures Of our god and king",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "holy-holy-holy",
         "title": "Holy, Holy, Holy",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "i-stand-in-awe-of-you",
         "title": "I Stand In Awe Of You",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "psalm-150-praise-the-lord",
         "title": "Psalm 150 (Praise The Lord)",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "to-him-who-sits-on-the-throne",
         "title": "To Him Who Sits on The Throne",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "be-like-a-tree",
         "title": "Be Like A Tree",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "cornerstone",
         "title": "Cornerstone",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "everlasting-god",
         "title": "Everlasting God",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "living-hope",
         "title": "Living Hope",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "thy-word",
         "title": "Thy Word",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "bless-the-lord-o-my-soul",
         "title": "Bless The Lord O My Soul",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "how-excellent-your-name",
         "title": "How Excellent Your Name",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "when-we-all-get-to-heaven",
         "title": "When We All Get To Heaven",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "blessed-be-the-lord-god-almighty",
         "title": "Blessed Be The Lord God Almighty",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "he-is-lord",
         "title": "He Is Lord",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "i-will-wait-for-you",
         "title": "I Will Wait For You",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "we-all-bow-down",
         "title": "We All Bow Down",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "take-heart",
         "title": "Take Heart",
-        "weeks_since_last_sung": 32
+        "weeks_since_last_sung": 33
       },
       {
         "slug": "blessed-assurance",
         "title": "Blessed Assurance",
-        "weeks_since_last_sung": 31
-      },
-      {
-        "slug": "it-is-well",
-        "title": "It Is Well",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "let-us-exalt-his-name",
         "title": "Let Us Exalt His Name",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "shout-to-the-lord",
         "title": "Shout To The Lord",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "o-church-arise",
         "title": "O Church Arise",
-        "weeks_since_last_sung": 30
+        "weeks_since_last_sung": 31
       },
       {
         "slug": "hallelujah-to-the-lamb",
         "title": "Hallelujah To The Lamb",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "hymn-of-heaven",
         "title": "Hymn of Heaven",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "lord-of-lords",
         "title": "Lord Of Lords",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "made-us-your-own",
         "title": "Made Us Your Own",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "fill-my-eyes-o-my-god",
         "title": "Fill My Eyes O My God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "hear-the-call",
         "title": "Hear The Call",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "how-great-is-our-god",
         "title": "How Great Is Our God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "no-other-name",
         "title": "No Other Name",
-        "weeks_since_last_sung": 26
+        "weeks_since_last_sung": 27
       },
       {
         "slug": "facing-a-task-unfinished",
         "title": "Facing a Task Unfinished",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "i-will-celebrate",
         "title": "I Will Celebrate",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "made-me-glad",
         "title": "Made Me Glad",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "we-belong-to-the-day",
         "title": "We Belong To The Day",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "your-word-emu",
         "title": "Your Word (Emu)",
-        "weeks_since_last_sung": 24
+        "weeks_since_last_sung": 25
       },
       {
         "slug": "in-moments-like-these",
         "title": "In Moments Like These",
-        "weeks_since_last_sung": 23
+        "weeks_since_last_sung": 24
       },
       {
         "slug": "when-i-look-into-your-holiness",
         "title": "When I Look Into Your Holiness",
-        "weeks_since_last_sung": 23
+        "weeks_since_last_sung": 24
       },
       {
         "slug": "as-the-deer",
         "title": "As The Deer",
-        "weeks_since_last_sung": 22
+        "weeks_since_last_sung": 23
       },
       {
         "slug": "i-love-you-lord-and-i-lift-my-voice",
         "title": "I Love You Lord (And I Lift My Voice)",
-        "weeks_since_last_sung": 22
+        "weeks_since_last_sung": 23
       },
       {
         "slug": "my-worth-is-not-in-what-i-own",
         "title": "My Worth Is Not in What I Own",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "rejoice",
         "title": "Rejoice",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "the-love-of-god",
         "title": "The Love Of God",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "wide-wide-as-the-ocean",
         "title": "Wide, Wide as the Ocean",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "im-forever-grateful",
         "title": "I'm Forever Grateful",
-        "weeks_since_last_sung": 20
+        "weeks_since_last_sung": 21
       },
       {
         "slug": "all-to-jesus-i-surrender",
         "title": "All To Jesus I Surrender",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "his-banner-over-me-is-love",
         "title": "His Banner Over Me Is Love",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "take-my-life-and-let-it-be",
         "title": "Take My Life And Let It Be",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "before-the-throne-of-god-above",
         "title": "Before The Throne Of God Above",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
         "slug": "he-will-hold-me-fast",
         "title": "He Will Hold Me Fast",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
         "slug": "through-it-all",
         "title": "Through It All",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
-        "slug": "it-is-well-modern",
-        "title": "It Is Well (Modern Hymn)",
-        "weeks_since_last_sung": 17
+        "slug": "it-is-well",
+        "title": "It Is Well",
+        "weeks_since_last_sung": 18
       },
       {
         "slug": "jesus-thank-you",
         "title": "Jesus, Thank You",
+        "weeks_since_last_sung": 18
+      },
+      {
+        "slug": "beneath-the-cross",
+        "title": "Beneath The Cross",
         "weeks_since_last_sung": 17
       },
       {
         "slug": "it-was-finished-upon-that-cross",
         "title": "It Was Finished Upon That Cross",
-        "weeks_since_last_sung": 16
+        "weeks_since_last_sung": 17
       },
       {
         "slug": "jesus-paid-it-all",
         "title": "Jesus Paid It All",
-        "weeks_since_last_sung": 15
+        "weeks_since_last_sung": 16
       },
       {
         "slug": "there-is-a-redeemer-keith-green",
         "title": "There Is A Redeemer (Keith Green)",
-        "weeks_since_last_sung": 15
+        "weeks_since_last_sung": 16
       },
       {
         "slug": "my-god-is-all-i-need",
         "title": "My God Is All I Need",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "nothing-can-i-boast-in",
         "title": "Nothing Can I Boast In",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "the-steadfast-love-of-the-lord-never-ceases",
         "title": "The Steadfast Love Of The Lord Never Ceases",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "hes-able",
         "title": "He's Able",
-        "weeks_since_last_sung": 13
+        "weeks_since_last_sung": 14
       },
       {
         "slug": "i-will-sing-of-my-redeemer",
         "title": "I Will Sing Of My Redeemer",
-        "weeks_since_last_sung": 13
+        "weeks_since_last_sung": 14
       },
       {
         "slug": "joy-has-dawned",
         "title": "Joy Has Dawned",
-        "weeks_since_last_sung": 10
+        "weeks_since_last_sung": 11
       },
       {
         "slug": "silent-night",
         "title": "Silent Night",
-        "weeks_since_last_sung": 10
+        "weeks_since_last_sung": 11
       },
       {
         "slug": "the-first-noel",
         "title": "The First Noel",
-        "weeks_since_last_sung": 10
+        "weeks_since_last_sung": 11
       },
       {
         "slug": "cornerstone-hillsong",
         "title": "Cornerstone (Hillsong)",
-        "weeks_since_last_sung": 9
+        "weeks_since_last_sung": 10
       },
       {
         "slug": "he-leadeth-me",
         "title": "He Leadeth Me",
-        "weeks_since_last_sung": 9
+        "weeks_since_last_sung": 10
       }
     ],
     "not_sung_12_weeks": [
       {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "just-as-i-am",
         "title": "Just as I Am",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "i-stand-amazed",
         "title": "I Stand Amazed",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "lead-me-to-calvary",
         "title": "Lead Me To Calvary",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "o-mighty-cross",
         "title": "O Mighty Cross",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "because-he-lives",
         "title": "Because He Lives",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "christ-is-risen-he-is-risen-indeed",
         "title": "Christ Is Risen, He Is Risen Indeed",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "he-lives",
         "title": "He Lives!",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "come-behold-the-wondrous-mystery",
         "title": "Come Behold The Wondrous Mystery",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "creator-god",
         "title": "Creator God",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "glorious-day-casting-crowns",
         "title": "Glorious Day (Casting Crowns)",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "christ-has-risen",
         "title": "Christ Has Risen",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "in-christ-alone",
         "title": "In Christ Alone",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "there-is-a-hope",
         "title": "There Is A Hope",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "come-people-of-the-risen-king",
         "title": "Come People Of The Risen King",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "crown-him-with-many-crowns",
         "title": "Crown Him With Many Crowns",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "you-alone-can-rescue",
         "title": "You Alone Can Rescue",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "show-us-christ",
         "title": "Show Us Christ",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "turn-your-eyes",
         "title": "Turn Your Eyes",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "you-are-god-alone",
         "title": "You Are God Alone",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "king-of-kings",
         "title": "King Of Kings",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "worthy-is-the-lamb",
         "title": "Worthy Is The Lamb",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "title": "Jesus Shall Take The Highest Honour",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "we-will-feast",
         "title": "We Will Feast",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "christ-is-mine-forevermore",
         "title": "Christ Is Mine Forevermore",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "hallelujah-what-a-saviour",
         "title": "Hallelujah, What A Saviour",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "i-will-trust-my-saviour-jesus",
         "title": "I Will Trust My Saviour Jesus",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "jesus-is-the-king",
         "title": "Jesus Is The King",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "what-grace-is-mine",
         "title": "What Grace Is Mine",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "id-rather-have-jesus",
         "title": "I'd Rather Have Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "walking-with-jesus",
         "title": "Walking With Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "christ-our-hope-in-life-and-death",
         "title": "Christ Our Hope In Life And Death",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "little-by-little",
         "title": "Little By Little",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "take-my-life",
         "title": "Take My Life",
-        "weeks_since_last_sung": 89
-      },
-      {
-        "slug": "beneath-the-cross",
-        "title": "Beneath The Cross",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "calling-all-sinners",
         "title": "Calling All Sinners",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 89
       },
       {
         "slug": "his-mercy-is-more",
         "title": "His Mercy Is More",
-        "weeks_since_last_sung": 87
+        "weeks_since_last_sung": 88
       },
       {
         "slug": "one-voice",
         "title": "One Voice",
-        "weeks_since_last_sung": 86
+        "weeks_since_last_sung": 87
       },
       {
         "slug": "this-is-my-fathers-world",
         "title": "This Is My Father's World",
-        "weeks_since_last_sung": 85
+        "weeks_since_last_sung": 86
       },
       {
         "slug": "salvation-belongs-to-our-god",
         "title": "Salvation Belongs To Our God",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "the-mission",
         "title": "The Mission",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "great-is-the-lord-and-most-worthy-of-praise",
         "title": "Great Is The Lord (And Most Worthy Of Praise)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "title": "I Am The Way, The Truth And The Life",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "no-other-name-emu",
         "title": "No Other Name (Emu)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "we-declare",
         "title": "We Declare",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "god-the-uncreated-one",
         "title": "God The Uncreated One",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "how-great-thou-art",
         "title": "How Great Thou Art",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "indescribable",
         "title": "Indescribable",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "search-me-o-god",
         "title": "Search Me O God",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "by-faith",
         "title": "By Faith",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "jesus-strong-and-kind",
         "title": "Jesus Strong and Kind",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "trust-and-obey",
         "title": "Trust And Obey",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "at-the-cross",
         "title": "At The Cross",
-        "weeks_since_last_sung": 80
+        "weeks_since_last_sung": 81
       },
       {
         "slug": "be-still-my-soul",
         "title": "Be Still My Soul",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "here-i-am-to-worship",
         "title": "Here I Am To Worship",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "all-i-have-is-christ",
         "title": "All I Have Is Christ",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "amazing-grace-hymn",
         "title": "Amazing Grace (Hymn)",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "no-greater-love",
         "title": "No Greater Love",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "come-praise-and-glorify",
         "title": "Come Praise And Glorify",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "come-thou-fount",
         "title": "Come Thou Fount",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "all-the-way-my-saviour-leads-me",
         "title": "All The Way My Saviour Leads Me",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "be-thou-my-vision",
         "title": "Be Thou My Vision",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "hallelujah-all-i-have-is-christ",
         "title": "Hallelujah, All I Have Is Christ",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "he-is-my-everything",
         "title": "He Is My Everything",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "tis-so-sweet-to-trust-in-jesus",
         "title": "'Tis So Sweet To Trust In Jesus",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "man-of-sorrows-what-a-name",
         "title": "Man Of Sorrows, What A Name",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "o-the-wonderful-cross",
         "title": "O The Wonderful Cross",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "we-fall-down",
         "title": "We Fall Down",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "and-can-it-be",
         "title": "And Can It Be",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "servant-king",
         "title": "Servant King",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "speak-o-lord",
         "title": "Speak O Lord",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "compassion-hymn",
         "title": "Compassion Hymn",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "your-love",
         "title": "Your Love",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "ancient-of-days",
         "title": "Ancient Of Days",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "im-following-the-king",
         "title": "I'm Following The King",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "o-great-god",
         "title": "O Great God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "the-perfect-wisdom-of-our-god",
         "title": "The Perfect Wisdom Of Our God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "there-is-a-higher-throne",
         "title": "There Is A Higher Throne",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "freely-freely",
         "title": "Freely Freely",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "title": "How Deep The Father's Love For Us",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "yet-not-i",
         "title": "Yet Not I",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "at-the-foot-of-the-cross",
         "title": "At The Foot Of The Cross",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "because-you-first-loved-me",
         "title": "Because You First Loved Me",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "behold-the-lamb",
         "title": "Behold The Lamb",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "the-creed",
         "title": "The Creed",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "a-new-commandment",
         "title": "A New Commandment",
-        "weeks_since_last_sung": 69
-      },
-      {
-        "slug": "beneath-the-cross-of-jesus",
-        "title": "Beneath The Cross Of Jesus",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "holy-spirit-living-breath-of-god",
         "title": "Holy Spirit, Living Breath Of God",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "we-are-called",
         "title": "We Are Called",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "gods-great-family",
         "title": "God's Great Family",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "here-is-love",
         "title": "Here Is Love",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "o-how-good-it-is",
         "title": "O How Good It Is",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "there-is-one-gospel",
         "title": "There Is One Gospel",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "this-life-i-live",
         "title": "This Life I Live",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "all-heavens-declare",
         "title": "All Heavens Declare",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "for-the-cause",
         "title": "For The Cause",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "holy-forever",
         "title": "Holy Forever",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "lord-i-lift-your-name-on-high",
         "title": "Lord I Lift Your Name On High",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "you-laid-aside-your-majesty",
         "title": "You Laid Aside Your Majesty",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "he-calls-me-friend",
         "title": "He Calls Me Friend",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "known-and-loved",
         "title": "Known and Loved",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "servants-of-the-gospel",
         "title": "Servants Of The Gospel",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "what-a-friend-we-have-in-jesus",
         "title": "What A Friend We Have In Jesus",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "glory-to-the-lamb",
         "title": "Glory To The Lamb",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "meekness-and-majesty",
         "title": "Meekness And Majesty",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "my-tribute",
         "title": "My Tribute",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "the-lord-is-my-salvation",
         "title": "The Lord Is My Salvation",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "hymn-of-the-saviour",
         "title": "Hymn Of The Saviour",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "jesus-came-to-earth",
         "title": "Jesus Came To Earth",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "man-of-sorrows",
         "title": "Man Of Sorrows",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "o-holy-night",
         "title": "O Holy Night",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "still-my-soul-be-still",
         "title": "Still My Soul Be Still",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "all-hail-the-power-of-jesus-name",
         "title": "All Hail The Power Of Jesus' Name",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "joy-to-the-world",
         "title": "Joy To The World",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "mighty-mighty-saviour",
         "title": "Mighty Mighty Saviour",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "o-come-o-come-emmanuel",
         "title": "O Come, O Come Emmanuel",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "angels-we-have-heard-on-high",
         "title": "Angels We Have Heard On High",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "crown-him-king-of-kings",
         "title": "Crown Him King Of Kings",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "goodness-of-jesus",
         "title": "Goodness Of Jesus",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "hark-the-herald-angels-sing",
         "title": "Hark The Herald Angels Sing",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "joy-to-the-world-king-of-kings",
         "title": "Joy To The World (King Of Kings)",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-ye-faithful",
         "title": "O Come All Ye Faithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-you-unfaithful",
         "title": "O Come All you Unfaithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-little-town-of-bethlehem",
         "title": "O Little Town Of Bethlehem",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "what-child-is-this",
         "title": "What Child Is This",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "10-000-reasons",
         "title": "10,000 Reasons",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "christ-is-enough",
         "title": "Christ Is Enough",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "give-thanks",
         "title": "Give Thanks",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "goodness-of-god",
         "title": "Goodness Of God",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "i-have-decided-to-follow-jesus",
         "title": "I Have Decided To Follow Jesus",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "it-came-upon-a-midnight-clear",
         "title": "It Came Upon A Midnight Clear",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "my-hope-is-built-on-nothing-less",
         "title": "My Hope Is Built On Nothing Less",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "rejoice-the-lord-is-king",
         "title": "Rejoice The Lord Is King",
-        "weeks_since_last_sung": 58
+        "weeks_since_last_sung": 59
       },
       {
         "slug": "my-heart-is-filled-with-thankfulness",
         "title": "My Heart Is Filled With Thankfulness",
-        "weeks_since_last_sung": 57
+        "weeks_since_last_sung": 58
       },
       {
         "slug": "the-battle-and-the-blessing",
         "title": "The Battle and the Blessing",
-        "weeks_since_last_sung": 51
+        "weeks_since_last_sung": 52
       },
       {
         "slug": "only-a-holy-god",
         "title": "Only A Holy God",
-        "weeks_since_last_sung": 50
+        "weeks_since_last_sung": 51
       },
       {
         "slug": "we-are-one",
         "title": "We Are One",
-        "weeks_since_last_sung": 49
+        "weeks_since_last_sung": 50
       },
       {
         "slug": "i-will-run-to-you",
         "title": "I Will Run To You",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "in-our-lives-lord-be-glorified",
         "title": "In Our Lives Lord, Be Glorified",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "nothing-but-the-blood",
         "title": "Nothing But The Blood",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "purify-my-heart-refiners-fire",
         "title": "Purify My Heart (refiner's fire)",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "all-we-like-sheep",
         "title": "All We Like Sheep",
-        "weeks_since_last_sung": 47
+        "weeks_since_last_sung": 48
       },
       {
         "slug": "when-the-roll-is-called-up-yonder",
         "title": "When The Roll Is Called Up Yonder",
-        "weeks_since_last_sung": 46
+        "weeks_since_last_sung": 47
       },
       {
         "slug": "see-what-a-morning",
         "title": "See What a Morning",
-        "weeks_since_last_sung": 45
+        "weeks_since_last_sung": 46
       },
       {
         "slug": "thank-you-jesus-for-the-blood",
         "title": "Thank You Jesus For The Blood",
-        "weeks_since_last_sung": 43
+        "weeks_since_last_sung": 44
       },
       {
         "slug": "knowing-you-jesus",
         "title": "Knowing you, Jesus",
-        "weeks_since_last_sung": 42
+        "weeks_since_last_sung": 43
       },
       {
         "slug": "all-creatures-of-our-god-and-king",
         "title": "All Creatures Of our god and king",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "holy-holy-holy",
         "title": "Holy, Holy, Holy",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "i-stand-in-awe-of-you",
         "title": "I Stand In Awe Of You",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "psalm-150-praise-the-lord",
         "title": "Psalm 150 (Praise The Lord)",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "to-him-who-sits-on-the-throne",
         "title": "To Him Who Sits on The Throne",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "be-like-a-tree",
         "title": "Be Like A Tree",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "cornerstone",
         "title": "Cornerstone",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "everlasting-god",
         "title": "Everlasting God",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "living-hope",
         "title": "Living Hope",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "thy-word",
         "title": "Thy Word",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "bless-the-lord-o-my-soul",
         "title": "Bless The Lord O My Soul",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "how-excellent-your-name",
         "title": "How Excellent Your Name",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "when-we-all-get-to-heaven",
         "title": "When We All Get To Heaven",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "blessed-be-the-lord-god-almighty",
         "title": "Blessed Be The Lord God Almighty",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "he-is-lord",
         "title": "He Is Lord",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "i-will-wait-for-you",
         "title": "I Will Wait For You",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "we-all-bow-down",
         "title": "We All Bow Down",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "take-heart",
         "title": "Take Heart",
-        "weeks_since_last_sung": 32
+        "weeks_since_last_sung": 33
       },
       {
         "slug": "blessed-assurance",
         "title": "Blessed Assurance",
-        "weeks_since_last_sung": 31
-      },
-      {
-        "slug": "it-is-well",
-        "title": "It Is Well",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "let-us-exalt-his-name",
         "title": "Let Us Exalt His Name",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "shout-to-the-lord",
         "title": "Shout To The Lord",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "o-church-arise",
         "title": "O Church Arise",
-        "weeks_since_last_sung": 30
+        "weeks_since_last_sung": 31
       },
       {
         "slug": "hallelujah-to-the-lamb",
         "title": "Hallelujah To The Lamb",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "hymn-of-heaven",
         "title": "Hymn of Heaven",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "lord-of-lords",
         "title": "Lord Of Lords",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "made-us-your-own",
         "title": "Made Us Your Own",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "fill-my-eyes-o-my-god",
         "title": "Fill My Eyes O My God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "hear-the-call",
         "title": "Hear The Call",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "how-great-is-our-god",
         "title": "How Great Is Our God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "no-other-name",
         "title": "No Other Name",
-        "weeks_since_last_sung": 26
+        "weeks_since_last_sung": 27
       },
       {
         "slug": "facing-a-task-unfinished",
         "title": "Facing a Task Unfinished",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "i-will-celebrate",
         "title": "I Will Celebrate",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "made-me-glad",
         "title": "Made Me Glad",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "we-belong-to-the-day",
         "title": "We Belong To The Day",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "your-word-emu",
         "title": "Your Word (Emu)",
-        "weeks_since_last_sung": 24
+        "weeks_since_last_sung": 25
       },
       {
         "slug": "in-moments-like-these",
         "title": "In Moments Like These",
-        "weeks_since_last_sung": 23
+        "weeks_since_last_sung": 24
       },
       {
         "slug": "when-i-look-into-your-holiness",
         "title": "When I Look Into Your Holiness",
-        "weeks_since_last_sung": 23
+        "weeks_since_last_sung": 24
       },
       {
         "slug": "as-the-deer",
         "title": "As The Deer",
-        "weeks_since_last_sung": 22
+        "weeks_since_last_sung": 23
       },
       {
         "slug": "i-love-you-lord-and-i-lift-my-voice",
         "title": "I Love You Lord (And I Lift My Voice)",
-        "weeks_since_last_sung": 22
+        "weeks_since_last_sung": 23
       },
       {
         "slug": "my-worth-is-not-in-what-i-own",
         "title": "My Worth Is Not in What I Own",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "rejoice",
         "title": "Rejoice",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "the-love-of-god",
         "title": "The Love Of God",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "wide-wide-as-the-ocean",
         "title": "Wide, Wide as the Ocean",
-        "weeks_since_last_sung": 21
+        "weeks_since_last_sung": 22
       },
       {
         "slug": "im-forever-grateful",
         "title": "I'm Forever Grateful",
-        "weeks_since_last_sung": 20
+        "weeks_since_last_sung": 21
       },
       {
         "slug": "all-to-jesus-i-surrender",
         "title": "All To Jesus I Surrender",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "his-banner-over-me-is-love",
         "title": "His Banner Over Me Is Love",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "take-my-life-and-let-it-be",
         "title": "Take My Life And Let It Be",
-        "weeks_since_last_sung": 19
+        "weeks_since_last_sung": 20
       },
       {
         "slug": "before-the-throne-of-god-above",
         "title": "Before The Throne Of God Above",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
         "slug": "he-will-hold-me-fast",
         "title": "He Will Hold Me Fast",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
         "slug": "through-it-all",
         "title": "Through It All",
-        "weeks_since_last_sung": 18
+        "weeks_since_last_sung": 19
       },
       {
-        "slug": "it-is-well-modern",
-        "title": "It Is Well (Modern Hymn)",
-        "weeks_since_last_sung": 17
+        "slug": "it-is-well",
+        "title": "It Is Well",
+        "weeks_since_last_sung": 18
       },
       {
         "slug": "jesus-thank-you",
         "title": "Jesus, Thank You",
+        "weeks_since_last_sung": 18
+      },
+      {
+        "slug": "beneath-the-cross",
+        "title": "Beneath The Cross",
         "weeks_since_last_sung": 17
       },
       {
         "slug": "it-was-finished-upon-that-cross",
         "title": "It Was Finished Upon That Cross",
-        "weeks_since_last_sung": 16
+        "weeks_since_last_sung": 17
       },
       {
         "slug": "jesus-paid-it-all",
         "title": "Jesus Paid It All",
-        "weeks_since_last_sung": 15
+        "weeks_since_last_sung": 16
       },
       {
         "slug": "there-is-a-redeemer-keith-green",
         "title": "There Is A Redeemer (Keith Green)",
-        "weeks_since_last_sung": 15
+        "weeks_since_last_sung": 16
       },
       {
         "slug": "my-god-is-all-i-need",
         "title": "My God Is All I Need",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "nothing-can-i-boast-in",
         "title": "Nothing Can I Boast In",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "the-steadfast-love-of-the-lord-never-ceases",
         "title": "The Steadfast Love Of The Lord Never Ceases",
-        "weeks_since_last_sung": 14
+        "weeks_since_last_sung": 15
       },
       {
         "slug": "hes-able",
         "title": "He's Able",
-        "weeks_since_last_sung": 13
+        "weeks_since_last_sung": 14
       },
       {
         "slug": "i-will-sing-of-my-redeemer",
         "title": "I Will Sing Of My Redeemer",
-        "weeks_since_last_sung": 13
+        "weeks_since_last_sung": 14
       }
     ],
     "not_sung_24_weeks": [
       {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "just-as-i-am",
         "title": "Just as I Am",
-        "weeks_since_last_sung": 102
+        "weeks_since_last_sung": 103
       },
       {
         "slug": "i-stand-amazed",
         "title": "I Stand Amazed",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "lead-me-to-calvary",
         "title": "Lead Me To Calvary",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "o-mighty-cross",
         "title": "O Mighty Cross",
-        "weeks_since_last_sung": 101
+        "weeks_since_last_sung": 102
       },
       {
         "slug": "because-he-lives",
         "title": "Because He Lives",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "christ-is-risen-he-is-risen-indeed",
         "title": "Christ Is Risen, He Is Risen Indeed",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "he-lives",
         "title": "He Lives!",
-        "weeks_since_last_sung": 100
+        "weeks_since_last_sung": 101
       },
       {
         "slug": "come-behold-the-wondrous-mystery",
         "title": "Come Behold The Wondrous Mystery",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "creator-god",
         "title": "Creator God",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "glorious-day-casting-crowns",
         "title": "Glorious Day (Casting Crowns)",
-        "weeks_since_last_sung": 99
+        "weeks_since_last_sung": 100
       },
       {
         "slug": "christ-has-risen",
         "title": "Christ Has Risen",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "in-christ-alone",
         "title": "In Christ Alone",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "there-is-a-hope",
         "title": "There Is A Hope",
-        "weeks_since_last_sung": 98
+        "weeks_since_last_sung": 99
       },
       {
         "slug": "come-people-of-the-risen-king",
         "title": "Come People Of The Risen King",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "crown-him-with-many-crowns",
         "title": "Crown Him With Many Crowns",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "you-alone-can-rescue",
         "title": "You Alone Can Rescue",
-        "weeks_since_last_sung": 97
+        "weeks_since_last_sung": 98
       },
       {
         "slug": "show-us-christ",
         "title": "Show Us Christ",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "turn-your-eyes",
         "title": "Turn Your Eyes",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "you-are-god-alone",
         "title": "You Are God Alone",
-        "weeks_since_last_sung": 96
+        "weeks_since_last_sung": 97
       },
       {
         "slug": "king-of-kings",
         "title": "King Of Kings",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "worthy-is-the-lamb",
         "title": "Worthy Is The Lamb",
-        "weeks_since_last_sung": 95
+        "weeks_since_last_sung": 96
       },
       {
         "slug": "jesus-shall-take-the-highest-honour",
         "title": "Jesus Shall Take The Highest Honour",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "we-will-feast",
         "title": "We Will Feast",
-        "weeks_since_last_sung": 93
+        "weeks_since_last_sung": 94
       },
       {
         "slug": "christ-is-mine-forevermore",
         "title": "Christ Is Mine Forevermore",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "hallelujah-what-a-saviour",
         "title": "Hallelujah, What A Saviour",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "i-will-trust-my-saviour-jesus",
         "title": "I Will Trust My Saviour Jesus",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "jesus-is-the-king",
         "title": "Jesus Is The King",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "what-grace-is-mine",
         "title": "What Grace Is Mine",
-        "weeks_since_last_sung": 92
+        "weeks_since_last_sung": 93
       },
       {
         "slug": "id-rather-have-jesus",
         "title": "I'd Rather Have Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "walking-with-jesus",
         "title": "Walking With Jesus",
-        "weeks_since_last_sung": 90
+        "weeks_since_last_sung": 91
       },
       {
         "slug": "christ-our-hope-in-life-and-death",
         "title": "Christ Our Hope In Life And Death",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "little-by-little",
         "title": "Little By Little",
-        "weeks_since_last_sung": 89
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "take-my-life",
         "title": "Take My Life",
-        "weeks_since_last_sung": 89
-      },
-      {
-        "slug": "beneath-the-cross",
-        "title": "Beneath The Cross",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 90
       },
       {
         "slug": "calling-all-sinners",
         "title": "Calling All Sinners",
-        "weeks_since_last_sung": 88
+        "weeks_since_last_sung": 89
       },
       {
         "slug": "his-mercy-is-more",
         "title": "His Mercy Is More",
-        "weeks_since_last_sung": 87
+        "weeks_since_last_sung": 88
       },
       {
         "slug": "one-voice",
         "title": "One Voice",
-        "weeks_since_last_sung": 86
+        "weeks_since_last_sung": 87
       },
       {
         "slug": "this-is-my-fathers-world",
         "title": "This Is My Father's World",
-        "weeks_since_last_sung": 85
+        "weeks_since_last_sung": 86
       },
       {
         "slug": "salvation-belongs-to-our-god",
         "title": "Salvation Belongs To Our God",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "the-mission",
         "title": "The Mission",
-        "weeks_since_last_sung": 84
+        "weeks_since_last_sung": 85
       },
       {
         "slug": "great-is-the-lord-and-most-worthy-of-praise",
         "title": "Great Is The Lord (And Most Worthy Of Praise)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "i-am-the-way-the-truth-and-the-life",
         "title": "I Am The Way, The Truth And The Life",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "no-other-name-emu",
         "title": "No Other Name (Emu)",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "we-declare",
         "title": "We Declare",
-        "weeks_since_last_sung": 83
+        "weeks_since_last_sung": 84
       },
       {
         "slug": "god-the-uncreated-one",
         "title": "God The Uncreated One",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "how-great-thou-art",
         "title": "How Great Thou Art",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "indescribable",
         "title": "Indescribable",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "search-me-o-god",
         "title": "Search Me O God",
-        "weeks_since_last_sung": 82
+        "weeks_since_last_sung": 83
       },
       {
         "slug": "by-faith",
         "title": "By Faith",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "jesus-strong-and-kind",
         "title": "Jesus Strong and Kind",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "trust-and-obey",
         "title": "Trust And Obey",
-        "weeks_since_last_sung": 81
+        "weeks_since_last_sung": 82
       },
       {
         "slug": "at-the-cross",
         "title": "At The Cross",
-        "weeks_since_last_sung": 80
+        "weeks_since_last_sung": 81
       },
       {
         "slug": "be-still-my-soul",
         "title": "Be Still My Soul",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "here-i-am-to-worship",
         "title": "Here I Am To Worship",
-        "weeks_since_last_sung": 79
+        "weeks_since_last_sung": 80
       },
       {
         "slug": "all-i-have-is-christ",
         "title": "All I Have Is Christ",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "amazing-grace-hymn",
         "title": "Amazing Grace (Hymn)",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "no-greater-love",
         "title": "No Greater Love",
-        "weeks_since_last_sung": 78
+        "weeks_since_last_sung": 79
       },
       {
         "slug": "come-praise-and-glorify",
         "title": "Come Praise And Glorify",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "come-thou-fount",
         "title": "Come Thou Fount",
-        "weeks_since_last_sung": 77
+        "weeks_since_last_sung": 78
       },
       {
         "slug": "all-the-way-my-saviour-leads-me",
         "title": "All The Way My Saviour Leads Me",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "be-thou-my-vision",
         "title": "Be Thou My Vision",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "hallelujah-all-i-have-is-christ",
         "title": "Hallelujah, All I Have Is Christ",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "he-is-my-everything",
         "title": "He Is My Everything",
-        "weeks_since_last_sung": 76
+        "weeks_since_last_sung": 77
       },
       {
         "slug": "tis-so-sweet-to-trust-in-jesus",
         "title": "'Tis So Sweet To Trust In Jesus",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "man-of-sorrows-what-a-name",
         "title": "Man Of Sorrows, What A Name",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "o-the-wonderful-cross",
         "title": "O The Wonderful Cross",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "we-fall-down",
         "title": "We Fall Down",
-        "weeks_since_last_sung": 75
+        "weeks_since_last_sung": 76
       },
       {
         "slug": "and-can-it-be",
         "title": "And Can It Be",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "servant-king",
         "title": "Servant King",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "speak-o-lord",
         "title": "Speak O Lord",
-        "weeks_since_last_sung": 74
+        "weeks_since_last_sung": 75
       },
       {
         "slug": "compassion-hymn",
         "title": "Compassion Hymn",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "your-love",
         "title": "Your Love",
-        "weeks_since_last_sung": 73
+        "weeks_since_last_sung": 74
       },
       {
         "slug": "ancient-of-days",
         "title": "Ancient Of Days",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "im-following-the-king",
         "title": "I'm Following The King",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "o-great-god",
         "title": "O Great God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "the-perfect-wisdom-of-our-god",
         "title": "The Perfect Wisdom Of Our God",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "there-is-a-higher-throne",
         "title": "There Is A Higher Throne",
-        "weeks_since_last_sung": 72
+        "weeks_since_last_sung": 73
       },
       {
         "slug": "freely-freely",
         "title": "Freely Freely",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "how-deep-the-fathers-love-for-us",
         "title": "How Deep The Father's Love For Us",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "yet-not-i",
         "title": "Yet Not I",
-        "weeks_since_last_sung": 71
+        "weeks_since_last_sung": 72
       },
       {
         "slug": "at-the-foot-of-the-cross",
         "title": "At The Foot Of The Cross",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "because-you-first-loved-me",
         "title": "Because You First Loved Me",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "behold-the-lamb",
         "title": "Behold The Lamb",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "the-creed",
         "title": "The Creed",
-        "weeks_since_last_sung": 70
+        "weeks_since_last_sung": 71
       },
       {
         "slug": "a-new-commandment",
         "title": "A New Commandment",
-        "weeks_since_last_sung": 69
-      },
-      {
-        "slug": "beneath-the-cross-of-jesus",
-        "title": "Beneath The Cross Of Jesus",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "holy-spirit-living-breath-of-god",
         "title": "Holy Spirit, Living Breath Of God",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "we-are-called",
         "title": "We Are Called",
-        "weeks_since_last_sung": 69
+        "weeks_since_last_sung": 70
       },
       {
         "slug": "gods-great-family",
         "title": "God's Great Family",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "here-is-love",
         "title": "Here Is Love",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "o-how-good-it-is",
         "title": "O How Good It Is",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "there-is-one-gospel",
         "title": "There Is One Gospel",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "this-life-i-live",
         "title": "This Life I Live",
-        "weeks_since_last_sung": 68
+        "weeks_since_last_sung": 69
       },
       {
         "slug": "all-heavens-declare",
         "title": "All Heavens Declare",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "for-the-cause",
         "title": "For The Cause",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "holy-forever",
         "title": "Holy Forever",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "lord-i-lift-your-name-on-high",
         "title": "Lord I Lift Your Name On High",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "you-laid-aside-your-majesty",
         "title": "You Laid Aside Your Majesty",
-        "weeks_since_last_sung": 67
+        "weeks_since_last_sung": 68
       },
       {
         "slug": "he-calls-me-friend",
         "title": "He Calls Me Friend",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "known-and-loved",
         "title": "Known and Loved",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "servants-of-the-gospel",
         "title": "Servants Of The Gospel",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "what-a-friend-we-have-in-jesus",
         "title": "What A Friend We Have In Jesus",
-        "weeks_since_last_sung": 66
+        "weeks_since_last_sung": 67
       },
       {
         "slug": "glory-to-the-lamb",
         "title": "Glory To The Lamb",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "meekness-and-majesty",
         "title": "Meekness And Majesty",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "my-tribute",
         "title": "My Tribute",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "the-lord-is-my-salvation",
         "title": "The Lord Is My Salvation",
-        "weeks_since_last_sung": 65
+        "weeks_since_last_sung": 66
       },
       {
         "slug": "hymn-of-the-saviour",
         "title": "Hymn Of The Saviour",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "jesus-came-to-earth",
         "title": "Jesus Came To Earth",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "man-of-sorrows",
         "title": "Man Of Sorrows",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "o-holy-night",
         "title": "O Holy Night",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "still-my-soul-be-still",
         "title": "Still My Soul Be Still",
-        "weeks_since_last_sung": 64
+        "weeks_since_last_sung": 65
       },
       {
         "slug": "all-hail-the-power-of-jesus-name",
         "title": "All Hail The Power Of Jesus' Name",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "joy-to-the-world",
         "title": "Joy To The World",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "mighty-mighty-saviour",
         "title": "Mighty Mighty Saviour",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "o-come-o-come-emmanuel",
         "title": "O Come, O Come Emmanuel",
-        "weeks_since_last_sung": 63
+        "weeks_since_last_sung": 64
       },
       {
         "slug": "angels-we-have-heard-on-high",
         "title": "Angels We Have Heard On High",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "crown-him-king-of-kings",
         "title": "Crown Him King Of Kings",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "goodness-of-jesus",
         "title": "Goodness Of Jesus",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "hark-the-herald-angels-sing",
         "title": "Hark The Herald Angels Sing",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "joy-to-the-world-king-of-kings",
         "title": "Joy To The World (King Of Kings)",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-ye-faithful",
         "title": "O Come All Ye Faithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-come-all-you-unfaithful",
         "title": "O Come All you Unfaithful",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "o-little-town-of-bethlehem",
         "title": "O Little Town Of Bethlehem",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "what-child-is-this",
         "title": "What Child Is This",
-        "weeks_since_last_sung": 62
+        "weeks_since_last_sung": 63
       },
       {
         "slug": "10-000-reasons",
         "title": "10,000 Reasons",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "christ-is-enough",
         "title": "Christ Is Enough",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "give-thanks",
         "title": "Give Thanks",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "goodness-of-god",
         "title": "Goodness Of God",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "i-have-decided-to-follow-jesus",
         "title": "I Have Decided To Follow Jesus",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "it-came-upon-a-midnight-clear",
         "title": "It Came Upon A Midnight Clear",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "my-hope-is-built-on-nothing-less",
         "title": "My Hope Is Built On Nothing Less",
-        "weeks_since_last_sung": 61
+        "weeks_since_last_sung": 62
       },
       {
         "slug": "rejoice-the-lord-is-king",
         "title": "Rejoice The Lord Is King",
-        "weeks_since_last_sung": 58
+        "weeks_since_last_sung": 59
       },
       {
         "slug": "my-heart-is-filled-with-thankfulness",
         "title": "My Heart Is Filled With Thankfulness",
-        "weeks_since_last_sung": 57
+        "weeks_since_last_sung": 58
       },
       {
         "slug": "the-battle-and-the-blessing",
         "title": "The Battle and the Blessing",
-        "weeks_since_last_sung": 51
+        "weeks_since_last_sung": 52
       },
       {
         "slug": "only-a-holy-god",
         "title": "Only A Holy God",
-        "weeks_since_last_sung": 50
+        "weeks_since_last_sung": 51
       },
       {
         "slug": "we-are-one",
         "title": "We Are One",
-        "weeks_since_last_sung": 49
+        "weeks_since_last_sung": 50
       },
       {
         "slug": "i-will-run-to-you",
         "title": "I Will Run To You",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "in-our-lives-lord-be-glorified",
         "title": "In Our Lives Lord, Be Glorified",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "nothing-but-the-blood",
         "title": "Nothing But The Blood",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "purify-my-heart-refiners-fire",
         "title": "Purify My Heart (refiner's fire)",
-        "weeks_since_last_sung": 48
+        "weeks_since_last_sung": 49
       },
       {
         "slug": "all-we-like-sheep",
         "title": "All We Like Sheep",
-        "weeks_since_last_sung": 47
+        "weeks_since_last_sung": 48
       },
       {
         "slug": "when-the-roll-is-called-up-yonder",
         "title": "When The Roll Is Called Up Yonder",
-        "weeks_since_last_sung": 46
+        "weeks_since_last_sung": 47
       },
       {
         "slug": "see-what-a-morning",
         "title": "See What a Morning",
-        "weeks_since_last_sung": 45
+        "weeks_since_last_sung": 46
       },
       {
         "slug": "thank-you-jesus-for-the-blood",
         "title": "Thank You Jesus For The Blood",
-        "weeks_since_last_sung": 43
+        "weeks_since_last_sung": 44
       },
       {
         "slug": "knowing-you-jesus",
         "title": "Knowing you, Jesus",
-        "weeks_since_last_sung": 42
+        "weeks_since_last_sung": 43
       },
       {
         "slug": "all-creatures-of-our-god-and-king",
         "title": "All Creatures Of our god and king",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "holy-holy-holy",
         "title": "Holy, Holy, Holy",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "i-stand-in-awe-of-you",
         "title": "I Stand In Awe Of You",
-        "weeks_since_last_sung": 41
+        "weeks_since_last_sung": 42
       },
       {
         "slug": "psalm-150-praise-the-lord",
         "title": "Psalm 150 (Praise The Lord)",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "to-him-who-sits-on-the-throne",
         "title": "To Him Who Sits on The Throne",
-        "weeks_since_last_sung": 39
+        "weeks_since_last_sung": 40
       },
       {
         "slug": "be-like-a-tree",
         "title": "Be Like A Tree",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "cornerstone",
         "title": "Cornerstone",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "everlasting-god",
         "title": "Everlasting God",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "living-hope",
         "title": "Living Hope",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "thy-word",
         "title": "Thy Word",
-        "weeks_since_last_sung": 37
+        "weeks_since_last_sung": 38
       },
       {
         "slug": "bless-the-lord-o-my-soul",
         "title": "Bless The Lord O My Soul",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "how-excellent-your-name",
         "title": "How Excellent Your Name",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "when-we-all-get-to-heaven",
         "title": "When We All Get To Heaven",
-        "weeks_since_last_sung": 36
+        "weeks_since_last_sung": 37
       },
       {
         "slug": "blessed-be-the-lord-god-almighty",
         "title": "Blessed Be The Lord God Almighty",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "he-is-lord",
         "title": "He Is Lord",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "i-will-wait-for-you",
         "title": "I Will Wait For You",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "we-all-bow-down",
         "title": "We All Bow Down",
-        "weeks_since_last_sung": 33
+        "weeks_since_last_sung": 34
       },
       {
         "slug": "take-heart",
         "title": "Take Heart",
-        "weeks_since_last_sung": 32
+        "weeks_since_last_sung": 33
       },
       {
         "slug": "blessed-assurance",
         "title": "Blessed Assurance",
-        "weeks_since_last_sung": 31
-      },
-      {
-        "slug": "it-is-well",
-        "title": "It Is Well",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "let-us-exalt-his-name",
         "title": "Let Us Exalt His Name",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "shout-to-the-lord",
         "title": "Shout To The Lord",
-        "weeks_since_last_sung": 31
+        "weeks_since_last_sung": 32
       },
       {
         "slug": "o-church-arise",
         "title": "O Church Arise",
-        "weeks_since_last_sung": 30
+        "weeks_since_last_sung": 31
       },
       {
         "slug": "hallelujah-to-the-lamb",
         "title": "Hallelujah To The Lamb",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "hymn-of-heaven",
         "title": "Hymn of Heaven",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "lord-of-lords",
         "title": "Lord Of Lords",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "made-us-your-own",
         "title": "Made Us Your Own",
-        "weeks_since_last_sung": 29
+        "weeks_since_last_sung": 30
       },
       {
         "slug": "fill-my-eyes-o-my-god",
         "title": "Fill My Eyes O My God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "hear-the-call",
         "title": "Hear The Call",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "how-great-is-our-god",
         "title": "How Great Is Our God",
-        "weeks_since_last_sung": 27
+        "weeks_since_last_sung": 28
       },
       {
         "slug": "no-other-name",
         "title": "No Other Name",
-        "weeks_since_last_sung": 26
+        "weeks_since_last_sung": 27
       },
       {
         "slug": "facing-a-task-unfinished",
         "title": "Facing a Task Unfinished",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "i-will-celebrate",
         "title": "I Will Celebrate",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "made-me-glad",
         "title": "Made Me Glad",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "we-belong-to-the-day",
         "title": "We Belong To The Day",
-        "weeks_since_last_sung": 25
+        "weeks_since_last_sung": 26
       },
       {
         "slug": "your-word-emu",
         "title": "Your Word (Emu)",
+        "weeks_since_last_sung": 25
+      },
+      {
+        "slug": "in-moments-like-these",
+        "title": "In Moments Like These",
+        "weeks_since_last_sung": 24
+      },
+      {
+        "slug": "when-i-look-into-your-holiness",
+        "title": "When I Look Into Your Holiness",
         "weeks_since_last_sung": 24
       }
     ]
@@ -4177,6 +4142,11 @@
       "count": 4
     },
     {
+      "slug": "beneath-the-cross",
+      "title": "Beneath The Cross",
+      "count": 4
+    },
+    {
       "slug": "come-praise-and-glorify",
       "title": "Come Praise And Glorify",
       "count": 4
@@ -4269,11 +4239,6 @@
     {
       "slug": "behold-the-lamb",
       "title": "Behold The Lamb",
-      "count": 3
-    },
-    {
-      "slug": "beneath-the-cross-of-jesus",
-      "title": "Beneath The Cross Of Jesus",
       "count": 3
     },
     {
@@ -4712,11 +4677,6 @@
       "count": 1
     },
     {
-      "slug": "beneath-the-cross",
-      "title": "Beneath The Cross",
-      "count": 1
-    },
-    {
       "slug": "bless-the-lord-o-my-soul",
       "title": "Bless The Lord O My Soul",
       "count": 1
@@ -4889,11 +4849,6 @@
     {
       "slug": "in-our-lives-lord-be-glorified",
       "title": "In Our Lives Lord, Be Glorified",
-      "count": 1
-    },
-    {
-      "slug": "it-is-well-modern",
-      "title": "It Is Well (Modern Hymn)",
       "count": 1
     },
     {
@@ -5139,12 +5094,12 @@
   ],
   "top_writers": [
     {
-      "writer": "Keith Getty",
-      "count": 41
+      "writer": "Jonny Robinson",
+      "count": 42
     },
     {
-      "writer": "Jonny Robinson",
-      "count": 39
+      "writer": "Keith Getty",
+      "count": 41
     },
     {
       "writer": "Rich Thompson",
@@ -5175,15 +5130,19 @@
       "count": 15
     },
     {
+      "writer": "Matt Redman",
+      "count": 15
+    },
+    {
       "writer": "Jaywan Maxwell",
       "count": 14
     },
     {
-      "writer": "Matt Redman",
-      "count": 13
+      "writer": "Brian Johnson",
+      "count": 12
     },
     {
-      "writer": "Brian Johnson",
+      "writer": "Ed Cash",
       "count": 12
     },
     {
@@ -5201,10 +5160,6 @@
     {
       "writer": "Matt Papa",
       "count": 12
-    },
-    {
-      "writer": "Ed Cash",
-      "count": 10
     },
     {
       "writer": "Graham Kendrick",
@@ -5359,10 +5314,6 @@
       "count": 5
     },
     {
-      "writer": "Philip Paul Bliss",
-      "count": 5
-    },
-    {
       "writer": "Reuben Morgan",
       "count": 5
     },
@@ -5380,6 +5331,10 @@
     },
     {
       "writer": "Andrew Jacob Pruis",
+      "count": 4
+    },
+    {
+      "writer": "Andy Judd",
       "count": 4
     },
     {
@@ -5412,6 +5367,10 @@
     },
     {
       "writer": "Edward Mote",
+      "count": 4
+    },
+    {
+      "writer": "Elizabeth Cecilia Clephane",
       "count": 4
     },
     {
@@ -5472,6 +5431,10 @@
     },
     {
       "writer": "Robert Gay",
+      "count": 4
+    },
+    {
+      "writer": "Stephanie Vanden Hengel",
       "count": 4
     },
     {
@@ -5536,10 +5499,6 @@
     },
     {
       "writer": "David Moffitt",
-      "count": 3
-    },
-    {
-      "writer": "Dennis Allen",
       "count": 3
     },
     {
@@ -5627,10 +5586,6 @@
       "count": 3
     },
     {
-      "writer": "Nan Allen",
-      "count": 3
-    },
-    {
       "writer": "Nathan Stiff",
       "count": 3
     },
@@ -5644,6 +5599,10 @@
     },
     {
       "writer": "Paul Smith",
+      "count": 3
+    },
+    {
+      "writer": "Philip Paul Bliss",
       "count": 3
     },
     {
@@ -5811,7 +5770,7 @@
       "count": 2
     },
     {
-      "writer": "Horatio Gates Spafford",
+      "writer": "Horatio G. Spafford",
       "count": 2
     },
     {
@@ -5927,6 +5886,10 @@
       "count": 2
     },
     {
+      "writer": "Philip P. Bliss",
+      "count": 2
+    },
+    {
       "writer": "Placide Cappeau",
       "count": 2
     },
@@ -6020,10 +5983,6 @@
     },
     {
       "writer": "Andrew Moore",
-      "count": 1
-    },
-    {
-      "writer": "Andy Judd",
       "count": 1
     },
     {
@@ -6124,10 +6083,6 @@
     },
     {
       "writer": "Edward Perronet",
-      "count": 1
-    },
-    {
-      "writer": "Elizabeth Cecilia Clephane",
       "count": 1
     },
     {
@@ -6371,10 +6326,6 @@
       "count": 1
     },
     {
-      "writer": "Stephanie Vanden Hengel",
-      "count": 1
-    },
-    {
       "writer": "Stephen Smith",
       "count": 1
     },
@@ -6481,10 +6432,6 @@
       "count": 6
     },
     {
-      "original_artist": "Bethel Music",
-      "count": 5
-    },
-    {
       "original_artist": "Brian Doerksen",
       "count": 5
     },
@@ -6515,6 +6462,10 @@
     {
       "original_artist": "Tim Hughes",
       "count": 4
+    },
+    {
+      "original_artist": "Bethel Music",
+      "count": 3
     },
     {
       "original_artist": "Celebration Worship",
@@ -6586,6 +6537,10 @@
     },
     {
       "original_artist": "Kim Walker-Smith",
+      "count": 2
+    },
+    {
+      "original_artist": "Kristene DiMarco",
       "count": 2
     },
     {
@@ -6672,19 +6627,19 @@
   "theme_coverage_last_12_weeks": [
     {
       "theme": "Adoration",
-      "count": 18
+      "count": 15
     },
     {
       "theme": "Faithfulness",
-      "count": 9
+      "count": 8
     },
     {
       "theme": "Hope",
-      "count": 8
+      "count": 6
     },
     {
       "theme": "Joy",
-      "count": 8
+      "count": 6
     },
     {
       "theme": "Holiness",
@@ -6702,15 +6657,15 @@
   "doctrinal_coverage_last_12_weeks": [
     {
       "doctrine": "Worship",
-      "count": 18
+      "count": 15
     },
     {
       "doctrine": "Providence",
-      "count": 10
+      "count": 9
     },
     {
       "doctrine": "Eschatology",
-      "count": 9
+      "count": 7
     },
     {
       "doctrine": "Christology",
@@ -6749,8 +6704,8 @@
   ],
   "over_reliance": {
     "top_10_usage_count": 70,
-    "total_usage_count": 470,
-    "top_10_share": 0.14893617021276595
+    "total_usage_count": 469,
+    "top_10_share": 0.14925373134328357
   },
   "recently_sung_services": [
     {

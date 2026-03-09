@@ -5,7 +5,7 @@ date_range: ["2026-02-22", "2026-03-29"]
 description: "A Matthew series (chapters 19-21) highlighting the contrast between hardened opposition and humble faith in response to Jesus the King."
 recommended:
   - "christ-is-enough"
-  - "it-is-well-modern"
+  - "it-is-well"
   - "living-hope"
 ---
 

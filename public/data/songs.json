@@ -1772,7 +1772,9 @@
   {
     "title": "Beneath The Cross",
     "slug": "beneath-the-cross",
-    "aka": [],
+    "aka": [
+      "Beneath The Cross Of Jesus"
+    ],
     "ccli_number": "5443152",
     "songselect_url": "https://songselect.ccli.com/songs/5443152/beneath-the-cross",
     "lyrics_source": "SongSelect",
@@ -1809,7 +1811,7 @@
     "tags": [
       "import-2024"
     ],
-    "last_sung_override": "2024-06-23",
+    "last_sung_override": "2025-11-09",
     "status": "active",
     "licensing_notes": null,
     "language": "en",
@@ -1817,74 +1819,8 @@
     "notes_markdown": "Imported from imports/2024.csv. Add arrangement and preparation notes only (no lyrics).",
     "pastoral_use_markdown": "Add practical worship-flow and ministry guidance only (no lyrics).",
     "lyric_warning_reasons": [],
-    "times_sung": 1,
-    "last_sung_computed": "2024-06-23",
-    "history": [
-      {
-        "date": "2024-06-23",
-        "series_slug": "the-servant-king-matthew",
-        "usage": [
-          "response"
-        ],
-        "key": null
-      }
-    ],
-    "writers_normalized": [
-      "andy judd",
-      "elizabeth cecilia clephane",
-      "jonny robinson",
-      "stephanie vanden hengel"
-    ],
-    "original_artist_normalized": null
-  },
-  {
-    "title": "Beneath The Cross Of Jesus",
-    "slug": "beneath-the-cross-of-jesus",
-    "aka": [],
-    "ccli_number": "5657113",
-    "songselect_url": "https://songselect.ccli.com/songs/5657113/beneath-the-cross-of-jesus",
-    "lyrics_source": "SongSelect",
-    "lyrics_hint": "",
-    "original_artist": null,
-    "writers": [
-      "Dennis Allen",
-      "Nan Allen"
-    ],
-    "publisher": null,
-    "year": null,
-    "tempo_bpm": null,
-    "key": null,
-    "time_signature": null,
-    "congregational_fit": null,
-    "vocal_range": null,
-    "dominant_themes": [
-      "Cross",
-      "Atonement",
-      "Grace",
-      "Forgiveness"
-    ],
-    "doctrinal_categories": [
-      "Soteriology",
-      "Christology"
-    ],
-    "emotional_tone": [],
-    "scriptural_anchors": [],
-    "theological_summary": "Imported from 2024 planning CSV; update with a non-lyrical theological summary.",
-    "arrangement_notes": null,
-    "slides_path": null,
-    "tags": [
-      "import-2024"
-    ],
-    "last_sung_override": "2024-11-03",
-    "status": "active",
-    "licensing_notes": null,
-    "language": "en",
-    "meter": null,
-    "notes_markdown": "Imported from imports/2024.csv. Add arrangement and preparation notes only (no lyrics).",
-    "pastoral_use_markdown": "Add practical worship-flow and ministry guidance only (no lyrics).",
-    "lyric_warning_reasons": [],
-    "times_sung": 3,
-    "last_sung_computed": "2024-11-03",
+    "times_sung": 4,
+    "last_sung_computed": "2025-11-09",
     "history": [
       {
         "date": "2025-11-09",
@@ -1909,11 +1845,21 @@
           "response"
         ],
         "key": null
+      },
+      {
+        "date": "2024-06-23",
+        "series_slug": "the-servant-king-matthew",
+        "usage": [
+          "response"
+        ],
+        "key": null
       }
     ],
     "writers_normalized": [
-      "dennis allen",
-      "nan allen"
+      "andy judd",
+      "elizabeth cecilia clephane",
+      "jonny robinson",
+      "stephanie vanden hengel"
     ],
     "original_artist_normalized": null
   },
@@ -7465,79 +7411,8 @@
   {
     "title": "It Is Well",
     "slug": "it-is-well",
-    "aka": [],
-    "ccli_number": "7021972",
-    "songselect_url": "https://songselect.ccli.com/songs/7021972/it-is-well",
-    "lyrics_source": "SongSelect",
-    "lyrics_hint": "",
-    "original_artist": "Bethel Music",
-    "writers": [
-      "Horatio Gates Spafford",
-      "Kristene DiMarco",
-      "Philip Paul Bliss"
-    ],
-    "publisher": null,
-    "year": null,
-    "tempo_bpm": 65,
-    "key": "G",
-    "time_signature": "4/4",
-    "congregational_fit": null,
-    "vocal_range": null,
-    "dominant_themes": [
-      "Peace",
-      "Hope"
-    ],
-    "doctrinal_categories": [
-      "Worship",
-      "Eschatology"
-    ],
-    "emotional_tone": [],
-    "scriptural_anchors": [],
-    "theological_summary": "Imported from imports/2025.csv; update with a non-lyrical theological summary.",
-    "arrangement_notes": null,
-    "slides_path": null,
-    "tags": [
-      "import-2025"
-    ],
-    "last_sung_override": "2025-07-27",
-    "status": "active",
-    "licensing_notes": null,
-    "language": "en",
-    "meter": null,
-    "notes_markdown": "Imported from `imports/2025.csv`. Add arrangement and preparation notes only (no lyrics).",
-    "pastoral_use_markdown": "Add practical worship-flow and ministry guidance only (no lyrics).",
-    "lyric_warning_reasons": [],
-    "times_sung": 2,
-    "last_sung_computed": "2025-07-27",
-    "history": [
-      {
-        "date": "2025-07-27",
-        "series_slug": "the-lamb-wins-revelation-4-16",
-        "usage": [
-          "main"
-        ],
-        "key": null
-      },
-      {
-        "date": "2025-04-27",
-        "series_slug": "i-would-like-to-believe-but-evangelistic-series",
-        "usage": [
-          "main"
-        ],
-        "key": null
-      }
-    ],
-    "writers_normalized": [
-      "horatio gates spafford",
-      "kristene dimarco",
-      "philip paul bliss"
-    ],
-    "original_artist_normalized": "bethel music"
-  },
-  {
-    "title": "It Is Well (Modern Hymn)",
-    "slug": "it-is-well-modern",
     "aka": [
+      "It Is Well (Modern Hymn)",
       "When Peace Like a River",
       "It Is Well with My Soul (Modern)"
     ],
@@ -7550,7 +7425,8 @@
       "Horatio G. Spafford",
       "Philip P. Bliss",
       "Ed Cash",
-      "Matt Redman"
+      "Matt Redman",
+      "Kristene DiMarco"
     ],
     "publisher": "Capitol CMG",
     "year": 2014,
@@ -7583,6 +7459,7 @@
     "arrangement_notes": "Keep instrumentation sparse through first half, then build gently; avoid dramatic tempo shifts.",
     "slides_path": null,
     "tags": [
+      "import-2025",
       "lament",
       "pastoral-care"
     ],
@@ -7594,14 +7471,32 @@
     "notes_markdown": "Because of its reflective posture, leave space between sections for guided prayer or scripture reading.",
     "pastoral_use_markdown": "Helpful after confession, during communion reflection, or in services acknowledging communal grief and personal hardship.",
     "lyric_warning_reasons": [],
-    "times_sung": 1,
+    "times_sung": 2,
     "last_sung_computed": "2025-11-02",
-    "history": [],
+    "history": [
+      {
+        "date": "2025-07-27",
+        "series_slug": "the-lamb-wins-revelation-4-16",
+        "usage": [
+          "main"
+        ],
+        "key": null
+      },
+      {
+        "date": "2025-04-27",
+        "series_slug": "i-would-like-to-believe-but-evangelistic-series",
+        "usage": [
+          "main"
+        ],
+        "key": null
+      }
+    ],
     "writers_normalized": [
       "horatio g. spafford",
       "philip p. bliss",
       "ed cash",
-      "matt redman"
+      "matt redman",
+      "kristene dimarco"
     ],
     "original_artist_normalized": "kristene dimarco"
   },
