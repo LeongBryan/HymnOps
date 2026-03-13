@@ -14,6 +14,10 @@ import type { AppData, PageContext, PlannerState } from "./types";
 import { createElement } from "./utils";
 import "./styles/main.css";
 
+type ThemeMode = "light" | "dark";
+
+const THEME_STORAGE_KEY = "hymnops-theme";
+
 function makeNav(path: string): HTMLElement {
   const links: Array<{ label: string; path: string }> = [
     { label: "Home", path: "/" },
@@ -38,12 +42,69 @@ function makeNav(path: string): HTMLElement {
   return nav;
 }
 
-function mountPage(app: HTMLElement, title: string, pageEl: HTMLElement): void {
+function getSystemThemeMode(): ThemeMode {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function readStoredThemeMode(): ThemeMode | null {
+  try {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+    return stored === "dark" || stored === "light" ? stored : null;
+  } catch {
+    return null;
+  }
+}
+
+function persistThemeMode(themeMode: ThemeMode): void {
+  try {
+    window.localStorage.setItem(THEME_STORAGE_KEY, themeMode);
+  } catch {
+    // Ignore storage failures and keep the in-memory preference.
+  }
+}
+
+function resolveInitialThemeMode(): ThemeMode {
+  return readStoredThemeMode() ?? getSystemThemeMode();
+}
+
+function applyThemeMode(themeMode: ThemeMode): void {
+  document.documentElement.dataset.theme = themeMode;
+  document.documentElement.style.colorScheme = themeMode;
+}
+
+function makeThemeToggle(themeMode: ThemeMode, onToggle: () => void): HTMLButtonElement {
+  const button = createElement(
+    "button",
+    "button-secondary theme-toggle",
+    `Dark mode: ${themeMode === "dark" ? "on" : "off"}`
+  ) as HTMLButtonElement;
+  button.type = "button";
+  button.setAttribute("aria-pressed", String(themeMode === "dark"));
+  button.title = themeMode === "dark" ? "Switch to light mode" : "Switch to dark mode";
+  if (themeMode === "dark") {
+    button.classList.add("is-active");
+  }
+  button.addEventListener("click", onToggle);
+  return button;
+}
+
+function mountPage(
+  app: HTMLElement,
+  title: string,
+  pageEl: HTMLElement,
+  themeMode: ThemeMode,
+  onToggleTheme: () => void
+): void {
   const path = currentRoutePath();
   const shell = createElement("div", "app-shell");
   const header = createElement("header", "app-header");
-  header.appendChild(createElement("h1", "app-title", "HymnOps"));
-  header.appendChild(makeNav(path));
+  const brand = createElement("div", "app-brand");
+  brand.appendChild(createElement("h1", "app-title", "HymnOps"));
+  header.appendChild(brand);
+
+  const headerControls = createElement("div", "app-header-controls");
+  headerControls.append(makeNav(path), makeThemeToggle(themeMode, onToggleTheme));
+  header.appendChild(headerControls);
   shell.appendChild(header);
 
   const main = createElement("main", "app-main");
@@ -101,10 +162,22 @@ async function bootstrap(): Promise<void> {
     const data = await loadAppData();
     const markdown = new MarkdownIt({ linkify: true });
     const router = new Router();
-    const state = { planner: plannerDefault() };
+    const state = {
+      planner: plannerDefault(),
+      themeMode: resolveInitialThemeMode()
+    };
+
+    applyThemeMode(state.themeMode);
 
     const setPlanner = (next: PlannerState) => {
       state.planner = next;
+    };
+
+    const toggleThemeMode = () => {
+      state.themeMode = state.themeMode === "dark" ? "light" : "dark";
+      persistThemeMode(state.themeMode);
+      applyThemeMode(state.themeMode);
+      router.refresh();
     };
 
     const renderWith = (title: string, renderPage: (ctx: PageContext, query: URLSearchParams, params: Record<string, string>) => HTMLElement) => {
@@ -118,9 +191,17 @@ async function bootstrap(): Promise<void> {
           () => router.refresh()
         );
         const pageEl = renderPage(ctx, query, params);
-        mountPage(app, title, pageEl);
+        mountPage(app, title, pageEl, state.themeMode, toggleThemeMode);
       };
     };
+
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
+    systemTheme.addEventListener("change", (event) => {
+      if (readStoredThemeMode()) return;
+      state.themeMode = event.matches ? "dark" : "light";
+      applyThemeMode(state.themeMode);
+      router.refresh();
+    });
 
     router.register(
       "/",
