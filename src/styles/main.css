@@ -275,6 +275,60 @@ a:focus-visible {
   align-items: end;
 }
 
+.browse-toolbar {
+  justify-content: space-between;
+}
+
+.toolbar-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+  margin-left: auto;
+}
+
+.control-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 150px;
+}
+
+.segmented-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--button-secondary-bg);
+}
+
+.segmented-option {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  padding: 7px 12px;
+  cursor: pointer;
+  font: inherit;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease;
+}
+
+.segmented-option:hover,
+.segmented-option:focus-visible {
+  border-color: var(--border);
+}
+
+.segmented-option.is-active {
+  background: var(--primary);
+  border-color: var(--primary-strong);
+  color: var(--button-primary-text);
+}
+
 .song-results {
   margin-top: 14px;
 }
@@ -617,12 +671,68 @@ a:focus-visible {
   border-collapse: collapse;
 }
 
+.entity-table {
+  min-width: 860px;
+  background: var(--surface);
+}
+
+.entity-table thead th {
+  background: var(--bg-soft);
+  white-space: nowrap;
+}
+
+.table-sort-button {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+.table-sort-button:hover,
+.table-sort-button:focus-visible {
+  color: var(--primary);
+}
+
+.table-sort-button.is-active {
+  color: var(--primary);
+}
+
+.table-sort-label {
+  font-weight: 600;
+}
+
+.table-sort-indicator {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .data-table th,
 .data-table td {
   text-align: left;
   border-bottom: 1px solid var(--border);
   padding: 7px 6px;
   vertical-align: top;
+}
+
+.list-primary {
+  display: block;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.list-secondary {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.35;
 }
 
 .table-empty {
@@ -717,6 +827,25 @@ a:focus-visible {
 @media (max-width: 680px) {
   .app-main {
     padding: 12px;
+  }
+
+  .toolbar-cluster {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .control-field {
+    flex: 1 1 160px;
+    min-width: 0;
+  }
+
+  .segmented-control {
+    width: 100%;
+  }
+
+  .segmented-option {
+    flex: 1 1 0;
+    text-align: center;
   }
 
   .chart-row {

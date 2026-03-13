@@ -217,7 +217,7 @@ async function bootstrap(): Promise<void> {
     );
     router.register(
       "/services",
-      renderWith("Services", (ctx) => ServicesPage(ctx))
+      renderWith("Services", (ctx, query) => ServicesPage(ctx, query))
     );
     router.register(
       "/services/:date",
@@ -225,7 +225,7 @@ async function bootstrap(): Promise<void> {
     );
     router.register(
       "/series",
-      renderWith("Series", (ctx) => SeriesListPage(ctx))
+      renderWith("Series", (ctx, query) => SeriesListPage(ctx, query))
     );
     router.register(
       "/series/:slug",
