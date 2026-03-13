@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-03-09T16:03:01.716Z",
+  "generated_at": "2026-03-13T15:32:00.950Z",
   "rotation_health": {
     "not_sung_4_weeks": [
+      {
+        "slug": "jesus-is-lord",
+        "title": "Jesus Is Lord",
+        "weeks_since_last_sung": null
+      },
+      {
+        "slug": "thank-you-for-the-cross",
+        "title": "Thank You for the Cross",
+        "weeks_since_last_sung": null
+      },
       {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
@@ -1055,6 +1065,16 @@
     ],
     "not_sung_8_weeks": [
       {
+        "slug": "jesus-is-lord",
+        "title": "Jesus Is Lord",
+        "weeks_since_last_sung": null
+      },
+      {
+        "slug": "thank-you-for-the-cross",
+        "title": "Thank You for the Cross",
+        "weeks_since_last_sung": null
+      },
+      {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
         "weeks_since_last_sung": 103
@@ -2107,6 +2127,16 @@
     ],
     "not_sung_12_weeks": [
       {
+        "slug": "jesus-is-lord",
+        "title": "Jesus Is Lord",
+        "weeks_since_last_sung": null
+      },
+      {
+        "slug": "thank-you-for-the-cross",
+        "title": "Thank You for the Cross",
+        "weeks_since_last_sung": null
+      },
+      {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
         "weeks_since_last_sung": 103
@@ -3133,6 +3163,16 @@
       }
     ],
     "not_sung_24_weeks": [
+      {
+        "slug": "jesus-is-lord",
+        "title": "Jesus Is Lord",
+        "weeks_since_last_sung": null
+      },
+      {
+        "slug": "thank-you-for-the-cross",
+        "title": "Thank You for the Cross",
+        "weeks_since_last_sung": null
+      },
       {
         "slug": "in-christ-alone-getty",
         "title": "In Christ Alone (Getty)",
@@ -5090,6 +5130,16 @@
       "slug": "your-word-emu",
       "title": "Your Word (Emu)",
       "count": 1
+    },
+    {
+      "slug": "jesus-is-lord",
+      "title": "Jesus Is Lord",
+      "count": 0
+    },
+    {
+      "slug": "thank-you-for-the-cross",
+      "title": "Thank You for the Cross",
+      "count": 0
     }
   ],
   "top_writers": [

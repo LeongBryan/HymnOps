@@ -87,7 +87,8 @@ function exportWhatsapp(ctx: PageContext): string {
   for (const item of planner.songs) {
     const usage = normalizeUsage(item.usage);
     const title = songBySlug.get(item.slug)?.title ?? item.slug;
-    groups[usage].push(title);
+    const serviceKey = item.key?.trim();
+    groups[usage].push(serviceKey ? `${title} (${serviceKey})` : title);
   }
 
   const seriesTitle = planner.series_slug
@@ -204,6 +205,62 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
       modalEl = null;
     }
   };
+  let draggingIndex: number | null = null;
+  let dropInsertionIndex: number | null = null;
+  const dropIndicator = createElement("li", "planner-drop-indicator");
+
+  const clearDropIndicator = () => {
+    dropInsertionIndex = null;
+    dropIndicator.remove();
+  };
+
+  const updateDropIndicator = () => {
+    dropIndicator.remove();
+    if (draggingIndex === null || dropInsertionIndex === null) return;
+
+    const items = [...list.querySelectorAll<HTMLLIElement>(".planner-item")];
+    if (items.length === 0) return;
+    if (dropInsertionIndex === draggingIndex || dropInsertionIndex === draggingIndex + 1) return;
+
+    if (dropInsertionIndex <= 0) {
+      list.insertBefore(dropIndicator, items[0]);
+      return;
+    }
+
+    if (dropInsertionIndex >= items.length) {
+      list.appendChild(dropIndicator);
+      return;
+    }
+
+    list.insertBefore(dropIndicator, items[dropInsertionIndex]);
+  };
+
+  const getDropInsertionIndex = (clientY: number): number | null => {
+    const items = [...list.querySelectorAll<HTMLLIElement>(".planner-item")];
+    if (items.length === 0) return null;
+
+    for (const [index, item] of items.entries()) {
+      const rect = item.getBoundingClientRect();
+      if (clientY < rect.top + rect.height / 2) {
+        return index;
+      }
+    }
+
+    return items.length;
+  };
+
+  const moveDraggedSong = (insertionIndex: number): boolean => {
+    if (draggingIndex === null) return false;
+
+    const targetIndex = insertionIndex > draggingIndex ? insertionIndex - 1 : insertionIndex;
+    if (targetIndex === draggingIndex) return false;
+
+    const nextSongs = [...ctx.planner.songs];
+    const [moved] = nextSongs.splice(draggingIndex, 1);
+    nextSongs.splice(targetIndex, 0, moved);
+    ctx.setPlanner({ ...ctx.planner, songs: nextSongs });
+    return true;
+  };
 
   const rerenderList = () => {
     list.innerHTML = "";
@@ -219,21 +276,20 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
       li.dataset.index = String(index);
 
       li.addEventListener("dragstart", (event) => {
+        draggingIndex = index;
+        dropInsertionIndex = index;
         event.dataTransfer?.setData("text/plain", String(index));
+        if (event.dataTransfer) {
+          event.dataTransfer.effectAllowed = "move";
+        }
+        requestAnimationFrame(() => {
+          li.classList.add("is-dragging");
+        });
       });
-      li.addEventListener("dragover", (event) => {
-        event.preventDefault();
-      });
-      li.addEventListener("drop", (event) => {
-        event.preventDefault();
-        const sourceIndexRaw = event.dataTransfer?.getData("text/plain");
-        const sourceIndex = sourceIndexRaw ? Number(sourceIndexRaw) : Number.NaN;
-        if (!Number.isFinite(sourceIndex)) return;
-        const nextSongs = [...ctx.planner.songs];
-        const [moved] = nextSongs.splice(sourceIndex, 1);
-        nextSongs.splice(index, 0, moved);
-        ctx.setPlanner({ ...ctx.planner, songs: nextSongs });
-        ctx.rerender();
+      li.addEventListener("dragend", () => {
+        li.classList.remove("is-dragging");
+        draggingIndex = null;
+        clearDropIndicator();
       });
 
       const song = ctx.data.songs.find((candidate) => candidate.slug === item.slug);
@@ -327,6 +383,39 @@ export function PlannerPage(ctx: PageContext, query: URLSearchParams): HTMLEleme
       searchResults.appendChild(createElement("p", "empty-state", "No matching songs."));
     }
   };
+
+  list.addEventListener("dragover", (event) => {
+    if (draggingIndex === null) return;
+
+    event.preventDefault();
+    if (event.dataTransfer) {
+      event.dataTransfer.dropEffect = "move";
+    }
+
+    const nextInsertionIndex = getDropInsertionIndex(event.clientY);
+    if (nextInsertionIndex === null) return;
+
+    dropInsertionIndex = nextInsertionIndex;
+    updateDropIndicator();
+  });
+
+  list.addEventListener("drop", (event) => {
+    event.preventDefault();
+    if (draggingIndex === null) return;
+
+    const nextInsertionIndex = getDropInsertionIndex(event.clientY);
+    if (nextInsertionIndex !== null) {
+      dropInsertionIndex = nextInsertionIndex;
+    }
+
+    const didMove = dropInsertionIndex !== null && moveDraggedSong(dropInsertionIndex);
+    draggingIndex = null;
+    clearDropIndicator();
+
+    if (didMove) {
+      ctx.rerender();
+    }
+  });
 
   search.addEventListener("input", rerenderSearch);
   rerenderList();
