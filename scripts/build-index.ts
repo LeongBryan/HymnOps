@@ -51,7 +51,7 @@ interface SongRecord {
   doctrinal_categories: string[];
   emotional_tone: string[];
   scriptural_anchors: string[];
-  theological_summary: string;
+  theological_summary: string | null;
   arrangement_notes: string | null;
   slides_path: string | null;
   tags: string[];
@@ -61,7 +61,6 @@ interface SongRecord {
   language?: string | null;
   meter?: string | null;
   notes_markdown: string | null;
-  pastoral_use_markdown: string | null;
   lyric_warning_reasons: string[];
   times_sung: number;
   last_sung_computed: string | null;
@@ -164,7 +163,7 @@ async function readMarkdownFiles(dir: string): Promise<Array<{ fileName: string;
   return parsedFiles;
 }
 
-function extractSections(body: string): { notes_markdown: string | null; pastoral_use_markdown: string | null } {
+function extractSections(body: string): { notes_markdown: string | null } {
   const headings: Array<{ title: string; index: number; contentStart: number }> = [];
   const regex = /^##\s+(.+)\s*$/gm;
   let match: RegExpExecArray | null;
@@ -185,8 +184,7 @@ function extractSections(body: string): { notes_markdown: string | null; pastora
   }
 
   return {
-    notes_markdown: sections["Notes"]?.trim() || null,
-    pastoral_use_markdown: sections["Pastoral Use"]?.trim() || null
+    notes_markdown: sections["Notes"]?.trim() || null
   };
 }
 
@@ -271,7 +269,7 @@ async function run(): Promise<void> {
       const fm = file.frontmatter;
       const slug = isString(fm.slug) ? fm.slug : file.fileName.replace(/\.md$/i, "");
       const lyricWarnings = detectLyricLikeContent(file.body);
-      const sections = lyricWarnings.length > 0 ? { notes_markdown: null, pastoral_use_markdown: null } : extractSections(file.body);
+      const sections = lyricWarnings.length > 0 ? { notes_markdown: null } : extractSections(file.body);
       const history = (historyBySong.get(slug) ?? []).slice(0, 12);
       const lastFromHistory = history[0]?.date ?? null;
       const lastOverride = isString(fm.last_sung_override) ? fm.last_sung_override : null;
@@ -303,7 +301,7 @@ async function run(): Promise<void> {
         doctrinal_categories: isStringArray(fm.doctrinal_categories) ? fm.doctrinal_categories : [],
         emotional_tone: isStringArray(fm.emotional_tone) ? fm.emotional_tone : [],
         scriptural_anchors: isStringArray(fm.scriptural_anchors) ? fm.scriptural_anchors : [],
-        theological_summary: isString(fm.theological_summary) ? fm.theological_summary : "",
+        theological_summary: isString(fm.theological_summary) ? fm.theological_summary : null,
         arrangement_notes: isString(fm.arrangement_notes) ? fm.arrangement_notes : null,
         slides_path: isString(fm.slides_path) ? fm.slides_path : null,
         tags: isStringArray(fm.tags) ? fm.tags : [],
@@ -313,7 +311,6 @@ async function run(): Promise<void> {
         language: isString(fm.language) ? fm.language : null,
         meter: isString(fm.meter) ? fm.meter : null,
         notes_markdown: sections.notes_markdown,
-        pastoral_use_markdown: sections.pastoral_use_markdown,
         lyric_warning_reasons: lyricWarnings,
         times_sung: timesSung,
         last_sung_computed: lastSungComputed,
@@ -345,7 +342,7 @@ async function run(): Promise<void> {
     .sort((a, b) => a.title.localeCompare(b.title));
 
   const now = new Date();
-  const rotationThresholds = [4, 8, 12, 24];
+  const rotationThresholds = [4, 12, 24, 48];
   const rotationHealth: DerivedData["rotation_health"] = {};
   for (const threshold of rotationThresholds) {
     const bucket = songs

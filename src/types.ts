@@ -28,7 +28,7 @@ export interface Song {
   doctrinal_categories: string[];
   emotional_tone: string[];
   scriptural_anchors: string[];
-  theological_summary: string;
+  theological_summary: string | null;
   arrangement_notes: string | null;
   slides_path: string | null;
   tags: string[];
@@ -38,7 +38,6 @@ export interface Song {
   language?: string | null;
   meter?: string | null;
   notes_markdown: string | null;
-  pastoral_use_markdown: string | null;
   lyric_warning_reasons: string[];
   times_sung: number;
   last_sung_computed: string | null;

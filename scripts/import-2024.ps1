@@ -340,9 +340,6 @@ foreach ($song in $songRecords) {
   $lines.Add("")
   $lines.Add("Imported from ``$importCsvLabel``. Add arrangement and preparation notes only (no lyrics).")
   $lines.Add("")
-  $lines.Add("## Pastoral Use")
-  $lines.Add("")
-  $lines.Add("Add practical worship-flow and ministry guidance only (no lyrics).")
 
   Set-Content -Path $songPath -Value (($lines -join "`n") + "`n") -Encoding utf8
   $createdSongs += 1

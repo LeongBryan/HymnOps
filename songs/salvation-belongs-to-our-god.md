@@ -1,15 +1,15 @@
 ---
-title: "Salvation Belongs To Our God"
-slug: "salvation-belongs-to-our-god"
+title: Salvation Belongs To Our God
+slug: salvation-belongs-to-our-god
 aka: []
-ccli_number: "24092"
-songselect_url: "https://songselect.ccli.com/songs/24092/salvation-belongs-to-our-god"
-lyrics_source: "SongSelect"
-lyrics_hint: ""
+ccli_number: '24092'
+songselect_url: 'https://songselect.ccli.com/songs/24092/salvation-belongs-to-our-god'
+lyrics_source: SongSelect
+lyrics_hint: ''
 original_artist: null
 writers:
-  - "Adrian Howard"
-  - "Pat Turner"
+  - Adrian Howard
+  - Pat Turner
 publisher: null
 year: null
 tempo_bpm: null
@@ -18,30 +18,26 @@ time_signature: null
 congregational_fit: null
 vocal_range: null
 dominant_themes:
-  - "Adoration"
-  - "Faithfulness"
+  - Adoration
+  - Faithfulness
+  - Identity in Christ
 doctrinal_categories:
-  - "Worship"
-  - "Providence"
+  - Providence
+  - Worship
 emotional_tone: []
 scriptural_anchors: []
-theological_summary: "Imported from 2024 planning CSV; update with a non-lyrical theological summary."
+theological_summary: null
 arrangement_notes: null
 slides_path: null
 tags:
-  - "import-2024"
-last_sung_override: "2024-07-21"
-status: "active"
+  - import-2024
+last_sung_override: '2024-07-21'
+status: active
 licensing_notes: null
-language: "en"
+language: en
 meter: null
 ---
 
 ## Notes
 
 Imported from imports/2024.csv. Add arrangement and preparation notes only (no lyrics).
-
-## Pastoral Use
-
-Add practical worship-flow and ministry guidance only (no lyrics).
-

@@ -1,14 +1,14 @@
 ---
-title: "All Heavens Declare"
-slug: "all-heavens-declare"
+title: All Heavens Declare
+slug: all-heavens-declare
 aka: []
-ccli_number: "7128159"
-songselect_url: "https://songselect.ccli.com/songs/7128159/all-heavens-declare"
-lyrics_source: "SongSelect"
-lyrics_hint: ""
+ccli_number: '7128159'
+songselect_url: 'https://songselect.ccli.com/songs/7128159/all-heavens-declare'
+lyrics_source: SongSelect
+lyrics_hint: ''
 original_artist: null
 writers:
-  - "Pratik Kore"
+  - Pratik Kore
 publisher: null
 year: null
 tempo_bpm: null
@@ -17,30 +17,30 @@ time_signature: null
 congregational_fit: null
 vocal_range: null
 dominant_themes:
-  - "Mission"
-  - "Evangelism"
-  - "Sending"
+  - Adoration
+  - Creation
+  - Resurrection
+  - Hope
 doctrinal_categories:
-  - "Mission"
+  - Christology
+  - Worship
 emotional_tone: []
 scriptural_anchors: []
-theological_summary: "Imported from 2024 planning CSV; update with a non-lyrical theological summary."
+theological_summary: >-
+  This song joins creation's witness to the risen Christ with the church's
+  praise, presenting the heavens themselves as testimony to Jesus' glory and
+  triumph.
 arrangement_notes: null
 slides_path: null
 tags:
-  - "import-2024"
-last_sung_override: "2024-11-17"
-status: "active"
+  - import-2024
+last_sung_override: '2024-11-17'
+status: active
 licensing_notes: null
-language: "en"
+language: en
 meter: null
 ---
 
 ## Notes
 
 Imported from imports/2024.csv. Add arrangement and preparation notes only (no lyrics).
-
-## Pastoral Use
-
-Add practical worship-flow and ministry guidance only (no lyrics).
-

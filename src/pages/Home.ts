@@ -2,6 +2,12 @@ import type { PageContext } from "../types";
 import { toAppHref } from "../router";
 import { createElement, formatDate } from "../utils";
 
+const HOME_ROTATION_BUCKETS = [
+  { weeks: 12, label: "3 mth" },
+  { weeks: 24, label: "6 mth" },
+  { weeks: 48, label: "12 mth" }
+] as const;
+
 function quickLink(label: string, href: string, description: string): HTMLElement {
   const card = createElement("a", "quick-link") as HTMLAnchorElement;
   card.href = href;
@@ -9,6 +15,11 @@ function quickLink(label: string, href: string, description: string): HTMLElemen
   const body = createElement("p", undefined, description);
   card.append(title, body);
   return card;
+}
+
+function formatRotationAge(weeks: number | null): string {
+  if (weeks === null) return "never";
+  return `${Math.max(1, Math.round(weeks / 4))}m`;
 }
 
 export function HomePage(ctx: PageContext): HTMLElement {
@@ -34,18 +45,18 @@ export function HomePage(ctx: PageContext): HTMLElement {
   const widgets = createElement("section", "widget-grid");
 
   const rotation = createElement("article", "widget");
-  rotation.appendChild(createElement("h2", undefined, "Not Sung in 8/12/24 Weeks"));
-  for (const bucket of [8, 12, 24]) {
-    const key = `not_sung_${bucket}_weeks`;
+  rotation.appendChild(createElement("h2", undefined, "Not Sung in 3/6/12 Months"));
+  for (const bucket of HOME_ROTATION_BUCKETS) {
+    const key = `not_sung_${bucket.weeks}_weeks`;
     const list = ctx.data.derived.rotation_health[key] ?? [];
     const group = createElement("div", "widget-subgroup");
-    group.appendChild(createElement("h3", undefined, `${bucket} weeks`));
+    group.appendChild(createElement("h3", undefined, bucket.label));
     const ul = createElement("ul");
     for (const item of list.slice(0, 10)) {
       const li = createElement("li");
       const anchor = createElement("a") as HTMLAnchorElement;
       anchor.href = toAppHref(`/songs/${item.slug}`);
-      anchor.textContent = `${item.title}${item.weeks_since_last_sung !== null ? ` (${item.weeks_since_last_sung}w)` : " (never)"}`;
+      anchor.textContent = `${item.title} (${formatRotationAge(item.weeks_since_last_sung)})`;
       li.appendChild(anchor);
       ul.appendChild(li);
     }

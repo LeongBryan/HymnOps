@@ -209,7 +209,9 @@ function validateSong(file: ParsedMarkdown, errors: string[]): string | null {
   if (!isStringArray(fm.doctrinal_categories)) errors.push(`${file.filePath}: "doctrinal_categories" must be a string array`);
   if (!isStringArray(fm.emotional_tone)) errors.push(`${file.filePath}: "emotional_tone" must be a string array`);
   if (!isStringArray(fm.scriptural_anchors)) errors.push(`${file.filePath}: "scriptural_anchors" must be a string array`);
-  if (!isString(fm.theological_summary)) errors.push(`${file.filePath}: "theological_summary" must be a string`);
+  if (!isStringOrNull(fm.theological_summary)) {
+    errors.push(`${file.filePath}: "theological_summary" must be a string or null`);
+  }
   if (!isStringOrNull(fm.arrangement_notes)) errors.push(`${file.filePath}: "arrangement_notes" must be string or null`);
   if (!isStringOrNull(fm.slides_path)) errors.push(`${file.filePath}: "slides_path" must be string or null`);
   if (!isStringArray(fm.tags)) errors.push(`${file.filePath}: "tags" must be a string array`);

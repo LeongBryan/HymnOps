@@ -40,7 +40,7 @@ export function SongDetailPage(ctx: PageContext, slug: string): HTMLElement {
 
   const summary = createElement("section", "detail-block");
   summary.appendChild(createElement("h2", undefined, "Theological Summary"));
-  summary.appendChild(createElement("p", undefined, song.theological_summary));
+  summary.appendChild(createElement("p", undefined, song.theological_summary ?? "Summary not yet confirmed."));
   page.appendChild(summary);
 
   const metadata = createElement("section", "detail-grid");
@@ -90,13 +90,6 @@ export function SongDetailPage(ctx: PageContext, slug: string): HTMLElement {
   notesBody.innerHTML = ctx.markdown.render(song.notes_markdown ?? "_No notes._");
   notesBlock.appendChild(notesBody);
   notes.appendChild(notesBlock);
-
-  const pastoral = createElement("article", "detail-block markdown-block");
-  pastoral.appendChild(createElement("h2", undefined, "Pastoral Use"));
-  const pastoralBody = createElement("div");
-  pastoralBody.innerHTML = ctx.markdown.render(song.pastoral_use_markdown ?? "_No pastoral-use notes._");
-  pastoral.appendChild(pastoralBody);
-  notes.appendChild(pastoral);
   page.appendChild(notes);
 
   const history = createElement("section", "detail-block");

@@ -1,14 +1,14 @@
 ---
-title: "You Laid Aside Your Majesty"
-slug: "you-laid-aside-your-majesty"
+title: You Laid Aside Your Majesty
+slug: you-laid-aside-your-majesty
 aka: []
-ccli_number: "78275"
-songselect_url: "https://songselect.ccli.com/songs/78275/you-laid-aside-your-majesty"
-lyrics_source: "SongSelect"
-lyrics_hint: ""
+ccli_number: '78275'
+songselect_url: 'https://songselect.ccli.com/songs/78275/you-laid-aside-your-majesty'
+lyrics_source: SongSelect
+lyrics_hint: ''
 original_artist: null
 writers:
-  - "Noel Richards"
+  - Noel Richards
 publisher: null
 year: null
 tempo_bpm: null
@@ -17,32 +17,27 @@ time_signature: null
 congregational_fit: null
 vocal_range: null
 dominant_themes:
-  - "Kingdom of God"
-  - "Sovereignty"
-  - "Adoration"
+  - Kingdom of God
+  - Sovereignty
+  - Adoration
 doctrinal_categories:
-  - "Eschatology"
-  - "Providence"
-  - "Worship"
+  - Eschatology
+  - Providence
+  - Worship
 emotional_tone: []
 scriptural_anchors: []
-theological_summary: "Imported from 2024 planning CSV; update with a non-lyrical theological summary."
+theological_summary: null
 arrangement_notes: null
 slides_path: null
 tags:
-  - "import-2024"
-last_sung_override: "2024-11-17"
-status: "active"
+  - import-2024
+last_sung_override: '2024-11-17'
+status: active
 licensing_notes: null
-language: "en"
+language: en
 meter: null
 ---
 
 ## Notes
 
 Imported from imports/2024.csv. Add arrangement and preparation notes only (no lyrics).
-
-## Pastoral Use
-
-Add practical worship-flow and ministry guidance only (no lyrics).
-

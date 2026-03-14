@@ -1,11 +1,11 @@
 ---
-title: "New Song Title"
-slug: "new-song-title"
+title: New Song Title
+slug: new-song-title
 aka: []
-ccli_number: "1234567"
-songselect_url: "https://songselect.ccli.com/songs/1234567"
-lyrics_source: "SongSelect"
-lyrics_hint: ""
+ccli_number: '1234567'
+songselect_url: 'https://songselect.ccli.com/songs/1234567'
+lyrics_source: SongSelect
+lyrics_hint: ''
 original_artist: null
 writers: []
 publisher: null
@@ -19,21 +19,17 @@ dominant_themes: []
 doctrinal_categories: []
 emotional_tone: []
 scriptural_anchors: []
-theological_summary: "Write a 2-5 sentence non-lyrical theological summary."
+theological_summary: Write a 2-5 sentence non-lyrical theological summary.
 arrangement_notes: null
 slides_path: null
 tags: []
 last_sung_override: null
-status: "active"
+status: active
 licensing_notes: null
-language: "en"
+language: en
 meter: null
 ---
 
 ## Notes
 
 Add arrangement and preparation notes only (no lyrics).
-
-## Pastoral Use
-
-Add practical worship-flow and ministry guidance only (no lyrics).
