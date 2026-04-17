@@ -12,6 +12,13 @@ import { SongDetailPage } from "./pages/SongDetail";
 import { SongListPage } from "./pages/SongList";
 import type { AppData, PageContext, PlannerState } from "./types";
 import { createElement } from "./utils";
+import { LoginPage } from "./v2/pages/Login";
+import { SongLibraryPage } from "./v2/pages/SongLibrary";
+import { SongFormPage } from "./v2/pages/SongForm";
+import { ServiceLoggerPage } from "./v2/pages/ServiceLogger";
+import { ServicesManagerPage } from "./v2/pages/ServicesManager";
+import { SeriesManagerPage } from "./v2/pages/SeriesManager";
+import { V2AnalyticsPage } from "./v2/pages/V2Analytics";
 import "./styles/main.css";
 
 type ThemeMode = "light" | "dark";
@@ -25,7 +32,8 @@ function makeNav(path: string): HTMLElement {
     { label: "Services", path: "/services" },
     { label: "Series", path: "/series" },
     { label: "Planner", path: "/planner" },
-    { label: "Analytics", path: "/analytics" }
+    { label: "Analytics", path: "/analytics" },
+    { label: "v2", path: "/v2" }
   ];
 
   const nav = createElement("nav", "app-nav");
@@ -239,6 +247,89 @@ async function bootstrap(): Promise<void> {
       "/analytics",
       renderWith("Analytics", (ctx) => AnalyticsPage(ctx))
     );
+
+    // ── v2 routes (Supabase-backed) ─────────────────────────────────────────
+    // renderV2With: like renderWith but passes navigate/rerender instead of PageContext.
+    const renderV2With = (
+      title: string,
+      renderPage: (
+        navigate: (path: string) => void,
+        params: Record<string, string>,
+        query: URLSearchParams
+      ) => HTMLElement
+    ) => {
+      return (params: Record<string, string>, query: URLSearchParams) => {
+        const pageEl = renderPage((path) => router.navigate(path), params, query);
+        mountPage(app, title, pageEl, state.themeMode, toggleThemeMode);
+      };
+    };
+
+    router.register(
+      "/v2",
+      renderV2With("v2 Home", (navigate) => {
+        const page = createElement("div", "page");
+        page.appendChild(createElement("h1", undefined, "HymnOps v2"));
+        const links2: Array<{ label: string; desc: string; path: string }> = [
+          { label: "Log a Service",  desc: "Record today's service",        path: "/v2/log"         },
+          { label: "Song Library",   desc: "Browse and edit songs",         path: "/v2/songs"       },
+          { label: "Services",       desc: "View and manage services",      path: "/v2/services"    },
+          { label: "Series",         desc: "Manage sermon series",          path: "/v2/series"      },
+          { label: "Analytics",      desc: "DB-backed usage stats",         path: "/v2/analytics"   }
+        ];
+        const grid = createElement("div", "quick-actions");
+        for (const l of links2) {
+          const card = createElement("a", "quick-link") as HTMLAnchorElement;
+          card.href = toAppHref(l.path);
+          card.addEventListener("click", (e) => { e.preventDefault(); navigate(l.path); });
+          card.appendChild(createElement("h3", undefined, l.label));
+          card.appendChild(createElement("p", undefined, l.desc));
+          grid.appendChild(card);
+        }
+        page.appendChild(grid);
+        return page;
+      })
+    );
+
+    router.register(
+      "/v2/login",
+      renderV2With("Sign in", (navigate) => LoginPage(navigate))
+    );
+
+    router.register(
+      "/v2/songs",
+      renderV2With("Song Library", (navigate) => SongLibraryPage(navigate))
+    );
+
+    router.register(
+      "/v2/songs/new",
+      renderV2With("Add Song", (navigate) => SongFormPage(navigate))
+    );
+
+    router.register(
+      "/v2/songs/:slug/edit",
+      renderV2With("Edit Song", (navigate, params) => SongFormPage(navigate, params.slug))
+    );
+
+    router.register(
+      "/v2/log",
+      renderV2With("Log Service", (navigate, _params, query) => ServiceLoggerPage(navigate, query))
+    );
+
+    router.register(
+      "/v2/services",
+      renderV2With("Services", (navigate) => ServicesManagerPage(navigate))
+    );
+
+    router.register(
+      "/v2/series",
+      renderV2With("Series", (navigate) => SeriesManagerPage(navigate))
+    );
+
+    router.register(
+      "/v2/analytics",
+      renderV2With("Analytics v2", (navigate) => V2AnalyticsPage(navigate))
+    );
+
     router.setFallback(
       renderWith("Not Found", () => {
         const page = createElement("div", "page");

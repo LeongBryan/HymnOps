@@ -10,9 +10,14 @@
     "build:index": "tsx scripts/build-index.ts",
     "build": "npm run validate-no-lyrics && npm run validate && npm run build:index && vite build",
     "preview": "vite preview",
-    "build:embeddings:local": "tsx scripts/build-embeddings.local.ts"
+    "build:embeddings:local": "tsx scripts/build-embeddings.local.ts",
+    "import:series": "tsx --env-file .env.local scripts/import-series-to-supabase.ts",
+    "import:songs": "tsx --env-file .env.local scripts/import-songs-to-supabase.ts",
+    "import:services": "tsx --env-file .env.local scripts/import-services-to-supabase.ts",
+    "import:all": "npm run import:series && npm run import:songs && npm run import:services"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
     "date-fns": "^3.6.0",
     "fuse.js": "^7.0.0",
     "gray-matter": "^4.0.3",

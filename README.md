@@ -1,6 +1,9 @@
 # HymnOps
 
-HymnOps is a static worship song library, setlist planner, and analytics dashboard built for GitHub Pages.
+HymnOps is a worship song library, service logger, and analytics dashboard.
+
+- **v1 (static)** — markdown-first, builds to JSON, deploys to GitHub Pages at `hymnops.xyz`. No backend required.
+- **v2 (Supabase)** — database-backed service logging, song editing, and analytics at `/v2`. Auth-gated writes via magic-link email.
 
 ## Why not Google Sheets
 
@@ -34,13 +37,53 @@ Local production preview:
 npm run preview
 ```
 
+## v2 first-time setup
+
+v2 talks to a hosted Supabase project. Do this once:
+
+```bash
+# 1. Push migrations (creates all 8 tables in Supabase)
+npx supabase db push
+
+# 2. Add your service-role key to .env.local:
+#    SUPABASE_SERVICE_ROLE_KEY=eyJ...
+#    (Supabase dashboard → Project Settings → API → service_role)
+
+# 3. Import all existing markdown data into the DB
+npm run import:all
+
+# 4. In the Supabase dashboard:
+#    - Authentication → URL Configuration → add http://localhost:5173/v2
+#    - Authentication → Users → Invite your email
+
+# 5. Start dev server and go to /v2/login
+npm run dev
+```
+
+After schema changes, regenerate DB types:
+
+```bash
+npx supabase gen types typescript --project-id kcostaajsvtwvmedxlue > src/lib/database.types.ts
+```
+
+See [docs/supabase-setup.md](./docs/supabase-setup.md) for the full guide.
+
 ## Weekly workflow
+
+### v1 (markdown, static site)
 
 1. Add/edit songs in `songs/*.md` using `songs/_template.md`.
 2. Add each service in `services/YYYY-MM-DD.md` using `services/_template.md`.
 3. Optionally add/update teaching series in `series/*.md`.
 4. Run `npm run validate`.
 5. Commit and push.
+
+### v2 (Supabase, live DB)
+
+1. Open `http://localhost:5173/v2/log` on your phone on Sunday.
+2. Fill in date, series, speaker, scripture, add songs via typeahead.
+3. Hit **Save service**.
+4. Manage songs at `/v2/songs`, analytics at `/v2/analytics`.
 
 ## Data build
 
@@ -166,9 +209,14 @@ Use `npm run build:embeddings:local` only on local machines if you maintain priv
 
 ## Adding content quickly
 
-- Song: copy `songs/_template.md` -> `songs/<slug>.md`
-- Service: copy `services/_template.md` -> `services/YYYY-MM-DD.md`
-- Series: copy `series/_template.md` -> `series/<slug>.md`
+**v1 (markdown):**
+- Song: copy `songs/_template.md` → `songs/<slug>.md`
+- Service: copy `services/_template.md` → `services/YYYY-MM-DD.md`
+- Series: copy `series/_template.md` → `series/<slug>.md`
+
+**v2 (database):**
+- Song: `/v2/songs/new`
+- Service: `/v2/log`
 
 ## TODO
 

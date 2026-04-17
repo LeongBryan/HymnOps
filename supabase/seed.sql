@@ -1,0 +1,9 @@
+-- supabase/seed.sql
+-- This file is run automatically after migrations during `supabase db reset`.
+-- It is intentionally empty — all real data is imported via the import scripts:
+--
+--   npx tsx --env-file .env.local scripts/import-series-to-supabase.ts
+--   npx tsx --env-file .env.local scripts/import-songs-to-supabase.ts
+--   npx tsx --env-file .env.local scripts/import-services-to-supabase.ts
+--
+-- See docs/supabase-setup.md for full instructions.
