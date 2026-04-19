@@ -10,7 +10,7 @@ export function ServicesManagerPage(navigate: (path: string) => void): HTMLEleme
   headerRow.appendChild(createElement("h1", undefined, "Services"));
   const addBtn = createElement("button", "button-primary", "+ Log service") as HTMLButtonElement;
   addBtn.type = "button";
-  addBtn.addEventListener("click", () => navigate("/v2/log"));
+  addBtn.addEventListener("click", () => navigate("/log"));
   headerRow.appendChild(addBtn);
   page.appendChild(headerRow);
 
@@ -58,7 +58,7 @@ export function ServicesManagerPage(navigate: (path: string) => void): HTMLEleme
 
         const editBtn = createElement("button", "button-secondary", "Edit") as HTMLButtonElement;
         editBtn.type = "button";
-        editBtn.addEventListener("click", () => navigate(`/v2/log?date=${svc.service_date}`));
+        editBtn.addEventListener("click", () => navigate(`/log?date=${svc.service_date}`));
 
         const delBtn = createElement("button", "button-secondary v2-delete-btn", "Delete") as HTMLButtonElement;
         delBtn.type = "button";

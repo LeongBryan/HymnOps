@@ -4,13 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npm run build:index && vite",
-    "validate-no-lyrics": "tsx scripts/validate-no-lyrics.ts",
-    "validate": "tsx scripts/validate-data.ts",
-    "build:index": "tsx scripts/build-index.ts",
-    "build": "npm run validate-no-lyrics && npm run validate && npm run build:index && vite build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
-    "build:embeddings:local": "tsx scripts/build-embeddings.local.ts",
     "import:series": "tsx --env-file .env.local scripts/import-series-to-supabase.ts",
     "import:songs": "tsx --env-file .env.local scripts/import-songs-to-supabase.ts",
     "import:services": "tsx --env-file .env.local scripts/import-services-to-supabase.ts",
@@ -19,9 +15,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.50.0",
     "date-fns": "^3.6.0",
-    "fuse.js": "^7.0.0",
-    "gray-matter": "^4.0.3",
-    "markdown-it": "^14.1.0"
+    "fuse.js": "^7.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.17.30",

@@ -6,7 +6,7 @@ export interface TableColumn<T> {
   render?: (value: T[keyof T], row: T) => string;
 }
 
-export function Table<T extends Record<string, unknown>>(columns: TableColumn<T>[], rows: T[]): HTMLElement {
+export function Table<T extends object>(columns: TableColumn<T>[], rows: T[]): HTMLElement {
   const wrapper = createElement("div", "table-wrap");
   const table = createElement("table", "data-table");
   const thead = createElement("thead");

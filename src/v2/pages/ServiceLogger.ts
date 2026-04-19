@@ -170,8 +170,8 @@ function buildSetlistItem(
 // ─── Main page ────────────────────────────────────────────────────────────────
 
 /**
- * /v2/log             → log a new service
- * /v2/log?date=YYYY-MM-DD → pre-fill date (e.g. for editing today)
+ * /log             → log a new service
+ * /log?date=YYYY-MM-DD → pre-fill date (e.g. for editing today)
  */
 export function ServiceLoggerPage(
   navigate: (path: string) => void,

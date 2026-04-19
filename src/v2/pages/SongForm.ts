@@ -104,8 +104,8 @@ function textArea(id: string, labelText: string, value = "", rows = 3): { wrap: 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
 /**
- * /v2/songs/new          → add a new song
- * /v2/songs/:slug/edit   → edit existing song
+ * /songs/new          → add a new song
+ * /songs/:slug/edit   → edit existing song
  */
 export function SongFormPage(navigate: (path: string) => void, slug?: string): HTMLElement {
   const isEdit = Boolean(slug);
@@ -215,7 +215,7 @@ export function SongFormPage(navigate: (path: string) => void, slug?: string): H
     saveBtn.type = "button";
     const cancelBtn = createElement("button", "button-secondary", "Cancel") as HTMLButtonElement;
     cancelBtn.type = "button";
-    cancelBtn.addEventListener("click", () => navigate("/v2/songs"));
+    cancelBtn.addEventListener("click", () => navigate("/songs"));
 
     if (isEdit && existing) {
       const deleteBtn = createElement("button", "button-secondary v2-delete-btn", "Delete song") as HTMLButtonElement;
@@ -226,7 +226,7 @@ export function SongFormPage(navigate: (path: string) => void, slug?: string): H
         deleteBtn.textContent = "Deleting…";
         const { error } = await supabase.from("songs").delete().eq("id", existing!.id);
         if (error) { statusEl.textContent = error.message; deleteBtn.disabled = false; deleteBtn.textContent = "Delete song"; return; }
-        navigate("/v2/songs");
+        navigate("/songs");
       });
       actions.append(saveBtn, cancelBtn, deleteBtn);
     } else {
@@ -301,7 +301,7 @@ export function SongFormPage(navigate: (path: string) => void, slug?: string): H
           if (e) throw e;
         }
 
-        navigate("/v2/songs");
+        navigate("/songs");
       } catch (err) {
         statusEl.textContent = err instanceof Error ? err.message : "Save failed.";
         saveBtn.disabled = false;

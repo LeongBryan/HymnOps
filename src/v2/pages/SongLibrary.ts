@@ -36,11 +36,11 @@ function renderSongList(
 
     const titleRow = createElement("div", "v2-song-item-top");
     const titleLink = createElement("a", "list-primary") as HTMLAnchorElement;
-    titleLink.href = toAppHref(`/v2/songs/${song.slug}/edit`);
+    titleLink.href = toAppHref(`/songs/${song.slug}/edit`);
     titleLink.textContent = song.title;
     titleLink.addEventListener("click", (e) => {
       e.preventDefault();
-      navigate(`/v2/songs/${song.slug}/edit`);
+      navigate(`/songs/${song.slug}/edit`);
     });
 
     const statusChip = createElement("span", `chip ${song.status === "archive" ? "chip-muted" : ""}`, song.status);
@@ -73,7 +73,7 @@ export function SongLibraryPage(navigate: (path: string) => void): HTMLElement {
   headerRow.appendChild(createElement("h1", undefined, "Song Library"));
   const addBtn = createElement("button", "button-primary", "+ Add song") as HTMLButtonElement;
   addBtn.type = "button";
-  addBtn.addEventListener("click", () => navigate("/v2/songs/new"));
+  addBtn.addEventListener("click", () => navigate("/songs/new"));
   headerRow.appendChild(addBtn);
   page.appendChild(headerRow);
 

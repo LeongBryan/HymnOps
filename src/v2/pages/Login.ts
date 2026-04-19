@@ -2,7 +2,7 @@ import { signInWithMagicLink, getUser } from "../auth";
 import { createElement } from "../../utils";
 
 /**
- * /v2/login — magic-link login page.
+ * /login — magic-link login page.
  * If the user is already authenticated, shows a "you're in" message with a link to /v2.
  */
 export function LoginPage(navigate: (path: string) => void): HTMLElement {

@@ -24,7 +24,7 @@ export async function signOut(): Promise<void> {
 /**
  * Render helper: wraps an async page builder behind an auth check.
  * Immediately returns a container div (for the router), then populates it
- * after the auth check resolves. Redirects to /v2/login if unauthenticated.
+ * after the auth check resolves. Redirects to /login if unauthenticated.
  */
 export function withAuth(
   container: HTMLElement,
@@ -33,7 +33,7 @@ export function withAuth(
 ): void {
   getUser().then((user) => {
     if (!user) {
-      navigate("/v2/login");
+      navigate("/login");
       return;
     }
     render(user).catch((err: unknown) => {
