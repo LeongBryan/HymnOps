@@ -1,6 +1,6 @@
 import { supabase } from "../../lib/supabase";
 import type { ServiceRow, SeriesRow } from "../../lib/supabase";
-import { withAuth } from "../auth";
+import { withPublicPage } from "../auth";
 import { createElement, formatDate } from "../../utils";
 
 export function ServicesManagerPage(navigate: (path: string) => void): HTMLElement {
@@ -8,10 +8,6 @@ export function ServicesManagerPage(navigate: (path: string) => void): HTMLEleme
 
   const headerRow = createElement("div", "v2-page-header");
   headerRow.appendChild(createElement("h1", undefined, "Services"));
-  const addBtn = createElement("button", "button-primary", "+ Log service") as HTMLButtonElement;
-  addBtn.type = "button";
-  addBtn.addEventListener("click", () => navigate("/log"));
-  headerRow.appendChild(addBtn);
   page.appendChild(headerRow);
 
   const errorEl = createElement("p", "v2-logger-error");
@@ -19,7 +15,13 @@ export function ServicesManagerPage(navigate: (path: string) => void): HTMLEleme
   listWrap.appendChild(createElement("p", "empty-state", "Loading…"));
   page.append(errorEl, listWrap);
 
-  withAuth(page, navigate, async () => {
+  withPublicPage(page, async (isAuthenticated) => {
+    if (isAuthenticated) {
+      const addBtn = createElement("button", "button-primary", "+ Log service") as HTMLButtonElement;
+      addBtn.type = "button";
+      addBtn.addEventListener("click", () => navigate("/log"));
+      headerRow.appendChild(addBtn);
+    }
     const [svcRes, seriesRes, ssRes] = await Promise.all([
       supabase.from("services").select("*").order("service_date", { ascending: false }),
       supabase.from("series").select("id, slug, title"),
@@ -109,25 +111,29 @@ export function ServicesManagerPage(navigate: (path: string) => void): HTMLEleme
       parts.push(`${count} song${count === 1 ? "" : "s"}`);
       meta.textContent = parts.join(" · ");
 
-      const editBtn = createElement("button", "button-secondary", "Edit") as HTMLButtonElement;
-      editBtn.type = "button";
-      editBtn.addEventListener("click", () => navigate(`/log?date=${svc.service_date}`));
+      top.append(dateLink, meta);
 
-      const delBtn = createElement("button", "button-secondary v2-delete-btn", "Delete") as HTMLButtonElement;
-      delBtn.type = "button";
-      delBtn.addEventListener("click", async () => {
-        if (!confirm(`Delete service on ${formatDate(svc.service_date)}?\n\nThis will also remove all songs logged for that service.`)) return;
-        delBtn.disabled = true;
-        const { error } = await supabase.from("services").delete().eq("id", svc.id);
-        if (error) { errorEl.textContent = error.message; delBtn.disabled = false; return; }
-        allServices = allServices.filter((x) => x.id !== svc.id);
-        render();
-      });
+      if (isAuthenticated) {
+        const editBtn = createElement("button", "button-secondary", "Edit") as HTMLButtonElement;
+        editBtn.type = "button";
+        editBtn.addEventListener("click", () => navigate(`/log?date=${svc.service_date}`));
 
-      const actions = createElement("div", "v2-item-actions");
-      actions.append(editBtn, delBtn);
+        const delBtn = createElement("button", "button-secondary v2-delete-btn", "Delete") as HTMLButtonElement;
+        delBtn.type = "button";
+        delBtn.addEventListener("click", async () => {
+          if (!confirm(`Delete service on ${formatDate(svc.service_date)}?\n\nThis will also remove all songs logged for that service.`)) return;
+          delBtn.disabled = true;
+          const { error } = await supabase.from("services").delete().eq("id", svc.id);
+          if (error) { errorEl.textContent = error.message; delBtn.disabled = false; return; }
+          allServices = allServices.filter((x) => x.id !== svc.id);
+          render();
+        });
 
-      top.append(dateLink, meta, actions);
+        const actions = createElement("div", "v2-item-actions");
+        actions.append(editBtn, delBtn);
+        top.appendChild(actions);
+      }
+
       li.appendChild(top);
       return li;
     };

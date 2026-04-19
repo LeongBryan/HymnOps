@@ -1,6 +1,6 @@
 import { supabase } from "../../lib/supabase";
 import type { SongRow, ServiceRow, ServiceSongRow, SeriesRow } from "../../lib/supabase";
-import { withAuth } from "../auth";
+import { withPublicPage } from "../auth";
 import { createElement, formatDate } from "../../utils";
 import { Chart } from "../../components/Chart";
 import { Table } from "../../components/Table";
@@ -102,7 +102,7 @@ export function V2AnalyticsPage(navigate: (path: string) => void): HTMLElement {
   content.appendChild(createElement("p", "empty-state", "Loading…"));
   page.appendChild(content);
 
-  withAuth(page, navigate, async () => {
+  withPublicPage(page, async () => {
     const [songsRes, servicesRes, serviceSongsRes, writersRes] = await Promise.all([
       supabase.from("songs").select("*"),
       supabase.from("services").select("*").order("service_date", { ascending: false }),

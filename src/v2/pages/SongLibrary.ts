@@ -1,7 +1,7 @@
 import Fuse from "fuse.js";
 import { supabase } from "../../lib/supabase";
 import type { SongRow, SongAliasRow, SongWriterRow } from "../../lib/supabase";
-import { withAuth } from "../auth";
+import { withPublicPage } from "../auth";
 import { createElement } from "../../utils";
 import { toAppHref } from "../../router";
 
@@ -71,10 +71,6 @@ export function SongLibraryPage(navigate: (path: string) => void): HTMLElement {
 
   const headerRow = createElement("div", "v2-page-header");
   headerRow.appendChild(createElement("h1", undefined, "Song Library"));
-  const addBtn = createElement("button", "button-primary", "+ Add song") as HTMLButtonElement;
-  addBtn.type = "button";
-  addBtn.addEventListener("click", () => navigate("/songs/new"));
-  headerRow.appendChild(addBtn);
   page.appendChild(headerRow);
 
   const searchWrap = createElement("div", "search-bar");
@@ -106,7 +102,14 @@ export function SongLibraryPage(navigate: (path: string) => void): HTMLElement {
   listContainer.appendChild(createElement("p", "empty-state", "Loading…"));
   page.append(countEl, listContainer);
 
-  withAuth(page, navigate, async () => {
+  withPublicPage(page, async (isAuthenticated) => {
+    if (isAuthenticated) {
+      const addBtn = createElement("button", "button-primary", "+ Add song") as HTMLButtonElement;
+      addBtn.type = "button";
+      addBtn.addEventListener("click", () => navigate("/songs/new"));
+      headerRow.appendChild(addBtn);
+    }
+
     // Load all songs + aliases + writers in parallel
     const [songsRes, aliasesRes, writersRes] = await Promise.all([
       supabase.from("songs").select("*").order("title"),

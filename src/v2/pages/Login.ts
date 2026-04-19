@@ -9,7 +9,7 @@ export function LoginPage(navigate: (path: string) => void): HTMLElement {
   const page = createElement("div", "page v2-login-page");
 
   const card = createElement("div", "detail-block v2-login-card");
-  card.appendChild(createElement("h1", undefined, "HymnOps v2"));
+  card.appendChild(createElement("h1", undefined, "HymnOps"));
   card.appendChild(createElement("p", "page-intro", "Sign in with a magic link to log services and manage the song library."));
 
   const form = document.createElement("form");
@@ -31,8 +31,12 @@ export function LoginPage(navigate: (path: string) => void): HTMLElement {
 
   const statusEl = createElement("p", "v2-login-status");
 
+  const browseLink = createElement("button", "button-link v2-browse-link", "← Just browse without signing in") as HTMLButtonElement;
+  browseLink.type = "button";
+  browseLink.addEventListener("click", () => navigate("/"));
+
   form.append(emailLabel, emailInput, submitBtn, statusEl);
-  card.appendChild(form);
+  card.append(form, browseLink);
   page.appendChild(card);
 
   // If already signed in, skip the form
@@ -40,9 +44,9 @@ export function LoginPage(navigate: (path: string) => void): HTMLElement {
     if (user) {
       form.remove();
       const alreadyIn = createElement("p", "v2-login-status", `Signed in as ${user.email}.`);
-      const goBtn = createElement("a", "button-primary", "Go to v2") as HTMLAnchorElement;
-      goBtn.href = "/v2";
-      goBtn.addEventListener("click", (e) => { e.preventDefault(); navigate("/v2"); });
+      const goBtn = createElement("a", "button-primary", "Go to home") as HTMLAnchorElement;
+      goBtn.href = "/";
+      goBtn.addEventListener("click", (e) => { e.preventDefault(); navigate("/"); });
       card.append(alreadyIn, goBtn);
     }
   });

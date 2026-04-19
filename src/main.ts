@@ -1,5 +1,7 @@
 import { Router, currentRoutePath, toAppHref } from "./router";
 import { createElement } from "./utils";
+import { getUser, signOut } from "./v2/auth";
+
 import { LoginPage } from "./v2/pages/Login";
 import { SongLibraryPage } from "./v2/pages/SongLibrary";
 import { SongFormPage } from "./v2/pages/SongForm";
@@ -88,7 +90,8 @@ function mountPage(
   title: string,
   pageEl: HTMLElement,
   themeMode: ThemeMode,
-  onToggleTheme: () => void
+  onToggleTheme: () => void,
+  navigate: (path: string) => void
 ): void {
   const path = currentRoutePath();
   const shell = createElement("div", "app-shell");
@@ -97,8 +100,9 @@ function mountPage(
   brand.appendChild(createElement("h1", "app-title", "HymnOps"));
   header.appendChild(brand);
 
+  const nav = makeNav(path);
   const headerControls = createElement("div", "app-header-controls");
-  headerControls.append(makeNav(path), makeThemeToggle(themeMode, onToggleTheme));
+  headerControls.append(nav, makeThemeToggle(themeMode, onToggleTheme));
   header.appendChild(headerControls);
   shell.appendChild(header);
 
@@ -110,6 +114,18 @@ function mountPage(
   app.innerHTML = "";
   app.appendChild(shell);
   document.title = `HymnOps | ${title}`;
+
+  // Async: append Sign in / Sign out once auth state resolves
+  getUser().then((user) => {
+    const authBtn = createElement("button", "nav-link nav-auth-btn",
+      user ? "Sign out" : "Sign in") as HTMLButtonElement;
+    authBtn.type = "button";
+    authBtn.addEventListener("click", async () => {
+      if (user) { await signOut(); navigate("/"); }
+      else { navigate("/login"); }
+    });
+    nav.appendChild(authBtn);
+  });
 }
 
 function bootstrap(): void {
@@ -137,8 +153,9 @@ function bootstrap(): void {
     ) => HTMLElement
   ) => {
     return (params: Record<string, string>, query: URLSearchParams) => {
-      const pageEl = renderFn((path) => router.navigate(path), params, query);
-      mountPage(app, title, pageEl, state.themeMode, toggleThemeMode);
+      const navigate = (path: string) => router.navigate(path);
+      const pageEl = renderFn(navigate, params, query);
+      mountPage(app, title, pageEl, state.themeMode, toggleThemeMode, navigate);
     };
   };
 

@@ -1,5 +1,5 @@
 import { supabase } from "../../lib/supabase";
-import { withAuth } from "../auth";
+import { withPublicPage } from "../auth";
 import { createElement, formatDate } from "../../utils";
 import { toAppHref } from "../../router";
 
@@ -14,7 +14,7 @@ export function SeriesDetailPage(
   content.appendChild(createElement("p", "empty-state", "Loading…"));
   page.append(errorEl, content);
 
-  withAuth(page, navigate, async () => {
+  withPublicPage(page, async () => {
     const { data: series, error: seriesErr } = await supabase
       .from("series")
       .select("*")

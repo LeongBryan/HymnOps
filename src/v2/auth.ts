@@ -25,9 +25,7 @@ export async function signOut(): Promise<void> {
 }
 
 /**
- * Render helper: wraps an async page builder behind an auth check.
- * Immediately returns a container div (for the router), then populates it
- * after the auth check resolves. Redirects to /login if unauthenticated.
+ * Render helper for write-only pages. Redirects to /login if unauthenticated.
  */
 export function withAuth(
   container: HTMLElement,
@@ -40,6 +38,25 @@ export function withAuth(
       return;
     }
     render(user).catch((err: unknown) => {
+      container.innerHTML = "";
+      const msg = document.createElement("p");
+      msg.className = "empty-state";
+      msg.textContent = `Error: ${err instanceof Error ? err.message : String(err)}`;
+      container.appendChild(msg);
+    });
+  });
+}
+
+/**
+ * Render helper for public pages. Always renders, passes isAuthenticated so
+ * the page can conditionally show write controls.
+ */
+export function withPublicPage(
+  container: HTMLElement,
+  render: (isAuthenticated: boolean) => Promise<void>
+): void {
+  getUser().then((user) => {
+    render(!!user).catch((err: unknown) => {
       container.innerHTML = "";
       const msg = document.createElement("p");
       msg.className = "empty-state";
