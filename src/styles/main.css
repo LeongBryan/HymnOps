@@ -852,3 +852,424 @@ a:focus-visible {
     grid-template-columns: 1fr;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HymnOps v2 — Supabase-backed UI
+   All new classes are prefixed with v2- to avoid collisions.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Page header with inline action button ───────────────────────────── */
+.v2-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.v2-page-header h1 {
+  margin: 0;
+}
+
+/* ── Login card ──────────────────────────────────────────────────────── */
+.v2-login-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.v2-login-card {
+  width: min(420px, 100%);
+}
+
+.v2-login-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.v2-login-submit {
+  width: 100%;
+}
+
+.v2-login-status {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+
+/* ── Form fields ─────────────────────────────────────────────────────── */
+.v2-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.v2-form-field-full {
+  grid-column: 1 / -1;
+}
+
+.v2-form-label {
+  font-size: 0.87rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.v2-form-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 14px;
+}
+
+.v2-song-form {
+  display: grid;
+  gap: 14px;
+}
+
+/* ── Tag input (aliases, writers, themes, scriptures) ────────────────── */
+.v2-tag-input {
+  display: grid;
+  gap: 6px;
+}
+
+.v2-tag-chips {
+  min-height: 28px;
+}
+
+.v2-tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.v2-tag-remove {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: var(--muted);
+  padding: 0 2px;
+  line-height: 1;
+}
+
+.v2-tag-remove:hover {
+  color: var(--ink);
+}
+
+.v2-tag-input-row {
+  display: flex;
+  gap: 6px;
+}
+
+.v2-tag-text {
+  flex: 1;
+}
+
+/* ── Song list (library view) ────────────────────────────────────────── */
+.v2-song-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.v2-song-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 10px 12px;
+}
+
+.v2-song-item-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.chip-muted {
+  opacity: 0.55;
+}
+
+/* ── Typeahead dropdown ──────────────────────────────────────────────── */
+.v2-typeahead-wrap {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.v2-typeahead-dropdown {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  z-index: 20;
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.v2-typeahead-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.v2-typeahead-item:hover {
+  background: var(--bg-soft);
+}
+
+.v2-typeahead-empty {
+  color: var(--muted);
+  font-style: italic;
+  cursor: default;
+}
+
+/* ── Service logger ──────────────────────────────────────────────────── */
+.v2-logger-error {
+  color: var(--accent);
+  min-height: 1.2em;
+  margin: 0 0 8px;
+}
+
+.v2-setlist-section {
+  margin-top: 14px;
+}
+
+.v2-setlist-section h2 {
+  margin-top: 0;
+}
+
+.v2-setlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.v2-setlist-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.v2-order-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.v2-order-btn {
+  padding: 2px 7px;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.v2-setlist-title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.v2-setlist-artist {
+  display: block;
+  font-weight: 400;
+}
+
+.v2-setlist-remove {
+  margin-left: auto;
+  font-size: 0.85rem;
+}
+
+.v2-setlist-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-left: 4px;
+}
+
+.v2-setlist-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 90px;
+}
+
+.v2-setlist-field-wide {
+  flex: 2 1 200px;
+}
+
+.v2-setlist-key {
+  width: 80px;
+}
+
+.v2-setlist-usage {
+  min-width: 110px;
+}
+
+.v2-setlist-notes {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  .v2-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .v2-setlist-fields {
+    flex-direction: column;
+  }
+
+  .v2-setlist-key,
+  .v2-setlist-usage {
+    width: 100%;
+  }
+}
+
+/* ── Inline form overlay (SeriesManager) ─────────────────────────────── */
+.v2-inline-form-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 16px;
+}
+
+.v2-inline-form-card {
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* ── Delete button (red tint) ────────────────────────────────────────── */
+.v2-delete-btn {
+  color: var(--danger, #c0392b);
+  border-color: var(--danger, #c0392b);
+}
+
+.v2-delete-btn:hover {
+  background: var(--danger, #c0392b);
+  color: #fff;
+}
+
+/* ── Detail list (service/series metadata) ───────────────────────────── */
+.v2-detail-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 6px 16px;
+  margin: 0;
+}
+
+.v2-detail-label {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding-top: 2px;
+}
+
+.v2-detail-value {
+  margin: 0;
+}
+
+/* ── Analytics filter bar ────────────────────────────────────────────── */
+.v2-analytics-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+/* ── Series section heading ──────────────────────────────────────────── */
+.v2-section-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 24px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Item action buttons (flushed right) ─────────────────────────────── */
+.v2-item-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+/* ── Filter bar (services) ───────────────────────────────────────────── */
+.v2-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.v2-filter-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── Tab bar (series toggle) ─────────────────────────────────────────── */
+.v2-tab-bar {
+  display: flex;
+  gap: 0;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  width: fit-content;
+}
+
+.v2-tab-btn {
+  background: var(--surface);
+  border: none;
+  border-right: 1px solid var(--border);
+  padding: 6px 16px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--muted);
+  transition: background 0.1s, color 0.1s;
+}
+
+.v2-tab-btn:last-child {
+  border-right: none;
+}
+
+.v2-tab-btn:hover {
+  background: var(--hover, rgba(0,0,0,0.04));
+  color: var(--ink);
+}
+
+.v2-tab-btn.is-active {
+  background: var(--accent, #2563eb);
+  color: #fff;
+  font-weight: 600;
+}
