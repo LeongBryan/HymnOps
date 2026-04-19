@@ -12,8 +12,11 @@ export async function getUser(): Promise<User | null> {
  * After clicking the link the user lands on /v2 with the session set automatically.
  */
 export async function signInWithMagicLink(email: string): Promise<void> {
-  const redirectTo = `${window.location.origin}/v2`;
-  const { error } = await supabase.auth.signInWithOtp({ email, options: { emailRedirectTo: redirectTo } });
+  const redirectTo = `${window.location.origin}/`;
+  const { error } = await supabase.auth.signInWithOtp({
+    email,
+    options: { emailRedirectTo: redirectTo, shouldCreateUser: false }
+  });
   if (error) throw error;
 }
 

@@ -5,7 +5,9 @@ import { SongLibraryPage } from "./v2/pages/SongLibrary";
 import { SongFormPage } from "./v2/pages/SongForm";
 import { ServiceLoggerPage } from "./v2/pages/ServiceLogger";
 import { ServicesManagerPage } from "./v2/pages/ServicesManager";
+import { ServiceDetailPage } from "./v2/pages/ServiceDetail";
 import { SeriesManagerPage } from "./v2/pages/SeriesManager";
+import { SeriesDetailPage } from "./v2/pages/SeriesDetail";
 import { V2AnalyticsPage } from "./v2/pages/V2Analytics";
 import "./styles/main.css";
 
@@ -208,10 +210,20 @@ function bootstrap(): void {
     renderPage("Services", (navigate) => ServicesManagerPage(navigate))
   );
 
+  router.register(
+    "/services/:date",
+    renderPage("Service", (navigate, params) => ServiceDetailPage(navigate, params.date))
+  );
+
   // ── Series ────────────────────────────────────────────────────────────────
   router.register(
     "/series",
     renderPage("Series", (navigate) => SeriesManagerPage(navigate))
+  );
+
+  router.register(
+    "/series/:slug",
+    renderPage("Series Detail", (navigate, params) => SeriesDetailPage(navigate, params.slug))
   );
 
   // ── Analytics ─────────────────────────────────────────────────────────────

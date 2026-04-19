@@ -1173,3 +1173,103 @@ a:focus-visible {
   background: var(--danger, #c0392b);
   color: #fff;
 }
+
+/* ── Detail list (service/series metadata) ───────────────────────────── */
+.v2-detail-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 6px 16px;
+  margin: 0;
+}
+
+.v2-detail-label {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding-top: 2px;
+}
+
+.v2-detail-value {
+  margin: 0;
+}
+
+/* ── Analytics filter bar ────────────────────────────────────────────── */
+.v2-analytics-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+/* ── Series section heading ──────────────────────────────────────────── */
+.v2-section-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 24px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Item action buttons (flushed right) ─────────────────────────────── */
+.v2-item-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+/* ── Filter bar (services) ───────────────────────────────────────────── */
+.v2-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.v2-filter-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── Tab bar (series toggle) ─────────────────────────────────────────── */
+.v2-tab-bar {
+  display: flex;
+  gap: 0;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  width: fit-content;
+}
+
+.v2-tab-btn {
+  background: var(--surface);
+  border: none;
+  border-right: 1px solid var(--border);
+  padding: 6px 16px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--muted);
+  transition: background 0.1s, color 0.1s;
+}
+
+.v2-tab-btn:last-child {
+  border-right: none;
+}
+
+.v2-tab-btn:hover {
+  background: var(--hover, rgba(0,0,0,0.04));
+  color: var(--ink);
+}
+
+.v2-tab-btn.is-active {
+  background: var(--accent, #2563eb);
+  color: #fff;
+  font-weight: 600;
+}
