@@ -1,6 +1,6 @@
 import { supabase } from "../../lib/supabase";
 import type { SeriesRow } from "../../lib/supabase";
-import { withAuth } from "../auth";
+import { withPublicPage } from "../auth";
 import { createElement, formatDate } from "../../utils";
 
 // Slugs (or title keywords) that belong in "Special Services"
@@ -49,9 +49,6 @@ export function SeriesManagerPage(navigate: (path: string) => void): HTMLElement
 
   const headerRow = createElement("div", "v2-page-header");
   headerRow.appendChild(createElement("h1", undefined, "Series"));
-  const addBtn = createElement("button", "button-primary", "+ Add series") as HTMLButtonElement;
-  addBtn.type = "button";
-  headerRow.appendChild(addBtn);
   page.appendChild(headerRow);
 
   const errorEl = createElement("p", "v2-logger-error");
@@ -60,6 +57,7 @@ export function SeriesManagerPage(navigate: (path: string) => void): HTMLElement
   page.append(errorEl, listWrap);
 
   let allSeries: SeriesRow[] = [];
+  let isAuthenticated = false;
   // most-recent service date per series id
   let latestDate = new Map<string, string>();
   let firstDate  = new Map<string, string>();
@@ -81,24 +79,26 @@ export function SeriesManagerPage(navigate: (path: string) => void): HTMLElement
     meta.textContent = metaParts.join(" · ");
     top.appendChild(meta);
 
-    const editBtn = createElement("button", "button-secondary", "Edit") as HTMLButtonElement;
-    editBtn.type = "button";
-    editBtn.addEventListener("click", () => openForm(s));
+    if (isAuthenticated) {
+      const editBtn = createElement("button", "button-secondary", "Edit") as HTMLButtonElement;
+      editBtn.type = "button";
+      editBtn.addEventListener("click", () => openForm(s));
 
-    const delBtn = createElement("button", "button-secondary v2-delete-btn", "Delete") as HTMLButtonElement;
-    delBtn.type = "button";
-    delBtn.addEventListener("click", async () => {
-      if (!confirm(`Delete series "${s.title}"?\n\nServices linked to it will lose the series link. This cannot be undone.`)) return;
-      delBtn.disabled = true;
-      const { error } = await supabase.from("series").delete().eq("id", s.id);
-      if (error) { errorEl.textContent = error.message; delBtn.disabled = false; return; }
-      allSeries = allSeries.filter((x) => x.id !== s.id);
-      renderList();
-    });
+      const delBtn = createElement("button", "button-secondary v2-delete-btn", "Delete") as HTMLButtonElement;
+      delBtn.type = "button";
+      delBtn.addEventListener("click", async () => {
+        if (!confirm(`Delete series "${s.title}"?\n\nServices linked to it will lose the series link. This cannot be undone.`)) return;
+        delBtn.disabled = true;
+        const { error } = await supabase.from("series").delete().eq("id", s.id);
+        if (error) { errorEl.textContent = error.message; delBtn.disabled = false; return; }
+        allSeries = allSeries.filter((x) => x.id !== s.id);
+        renderList();
+      });
 
-    const actions = createElement("div", "v2-item-actions");
-    actions.append(editBtn, delBtn);
-    top.appendChild(actions);
+      const actions = createElement("div", "v2-item-actions");
+      actions.append(editBtn, delBtn);
+      top.appendChild(actions);
+    }
     li.appendChild(top);
     return li;
   };
@@ -231,9 +231,14 @@ export function SeriesManagerPage(navigate: (path: string) => void): HTMLElement
     formOverlay.appendChild(card);
   };
 
-  addBtn.addEventListener("click", () => openForm());
-
-  withAuth(page, navigate, async () => {
+  withPublicPage(page, async (auth) => {
+    isAuthenticated = auth;
+    if (isAuthenticated) {
+      const addBtn = createElement("button", "button-primary", "+ Add series") as HTMLButtonElement;
+      addBtn.type = "button";
+      addBtn.addEventListener("click", () => openForm());
+      headerRow.appendChild(addBtn);
+    }
     const [seriesRes, servicesRes] = await Promise.all([
       supabase.from("series").select("*"),
       supabase.from("services").select("series_id, service_date").not("series_id", "is", null)
