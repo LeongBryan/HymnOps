@@ -2,6 +2,21 @@ import { supabase } from "../../lib/supabase";
 import { withPublicPage } from "../auth";
 import { createElement, formatDate } from "../../utils";
 import { toAppHref } from "../../router";
+import {
+  buildServiceWhatsappMessage,
+  openServiceWhatsappModal
+} from "../serviceWhatsapp";
+
+interface ServiceSongRowWithSong {
+  key_override: string | null;
+  usage: string | null;
+  notes: string | null;
+  songs: {
+    title: string;
+    slug: string;
+    default_key: string | null;
+  } | null;
+}
 
 export function ServiceDetailPage(
   navigate: (path: string) => void,
@@ -42,12 +57,34 @@ export function ServiceDetailPage(
       .select("*, songs(*)")
       .eq("service_id", service.id)
       .order("position");
+    const rows = (ssRows ?? []) as ServiceSongRowWithSong[];
+    const exportLines = rows.flatMap((row) => {
+      if (!row.songs) {
+        return [];
+      }
+      return [{
+        title: row.songs.title,
+        key: row.key_override ?? row.songs.default_key
+      }];
+    });
 
     content.innerHTML = "";
 
     // ── Header ───────────────────────────────────────────────────────────────
     const headerRow = createElement("div", "v2-page-header");
     headerRow.appendChild(createElement("h1", undefined, `Service: ${formatDate(service.service_date)}`));
+    const exportBtn = createElement(
+      "button",
+      "button-secondary",
+      "Export for WhatsApp"
+    ) as HTMLButtonElement;
+    exportBtn.type = "button";
+    exportBtn.disabled = exportLines.length === 0;
+    exportBtn.addEventListener("click", () => {
+      const message = buildServiceWhatsappMessage(exportLines);
+      openServiceWhatsappModal(`WhatsApp export for ${formatDate(service.service_date)}`, message);
+    });
+    headerRow.appendChild(exportBtn);
     const editBtn = createElement("button", "button-secondary", "Edit") as HTMLButtonElement;
     editBtn.addEventListener("click", () => navigate(`/log?date=${service.service_date}`));
     headerRow.appendChild(editBtn);
@@ -93,7 +130,6 @@ export function ServiceDetailPage(
     const setlistBlock = createElement("section", "detail-block");
     setlistBlock.appendChild(createElement("h2", undefined, "Setlist"));
 
-    const rows = ssRows ?? [];
     if (rows.length === 0) {
       setlistBlock.appendChild(createElement("p", "empty-state", "No songs recorded."));
     } else {
@@ -101,7 +137,7 @@ export function ServiceDetailPage(
       table.innerHTML = "<thead><tr><th>#</th><th>Song</th><th>Key</th><th>Usage</th><th>Notes</th></tr></thead>";
       const tbody = createElement("tbody");
       rows.forEach((ss, i) => {
-        const song = (ss as unknown as { songs: { title: string; slug: string } | null }).songs;
+        const song = ss.songs;
         const tr = createElement("tr");
         const numTd = createElement("td", undefined, String(i + 1));
 
@@ -115,7 +151,7 @@ export function ServiceDetailPage(
           songTd.textContent = "Unknown song";
         }
 
-        const keyTd  = createElement("td", undefined, ss.key_override ?? "—");
+        const keyTd  = createElement("td", undefined, ss.key_override ?? song?.default_key ?? "—");
         const usageTd = createElement("td", undefined, ss.usage ?? "—");
         const notesTd = createElement("td", undefined, ss.notes ?? "—");
         tr.append(numTd, songTd, keyTd, usageTd, notesTd);

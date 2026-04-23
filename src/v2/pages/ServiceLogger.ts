@@ -2,7 +2,11 @@ import Fuse from "fuse.js";
 import { supabase } from "../../lib/supabase";
 import type { SongRow, SeriesRow } from "../../lib/supabase";
 import { withAuth } from "../auth";
-import { createElement } from "../../utils";
+import { createElement, formatDate } from "../../utils";
+import {
+  buildServiceWhatsappMessage,
+  openServiceWhatsappModal
+} from "../serviceWhatsapp";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -199,6 +203,7 @@ export function ServiceLoggerPage(
     const allSongs   = songsRes.data ?? [];
     const allSeries  = seriesRes.data ?? [];
     const existing   = existingRes.data ?? null;
+    const existingServicePath = existing ? `/services/${existing.service_date}` : "/services";
 
     // If editing an existing service, load its songs too
     let existingSongs: Array<{ song_id: string; position: number; key_override: string | null; usage: string | null; notes: string | null }> = [];
@@ -308,13 +313,30 @@ export function ServiceLoggerPage(
     const setlistEl = createElement("ol", "planner-list v2-setlist");
     const emptyMsg  = createElement("p", "empty-state", "No songs added yet.");
     setlistEl.appendChild(emptyMsg);
+    const exportBtn = createElement(
+      "button",
+      "button-secondary",
+      "Export for WhatsApp"
+    ) as HTMLButtonElement;
+    exportBtn.type = "button";
+    exportBtn.addEventListener("click", () => {
+      const message = buildServiceWhatsappMessage(
+        setlist.map((entry) => ({
+          title: entry.song.title,
+          key: entry.keyOverride || entry.song.default_key
+        }))
+      );
+      openServiceWhatsappModal(`WhatsApp export for ${formatDate(dateInput.value || prefillDate)}`, message);
+    });
 
     const renderSetlist = () => {
       setlistEl.innerHTML = "";
       if (setlist.length === 0) {
         setlistEl.appendChild(emptyMsg);
+        exportBtn.disabled = true;
         return;
       }
+      exportBtn.disabled = false;
       setlist.forEach((entry, idx) => {
         setlistEl.appendChild(
           buildSetlistItem(
@@ -339,6 +361,7 @@ export function ServiceLoggerPage(
       setlist.push({ song, keyOverride: "", usage: "", notes: "" });
       renderSetlist();
     });
+    renderSetlist();
 
     setlistSection.append(typeahead, setlistEl);
     formWrap.appendChild(setlistSection);
@@ -349,8 +372,8 @@ export function ServiceLoggerPage(
     saveBtn.type = "button";
     const cancelBtn = createElement("button", "button-secondary", "Cancel") as HTMLButtonElement;
     cancelBtn.type = "button";
-    cancelBtn.addEventListener("click", () => navigate("/v2"));
-    actions.append(saveBtn, cancelBtn);
+    cancelBtn.addEventListener("click", () => navigate(existingServicePath));
+    actions.append(exportBtn, saveBtn, cancelBtn);
     formWrap.appendChild(actions);
 
     saveBtn.addEventListener("click", async () => {
@@ -414,7 +437,7 @@ export function ServiceLoggerPage(
           if (insertErr) throw insertErr;
         }
 
-        navigate("/v2");
+        navigate(`/services/${serviceDate}`);
       } catch (err) {
         errorEl.textContent = err instanceof Error ? err.message : "Save failed.";
         saveBtn.disabled = false;
