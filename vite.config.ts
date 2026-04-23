@@ -19,7 +19,6 @@ const configuredBase = process.env.VITE_BASE ?? "/";
 export default defineConfig({
   base: normalizeBase(configuredBase),
   build: {
-    outDir: "dist",
-    emptyOutDir: false
+    outDir: "dist"
   }
 });

@@ -52,6 +52,14 @@ jobs:
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
 
+      - name: Inspect build output
+        run: |
+          echo "Dist size:"
+          du -sh dist
+          echo ""
+          echo "Dist files:"
+          find dist -maxdepth 2 -type f | sort
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
