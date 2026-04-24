@@ -1273,3 +1273,265 @@ a:focus-visible {
   color: #fff;
   font-weight: 600;
 }
+
+/* ── Song Library: theme chips on song items ─────────────────────────────── */
+.v2-song-themes {
+  margin-top: 4px;
+}
+
+/* ── Typeahead: top row with usage badge ─────────────────────────────────── */
+.v2-typeahead-item-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* ── Usage badges ────────────────────────────────────────────────────────── */
+.usage-badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.76rem;
+  font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.usage-never {
+  background: var(--chip-bg);
+  color: var(--chip-ink);
+  border: 1px solid var(--chip-border);
+}
+
+.usage-old {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.usage-moderate {
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.usage-recent {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+:root[data-theme="dark"] .usage-old {
+  background: #1a3a24;
+  color: #75c87c;
+  border-color: #2a5c32;
+}
+
+:root[data-theme="dark"] .usage-moderate {
+  background: #3d3010;
+  color: #e0b860;
+  border-color: #5a4518;
+}
+
+:root[data-theme="dark"] .usage-recent {
+  background: #3d1015;
+  color: #e07070;
+  border-color: #5a1a20;
+}
+
+/* ── Planner: plan name bar ──────────────────────────────────────────────── */
+.planner-plan-name-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 16px;
+}
+
+.planner-plan-name-input {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.planner-section-heading {
+  margin: 20px 0 8px;
+  font-size: 1rem;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── Planner: saved plans ────────────────────────────────────────────────── */
+.planner-saved-section {
+  margin-bottom: 14px;
+}
+
+.planner-saved-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.planner-saved-header h2,
+.planner-saved-header h3 {
+  margin: 0;
+  flex: 1;
+}
+
+.planner-saved-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.planner-saved-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: var(--surface-raised);
+}
+
+.planner-saved-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1;
+}
+
+.planner-current-plan {
+  color: var(--primary);
+}
+
+/* ── Planner: theme selector ─────────────────────────────────────────────── */
+.planner-theme-section {
+  margin-bottom: 14px;
+}
+
+.planner-theme-section h2 {
+  margin: 0;
+}
+
+.planner-theme-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.planner-theme-toggle {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--button-secondary-bg);
+  color: var(--ink);
+  padding: 5px 14px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.85rem;
+  transition:
+    background 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease;
+}
+
+.planner-theme-toggle:hover {
+  border-color: var(--primary);
+}
+
+.planner-theme-toggle.is-active {
+  background: var(--primary);
+  border-color: var(--primary-strong);
+  color: var(--button-primary-text);
+}
+
+/* ── Planner: suggestions ────────────────────────────────────────────────── */
+.planner-suggestions-section {
+  margin-bottom: 14px;
+}
+
+.planner-suggestions-section h2 {
+  margin: 0;
+}
+
+.planner-suggest-count {
+  font-size: 0.88rem;
+}
+
+.planner-usage-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 8px 0 10px;
+}
+
+.planner-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.planner-suggestions-list {
+  display: grid;
+  gap: 8px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.planner-suggestion-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 10px;
+  background: var(--surface-raised);
+}
+
+.planner-suggestion-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.planner-suggestion-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.planner-suggestion-themes {
+  margin-top: 4px;
+}
+
+.suggest-add-btn {
+  flex-shrink: 0;
+}
+
+/* Highlighted theme chip (matches selected theme) */
+.chip-match {
+  background: var(--primary);
+  color: var(--button-primary-text);
+  border-color: var(--primary-strong);
+}
+
+/* ── Planner: setlist header ─────────────────────────────────────────────── */
+.planner-setlist-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.planner-setlist-header h2 {
+  margin: 0;
+  flex: 1;
+}

@@ -6,6 +6,7 @@ import { LoginPage } from "./v2/pages/Login";
 import { SongLibraryPage } from "./v2/pages/SongLibrary";
 import { SongFormPage } from "./v2/pages/SongForm";
 import { ServiceLoggerPage } from "./v2/pages/ServiceLogger";
+import { ServicePlannerPage } from "./v2/pages/ServicePlannerPage";
 import { ServicesManagerPage } from "./v2/pages/ServicesManager";
 import { ServiceDetailPage } from "./v2/pages/ServiceDetail";
 import { SeriesManagerPage } from "./v2/pages/SeriesManager";
@@ -20,6 +21,7 @@ const THEME_STORAGE_KEY = "hymnops-theme";
 function makeNav(path: string): HTMLElement {
   const links: Array<{ label: string; path: string }> = [
     { label: "Log Service", path: "/log"       },
+    { label: "Planner",     path: "/planner"   },
     { label: "Songs",       path: "/songs"     },
     { label: "Services",    path: "/services"  },
     { label: "Series",      path: "/series"    },
@@ -174,11 +176,12 @@ function bootstrap(): void {
       const page = createElement("div", "page");
       page.appendChild(createElement("h1", undefined, "HymnOps"));
       const links: Array<{ label: string; desc: string; path: string }> = [
-        { label: "Log a Service", desc: "Record today's service setlist and notes", path: "/log"       },
-        { label: "Song Library",  desc: "Browse, add and edit songs",               path: "/songs"     },
-        { label: "Services",      desc: "View and manage past services",             path: "/services"  },
-        { label: "Series",        desc: "Manage sermon series",                      path: "/series"    },
-        { label: "Analytics",     desc: "Usage stats and rotation gaps",             path: "/analytics" }
+        { label: "Log a Service", desc: "Record today's service setlist and notes",      path: "/log"       },
+        { label: "Planner",       desc: "Plan setlists with theme suggestions",           path: "/planner"   },
+        { label: "Song Library",  desc: "Browse, add and edit songs",                    path: "/songs"     },
+        { label: "Services",      desc: "View and manage past services",                 path: "/services"  },
+        { label: "Series",        desc: "Manage sermon series",                          path: "/series"    },
+        { label: "Analytics",     desc: "Usage stats and rotation gaps",                 path: "/analytics" }
       ];
       const grid = createElement("div", "quick-actions");
       for (const l of links) {
@@ -220,6 +223,11 @@ function bootstrap(): void {
   router.register(
     "/log",
     renderPage("Log Service", (navigate, _params, query) => ServiceLoggerPage(navigate, query))
+  );
+
+  router.register(
+    "/planner",
+    renderPage("Planner", (navigate, _params, query) => ServicePlannerPage(navigate, query))
   );
 
   router.register(
