@@ -52,7 +52,7 @@ function renderSongList(
   items: SongSearchItem[],
   navigate: (path: string) => void,
   isAuthenticated: boolean,
-  onToggleKidFriendly: (id: string, value: boolean) => void
+  onToggleKidFriendly: (id: string, value: boolean, checkbox: HTMLInputElement) => void
 ): HTMLElement {
   if (items.length === 0) {
     return createElement("p", "empty-state", "No songs match your search.");
@@ -82,7 +82,7 @@ function renderSongList(
       kfCheck.checked = song.is_kid_friendly;
       kfCheck.title = "Mark as kid-friendly";
       kfCheck.addEventListener("change", () => {
-        onToggleKidFriendly(song.id, kfCheck.checked);
+        onToggleKidFriendly(song.id, kfCheck.checked, kfCheck);
       });
       const kfLabel = createElement("span", "kf-toggle-label", "Kids");
       kfToggle.append(kfCheck, kfLabel);
@@ -224,11 +224,17 @@ export function SongLibraryPage(navigate: (path: string) => void): HTMLElement {
       includeScore: false
     });
 
-    const onToggleKidFriendly = async (id: string, value: boolean) => {
+    const onToggleKidFriendly = async (id: string, value: boolean, checkbox: HTMLInputElement) => {
       const song = allSongs.find((s) => s.id === id);
       if (!song) return;
       song.is_kid_friendly = value;
-      await supabase.from("songs").update({ is_kid_friendly: value }).eq("id", id);
+      const { error } = await supabase.from("songs").update({ is_kid_friendly: value }).eq("id", id);
+      if (error) {
+        // Revert optimistic update
+        song.is_kid_friendly = !value;
+        checkbox.checked = !value;
+        console.error("Failed to save kid-friendly flag:", error.message);
+      }
     };
 
     const render = () => {
