@@ -50,7 +50,9 @@ function applySort(items: SongSearchItem[], sort: string): SongSearchItem[] {
 
 function renderSongList(
   items: SongSearchItem[],
-  navigate: (path: string) => void
+  navigate: (path: string) => void,
+  isAuthenticated: boolean,
+  onToggleKidFriendly: (id: string, value: boolean) => void
 ): HTMLElement {
   if (items.length === 0) {
     return createElement("p", "empty-state", "No songs match your search.");
@@ -71,6 +73,23 @@ function renderSongList(
 
     const statusChip = createElement("span", `chip ${song.status === "archive" ? "chip-muted" : ""}`, song.status);
     titleRow.append(titleLink, statusChip);
+
+    if (isAuthenticated) {
+      const kfToggle = createElement("label", "kf-toggle") as HTMLLabelElement;
+      const kfCheck = document.createElement("input");
+      kfCheck.type = "checkbox";
+      kfCheck.className = "kf-toggle-input";
+      kfCheck.checked = song.is_kid_friendly;
+      kfCheck.title = "Mark as kid-friendly";
+      kfCheck.addEventListener("change", () => {
+        onToggleKidFriendly(song.id, kfCheck.checked);
+      });
+      const kfLabel = createElement("span", "kf-toggle-label", "Kids");
+      kfToggle.append(kfCheck, kfLabel);
+      titleRow.appendChild(kfToggle);
+    } else if (song.is_kid_friendly) {
+      titleRow.appendChild(createElement("span", "chip kf-chip", "Kids"));
+    }
 
     const meta = createElement("p", "list-secondary");
     const parts: string[] = [];
@@ -151,8 +170,16 @@ export function SongLibraryPage(navigate: (path: string) => void): HTMLElement {
   });
   sortWrap.appendChild(sortSelect);
 
+  // ── Kid-friendly filter ───────────────────────────────────────────────────────
+  const kfWrap = createElement("label", "control-field kf-filter-wrap");
+  const kfFilterCheck = document.createElement("input");
+  kfFilterCheck.type = "checkbox";
+  kfFilterCheck.className = "kf-filter-check";
+  const kfFilterLabel = createElement("span", "filter-label", "Kid-friendly only");
+  kfWrap.append(kfFilterCheck, kfFilterLabel);
+
   const toolbar = createElement("div", "song-top-bar browse-toolbar");
-  toolbar.append(searchWrap, statusWrap, themeWrap, sortWrap);
+  toolbar.append(searchWrap, statusWrap, themeWrap, sortWrap, kfWrap);
   page.appendChild(toolbar);
 
   const countEl = createElement("p", "results-summary");
@@ -197,11 +224,19 @@ export function SongLibraryPage(navigate: (path: string) => void): HTMLElement {
       includeScore: false
     });
 
+    const onToggleKidFriendly = async (id: string, value: boolean) => {
+      const song = allSongs.find((s) => s.id === id);
+      if (!song) return;
+      song.is_kid_friendly = value;
+      await supabase.from("songs").update({ is_kid_friendly: value }).eq("id", id);
+    };
+
     const render = () => {
       const query        = searchInput.value.trim();
       const statusFilter = statusSelect.value;
       const themeFilter  = themeSelect.value;
       const sortVal      = sortSelect.value;
+      const kidFriendly  = kfFilterCheck.checked;
 
       let results: SongSearchItem[];
       if (query.length > 0) {
@@ -216,16 +251,20 @@ export function SongLibraryPage(navigate: (path: string) => void): HTMLElement {
       if (themeFilter) {
         results = results.filter((s) => s.themes.includes(themeFilter));
       }
+      if (kidFriendly) {
+        results = results.filter((s) => s.is_kid_friendly);
+      }
 
       countEl.textContent = `${results.length} song${results.length === 1 ? "" : "s"}`;
       listContainer.innerHTML = "";
-      listContainer.appendChild(renderSongList(results, navigate));
+      listContainer.appendChild(renderSongList(results, navigate, isAuthenticated, onToggleKidFriendly));
     };
 
     searchInput.addEventListener("input", render);
     statusSelect.addEventListener("change", render);
     themeSelect.addEventListener("change", render);
     sortSelect.addEventListener("change", render);
+    kfFilterCheck.addEventListener("change", render);
     render();
   });
 

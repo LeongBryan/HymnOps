@@ -554,6 +554,14 @@ export function ServicePlannerPage(
     suggestHeaderRow.appendChild(createElement("h2", undefined, "Suggestions"));
     const suggestCountEl = createElement("span", "list-secondary planner-suggest-count");
     suggestHeaderRow.appendChild(suggestCountEl);
+
+    const kfFilterLabel = createElement("label", "kf-filter-wrap") as HTMLLabelElement;
+    const kfFilterCheck = document.createElement("input");
+    kfFilterCheck.type = "checkbox";
+    kfFilterCheck.className = "kf-filter-check";
+    kfFilterLabel.append(kfFilterCheck, createElement("span", "kf-filter-text", "Kid-friendly only"));
+    suggestHeaderRow.appendChild(kfFilterLabel);
+
     suggestionsSection.appendChild(suggestHeaderRow);
 
     const legendRow = createElement("div", "planner-usage-legend");
@@ -586,8 +594,10 @@ export function ServicePlannerPage(
       }
 
       const setlistIds = new Set(setlist.map((e) => e.song.id));
+      const kidOnly = kfFilterCheck.checked;
       const matched = allSongs.filter((song) => {
         if (setlistIds.has(song.id)) return false;
+        if (kidOnly && !song.is_kid_friendly) return false;
         const themes = songThemeMap.get(song.id) ?? [];
         return themes.some((t) => selectedThemes.has(t));
       });
@@ -659,6 +669,8 @@ export function ServicePlannerPage(
         );
       }
     };
+
+    kfFilterCheck.addEventListener("change", renderSuggestions);
 
     // ── Setlist ──────────────────────────────────────────────────────────────
     const setlistSection = createElement("div", "detail-block v2-setlist-section");

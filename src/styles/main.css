@@ -1279,6 +1279,73 @@ a:focus-visible {
   margin-top: 4px;
 }
 
+/* ── Kid-friendly: per-song toggle (authenticated) ───────────────────────── */
+.kf-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  user-select: none;
+  margin-left: auto;
+}
+
+.kf-toggle-input {
+  accent-color: var(--primary);
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.kf-toggle-label {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.kf-toggle-input:checked + .kf-toggle-label {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Kid-friendly read-only chip (public view) */
+.kf-chip {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+  font-size: 0.72rem;
+}
+
+/* ── Kid-friendly: toolbar filter checkbox ───────────────────────────────── */
+.kf-filter-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+  padding-top: 18px; /* align with other filter controls */
+  white-space: nowrap;
+}
+
+.kf-filter-check {
+  accent-color: var(--primary);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Planner suggestions header: inline checkbox */
+.kf-filter-text {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
+.kf-filter-check:checked + .kf-filter-text {
+  color: var(--primary);
+  font-weight: 600;
+}
+
 /* ── Typeahead: top row with usage badge ─────────────────────────────────── */
 .v2-typeahead-item-top {
   display: flex;

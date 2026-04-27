@@ -25,6 +25,7 @@ export type Database = {
           tempo_bpm:            number | null;
           default_key:          string | null;
           status:               string;
+          is_kid_friendly:      boolean;
           created_at:           string;
           updated_at:           string;
         };
@@ -40,6 +41,7 @@ export type Database = {
           tempo_bpm?:            number | null;
           default_key?:          string | null;
           status?:               string;
+          is_kid_friendly?:      boolean;
           created_at?:           string;
           updated_at?:           string;
         };
@@ -55,6 +57,7 @@ export type Database = {
           tempo_bpm?:            number | null;
           default_key?:          string | null;
           status?:               string;
+          is_kid_friendly?:      boolean;
           created_at?:           string;
           updated_at?:           string;
         };
